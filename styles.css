@@ -140,6 +140,12 @@ h1, h2, h3 { line-height: 1.2; }
 .card-media { position: relative; aspect-ratio: 1 / 1; background: var(--surface-2); }
 .card-media img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
 .heart { position: absolute; top: 8px; right: 8px; font-size: 1.1rem; filter: drop-shadow(0 1px 2px rgba(0,0,0,.3)); }
+.num-badge {
+  position: absolute; top: 8px; left: 8px;
+  font-size: .72rem; font-weight: 800; letter-spacing: .02em;
+  padding: .15em .5em; border-radius: 999px;
+  background: color-mix(in srgb, var(--text) 78%, transparent); color: var(--surface);
+}
 .card-body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; }
 .card-name { margin: 0; font-size: 1rem; }
 .card-franchise { margin: 0; font-size: .82rem; color: var(--muted); }
@@ -186,6 +192,8 @@ h1, h2, h3 { line-height: 1.2; }
 .chip-size { border: 1px solid var(--border); }
 .pack-fe { background: color-mix(in srgb, var(--fe) 18%, var(--surface)); color: var(--fe); border: 1px solid color-mix(in srgb, var(--fe) 40%, transparent); }
 .pack-box { background: color-mix(in srgb, var(--box) 18%, var(--surface)); color: var(--box); border: 1px solid color-mix(in srgb, var(--box) 40%, transparent); }
+.variant-limited { margin: 8px 10px 0; font-size: .8rem; font-weight: 600; color: var(--accent-ink); }
+@media (prefers-color-scheme: dark) { .variant-limited { color: var(--accent); } }
 .variant-check { display: flex; align-items: center; gap: 8px; padding: 12px 10px; cursor: pointer; font-size: .9rem; }
 .variant-check input { width: 18px; height: 18px; accent-color: var(--ok); }
 

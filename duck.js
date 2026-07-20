@@ -50,6 +50,8 @@
             '<span class="chip chip-size">' + T.esc(sizeTxt) + '</span>' +
             '<span class="chip ' + packClass + '">' + packIcon + ' ' + T.esc(packTxt) + '</span>' +
           '</div>' +
+          (v.limitedTo ? '<p class="variant-limited">🔒 Limited to ' +
+            T.esc(Number(v.limitedTo).toLocaleString("en-US")) + ' units</p>' : '') +
           '<label class="variant-check">' +
             '<input type="checkbox" data-key="' + T.esc(key) + '"' + (owned ? " checked" : "") + ' />' +
             '<span>I own it</span>' +
@@ -69,7 +71,8 @@
             '<p class="duck-franchise">' + T.esc(fig.franchise) + '</p>' +
             '<h1 class="duck-name">' + T.esc(fig.name) + '</h1>' +
             '<dl class="duck-meta">' +
-              (fig.releaseYear ? '<div><dt>Release year</dt><dd>' + T.esc(fig.releaseYear) + '</dd></div>' : '') +
+              '<div><dt>Number</dt><dd>' + (fig.number ? '#' + T.esc(fig.number) : '—') + '</dd></div>' +
+              '<div><dt>Release year</dt><dd>' + (fig.releaseYear ? T.esc(fig.releaseYear) : 'Unknown') + '</dd></div>' +
             '</dl>' +
             '<button id="btn-wish" type="button" class="btn btn-wish' + (wished ? " is-active" : "") + '">' +
               (wished ? "❤ In wishlist" : "♡ Add to wishlist") +

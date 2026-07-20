@@ -7,7 +7,8 @@
 
 « Tubbz Archives » : une application web qui **archive les figurines Tubbz** (canards vinyle
 cosplayés, marque Numskull) et permet à un visiteur de **suivre sa collection**. Deux buts :
-1. cataloguer les figurines (photo, année de sortie, licence, variantes) ;
+1. cataloguer les figurines (photo, numéro, année de sortie, licence, variantes,
+   tirage limité par variante) ;
 2. suivre ce que le visiteur possède, avec wishlist et notes.
 
 ## Contraintes NON négociables

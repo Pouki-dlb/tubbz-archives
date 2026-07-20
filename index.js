@@ -67,6 +67,7 @@
         '<div class="card-media">' +
           '<img loading="lazy" src="' + T.esc(img) + '" alt="' + T.esc(fig.name) + '" ' +
             'onerror="this.onerror=null;this.src=\'' + T.PLACEHOLDER + '\'" />' +
+          (fig.number ? '<span class="num-badge">#' + T.esc(fig.number) + '</span>' : '') +
           (wished ? '<span class="heart" title="In your wishlist" aria-label="Wishlist">❤</span>' : '') +
         '</div>' +
         '<div class="card-body">' +

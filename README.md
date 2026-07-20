@@ -44,10 +44,11 @@ window.TUBBZ_DATA = {
       "id": "fallout-vault-boy",
       "name": "Vault Boy",
       "franchise": "Fallout",
+      "number": "42",
       "releaseYear": "2020",
       "image": "images/fallout-vault-boy.png",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-vault-boy-classic-fe.png" },
+        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-vault-boy-classic-fe.png", "limitedTo": 5000 },
         { "size": "classic", "packaging": "boxed",         "image": "images/fallout-vault-boy-classic-box.png" },
         { "size": "mini",    "packaging": "boxed",         "image": "images/fallout-vault-boy-mini-box.png" }
       ]
@@ -65,7 +66,8 @@ window.TUBBZ_DATA = {
 | `id`          | ✅          | Identifiant **unique et stable**. Sert de clé pour les coches du visiteur — **ne jamais le modifier** ensuite, sinon les collections se décalent. |
 | `name`        | ✅          | Nom du personnage.                                                       |
 | `franchise`   | ✅          | Licence (sert au regroupement et aux filtres).                          |
-| `releaseYear` | ⬜          | Année de sortie (ex. `"2026"`).                                          |
+| `number`      | ⬜          | Numéro de la figurine dans la collection (ex. `"42"`). Affiché `#42` ; si absent (hors-série), affiché `—`. |
+| `releaseYear` | ⬜          | Année de sortie (ex. `"2026"`). Si absent, affiché `Unknown`.           |
 | `image`       | ⬜          | Vignette affichée sur la grille. Repli : `images/placeholder.svg`.      |
 | `variants`    | ✅          | Liste des combinaisons **réellement existantes** (voir ci-dessous).     |
 
@@ -76,6 +78,7 @@ window.TUBBZ_DATA = {
 | `size`      | ✅          | `classic` \| `mini` \| `xl`                         |
 | `packaging` | ✅          | `first-edition` (baignoire) \| `boxed` (boîte)     |
 | `image`     | ⬜          | Photo de cette version précise. Repli : `image` de la figurine, puis `placeholder.svg`. |
+| `limitedTo` | ⬜          | Tirage limité connu (nombre d'exemplaires, ex. `3000`). Affiché « Limited to 3,000 units ». Souvent pour les XL et certaines First Edition. |
 
 > N'ajoutez que les variantes qui existent vraiment. La clé interne d'une variante est
 > `"<size>|<packaging>"` (ex. `classic|first-edition`).
