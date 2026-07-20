@@ -18,6 +18,116 @@ window.TUBBZ_DATA = {
   },
   "figurines": [
     {
+      "id": "borderlands3-psycho",
+      "name": "Psycho",
+      "franchise": "Borderlands 3",
+      "number": "1",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-psycho.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-psycho-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-lilith",
+      "name": "Lilith",
+      "franchise": "Borderlands 3",
+      "number": "2",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-lilith.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-lilith-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-moxxi",
+      "name": "Moxxi",
+      "franchise": "Borderlands 3",
+      "number": "3",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-moxxi.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-moxxi-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-tina",
+      "name": "Tina",
+      "franchise": "Borderlands 3",
+      "number": "4",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-tina.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-tina-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-brick",
+      "name": "Brick",
+      "franchise": "Borderlands 3",
+      "number": "5",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-brick.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-brick-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-maya",
+      "name": "Maya",
+      "franchise": "Borderlands 3",
+      "number": "6",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-maya.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-maya-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-tyreen-calypso",
+      "name": "Tyreen Calypso",
+      "franchise": "Borderlands 3",
+      "number": "7",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-tyreen-calypso.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-tyreen-calypso-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-troy-calypso",
+      "name": "Troy Calypso",
+      "franchise": "Borderlands 3",
+      "number": "8",
+      "releaseYear": "2019",
+      "image": "images/borderlands3-troy-calypso.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-troy-calypso-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-mordecai",
+      "name": "Mordecai",
+      "franchise": "Borderlands 3",
+      "number": "9",
+      "releaseYear": "2020",
+      "image": "images/borderlands3-mordecai.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-mordecai-cf.webp" }
+      ]
+    },
+    {
+      "id": "borderlands3-handsome-jack",
+      "name": "Handsome Jack",
+      "franchise": "Borderlands 3",
+      "number": "10",
+      "releaseYear": "2020",
+      "image": "images/borderlands3-handsome-jack.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/borderlands3-handsome-jack.webp-cf.webp" }
+      ]
+    },
+    {
       "id": "fallout-vault-boy",
       "name": "Vault Boy",
       "franchise": "Fallout",
