@@ -81,13 +81,13 @@
         '</div>' +
 
         '<section class="duck-section">' +
-          '<h2>Versions &amp; packaging</h2>' +
+          '<h2>Available versions</h2>' +
           '<div class="variants">' + (variantsHTML || '<p class="muted">No variant listed.</p>') + '</div>' +
         '</section>' +
 
         '<section class="duck-section">' +
           '<h2>My note</h2>' +
-          '<textarea id="note" class="note" rows="3" placeholder="Price paid, condition, where found…">' + T.esc(T.getNote(state, fig.id)) + '</textarea>' +
+          '<textarea id="note" class="note" rows="3" placeholder="Write whatever you want here.">' + T.esc(T.getNote(state, fig.id)) + '</textarea>' +
         '</section>' +
       '</article>';
 
