@@ -1349,7 +1349,7 @@ window.TUBBZ_DATA = {
     },
     {
       "id": "jaws-bruce-xl",
-      "name": "Bruce",
+      "name": "Bruce (Giant XL Edition)",
       "franchise": "Jaws",
       "number": "5",
       "releaseYear": "2023",

@@ -16,10 +16,7 @@
         <span class="brand-text">Tubbz <strong>Archives</strong></span>
       </a>
       <div class="header-actions">
-        <button id="btn-help" type="button" class="btn btn-ghost btn-icon" title="Why saving matters" aria-haspopup="dialog">?</button>
-        <button id="btn-export" type="button" class="btn btn-ghost" title="Export your collection to a backup file">Export</button>
-        <button id="btn-import" type="button" class="btn btn-ghost" title="Import a backup">Import</button>
-        <input id="import-file" type="file" accept="application/json,.json" hidden />
+        <button id="btn-about" type="button" class="btn btn-ghost" aria-haspopup="dialog">About</button>
       </div>
     </div>
   </header>
@@ -77,19 +74,64 @@
     </div>
   </footer>
 
-  <!-- Help / "why save" modal -->
-  <div id="help-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="help-title">
+  <!-- About modal -->
+  <div id="about-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="about-title">
     <div class="modal-backdrop" data-close></div>
     <div class="modal-box" role="document">
       <button class="modal-close" type="button" data-close aria-label="Close">✕</button>
-      <h2 id="help-title">Save your collection</h2>
-      <p>Your collection (the versions you own, your wishlist and notes) is stored
-        <strong>only in this browser</strong>. There is no account and nothing is sent anywhere.</p>
-      <p>That means your data can be <strong>lost</strong> if you clear your browsing data, use a
-        different browser, or switch to another device.</p>
-      <p>To keep it safe, use <strong>Export</strong> to download a backup file, and
-        <strong>Import</strong> to restore it later or on another device. Exporting from time to time
-        is the best way to avoid losing your progress.</p>
+      <h2 id="about-title">About</h2>
+
+      <section class="about-section">
+        <h3>What is TUBBZ®?</h3>
+        <p>TUBBZ® is a collectibles brand specialising in officially licensed cosplaying rubber ducks
+          inspired by globally recognised franchises across film, television, gaming, and
+          entertainment. Each figure reimagines iconic characters as highly detailed, humorous duck
+          collectibles, appealing to fans, collectors, and pop culture enthusiasts. The brand combines
+          novelty design with licensing partnerships to create a distinctive product category within
+          the collectibles market.</p>
+      </section>
+
+      <section class="about-section">
+        <h3>Why this project?</h3>
+        <ul class="about-list">
+          <li><strong>An exhaustive archive of every TUBBZ® duck ever released.</strong> Many ducks are
+            only on sale for a limited time — once a figure sells out, the product page disappears from the brand's website. That makes this heritage hard to preserve: if you arrive too late,
+            you can miss real gems. This project aims to maintain the most complete inventory possible.</li>
+          <li><strong>A collection tracker.</strong> For the brand's biggest fans with an ever-growing duck collection,
+          it’s a way to follow your progress and mark what you already own, so you never lose track.</li>
+        </ul>
+      </section>
+
+      <section class="about-section">
+        <h3>Save your progress</h3>
+        <p>Your progress (the TUBBZ® you own, your wishlist and notes) is stored
+          <strong>only in this browser</strong>. There is no account and nothing is sent anywhere.</p>
+        <p>That means your data can be <strong>lost</strong> if you clear your browsing data, use a
+          different browser, or switch to another device.</p>
+        <p>To keep it safe, use <strong>Export</strong> to download a backup file, and
+          <strong>Import</strong> to restore it later or on another device. Exporting from time to time
+          is the best way to avoid losing your progress.</p>
+        <div class="modal-actions">
+          <button id="btn-export" type="button" class="btn">Export</button>
+          <button id="btn-import" type="button" class="btn btn-ghost">Import</button>
+          <input id="import-file" type="file" accept="application/json,.json" hidden />
+        </div>
+      </section>
+
+      <section class="about-section about-social">
+        <a class="pill-link" href="https://tubbz.com" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9s1.3-6.4 3.8-9z"/>
+          </svg>
+          <span>TUBBZ.com</span>
+        </a>
+        <a class="pill-link" href="https://x.com/pouki_dlb" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+            <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/>
+          </svg>
+          <span>Follow me on X</span>
+        </a>
+      </section>
     </div>
   </div>
 

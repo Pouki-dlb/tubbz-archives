@@ -159,8 +159,8 @@
   /* ---------------------------------------------------------------- */
 
   function bindHelpModal() {
-    var modal = document.getElementById("help-modal");
-    var openBtn = document.getElementById("btn-help");
+    var modal = document.getElementById("about-modal");
+    var openBtn = document.getElementById("btn-about");
 
     function open() { modal.hidden = false; }
     function close() { modal.hidden = true; }

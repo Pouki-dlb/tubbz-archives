@@ -228,26 +228,45 @@ h1, h2, h3 { line-height: 1.2; }
 }
 code { background: var(--surface-2); padding: .1em .4em; border-radius: 6px; font-size: .9em; }
 
-/* ---------------- Modal (help) ---------------- */
+/* ---------------- Modal (About) ---------------- */
 .modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 20px; }
 .modal[hidden] { display: none; }
 .modal-backdrop { position: absolute; inset: 0; background: rgba(10, 15, 22, .55); backdrop-filter: blur(2px); }
 .modal-box {
   position: relative; z-index: 1;
-  width: 100%; max-width: 460px;
+  width: 100%; max-width: 520px; max-height: 85vh; overflow-y: auto;
   background: var(--surface); color: var(--text);
   border: 1px solid var(--border); border-radius: var(--radius);
-  box-shadow: var(--shadow); padding: 22px 22px 8px;
+  box-shadow: var(--shadow); padding: 22px 24px 22px;
 }
-.modal-box h2 { margin: 0 0 12px; font-size: 1.3rem; }
-.modal-box p { margin: 0 0 12px; font-size: .95rem; }
+.modal-box h2 { margin: 0 0 14px; font-size: 1.4rem; }
+.modal-box p { margin: 0 0 10px; font-size: .95rem; }
 .modal-close {
-  position: absolute; top: 10px; right: 10px;
+  position: sticky; top: 0; float: right; margin: -6px -8px 0 0;
   width: 34px; height: 34px; border-radius: 8px;
   border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
   font-size: 1rem; cursor: pointer; line-height: 1;
 }
 .modal-close:hover { filter: brightness(1.05); }
+
+.about-section { padding-top: 16px; margin-top: 16px; border-top: 1px solid var(--border); }
+.about-section:first-of-type { padding-top: 0; margin-top: 0; border-top: 0; }
+.about-section h3 { margin: 0 0 8px; font-size: 1.05rem; color: var(--accent-ink); }
+@media (prefers-color-scheme: dark) { .about-section h3 { color: var(--accent); } }
+.about-list { margin: 0; padding-left: 1.1em; }
+.about-list li { margin: 0 0 10px; font-size: .95rem; }
+.modal-actions { display: flex; gap: 10px; margin-top: 14px; }
+.modal-actions .btn { flex: 1; justify-content: center; }
+
+.about-social { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.pill-link {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: .55em 1.1em; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+  text-decoration: none; font-weight: 700;
+}
+.pill-link:hover { filter: brightness(1.06); border-color: var(--text); }
+.pill-link svg { flex: none; }
 
 /* ---------------- Responsive ---------------- */
 @media (max-width: 640px) {
