@@ -74,6 +74,22 @@ window.Tubbz = (function () {
     return l[packaging] || DEFAULT_LABELS.packaging[packaging] || packaging;
   }
 
+  // Emoji représentant l'emballage : baignoire (First Edition) / boîte (Boxed).
+  var PACK_EMOJI = { "first-edition": "🛁", boxed: "📦" };
+  function packagingEmoji(packaging) {
+    return PACK_EMOJI[packaging] || "";
+  }
+
+  // Classe CSS de couleur associée à l'emballage.
+  function packagingClass(packaging) {
+    return packaging === "first-edition" ? "pack-fe" : "pack-box";
+  }
+
+  // Libellé condensé d'une variante : « Classic 📦 ».
+  function variantChipLabel(meta, size, packaging) {
+    return sizeLabel(meta, size) + " " + packagingEmoji(packaging);
+  }
+
   /* ------------------------------------------------------------------ */
   /* État visiteur (localStorage)                                       */
   /* ------------------------------------------------------------------ */
@@ -222,6 +238,9 @@ window.Tubbz = (function () {
     ownedCountOf: ownedCountOf,
     sizeLabel: sizeLabel,
     packagingLabel: packagingLabel,
+    packagingEmoji: packagingEmoji,
+    packagingClass: packagingClass,
+    variantChipLabel: variantChipLabel,
     imageFor: imageFor,
     variantImageFor: variantImageFor,
     esc: esc

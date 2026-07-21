@@ -37,8 +37,8 @@
       var img = T.variantImageFor(fig.id, v.size, v.packaging);
       var sizeTxt = T.sizeLabel(meta, v.size);
       var packTxt = T.packagingLabel(meta, v.packaging);
-      var packClass = v.packaging === "first-edition" ? "pack-fe" : "pack-box";
-      var packIcon = v.packaging === "first-edition" ? "🛁" : "📦";
+      var packClass = T.packagingClass(v.packaging);
+      var chipTxt = T.variantChipLabel(meta, v.size, v.packaging);
 
       return (
         '<div class="variant ' + (owned ? "is-owned " : "") + packClass + '">' +
@@ -47,8 +47,7 @@
               'onerror="this.onerror=null;this.src=\'' + T.PLACEHOLDER + '\'" />' +
           '</div>' +
           '<div class="variant-info">' +
-            '<span class="chip chip-size">' + T.esc(sizeTxt) + '</span>' +
-            '<span class="chip ' + packClass + '">' + packIcon + ' ' + T.esc(packTxt) + '</span>' +
+            '<span class="chip ' + packClass + '">' + T.esc(chipTxt) + '</span>' +
           '</div>' +
           (v.limitedTo ? '<p class="variant-limited">🔒 Limited to ' +
             T.esc(Number(v.limitedTo).toLocaleString("en-US")) + ' units</p>' : '') +

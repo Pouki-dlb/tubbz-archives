@@ -49,22 +49,30 @@
   /* Rendu de la grille                                               */
   /* ---------------------------------------------------------------- */
 
-  function statusBadge(owned) {
-    return owned
-      ? '<span class="badge badge-owned">✔ Owned</span>'
-      : '<span class="badge badge-none">Not owned</span>';
+  // Une chip par variante existante : couleur d'emballage + ✓ si possédée, grisée sinon.
+  // data-img porte l'image de la variante (utilisée au survol pour changer l'image de la card).
+  function variantChips(fig) {
+    return (fig.variants || []).map(function (v) {
+      var key = T.variantKey(v.size, v.packaging);
+      var owned = T.isOwned(state, fig.id, key);
+      var cls = "card-chip " + T.packagingClass(v.packaging) + (owned ? " is-owned" : " is-missing");
+      var vimg = T.variantImageFor(fig.id, v.size, v.packaging);
+      return '<span class="' + cls + '" data-img="' + T.esc(vimg) + '">' +
+        (owned ? "✓ " : "") + T.esc(T.variantChipLabel(catalog.meta, v.size, v.packaging)) +
+        '</span>';
+    }).join("");
   }
 
   function cardHTML(fig) {
-    var owned = T.ownedCountOf(state, fig).owned > 0;
     var wished = T.isWished(state, fig.id);
     var img = T.imageFor(fig.id);
     var url = "duck.html?id=" + encodeURIComponent(fig.id);
 
     return (
-      '<a class="card" href="' + url + '" data-owned="' + (owned ? "1" : "0") + '">' +
+      '<a class="card" href="' + url + '">' +
         '<div class="card-media">' +
-          '<img loading="lazy" src="' + T.esc(img) + '" alt="' + T.esc(fig.name) + '" ' +
+          '<img loading="lazy" src="' + T.esc(img) + '" data-default="' + T.esc(img) + '" ' +
+            'alt="' + T.esc(fig.name) + '" ' +
             'onerror="this.onerror=null;this.src=\'' + T.PLACEHOLDER + '\'" />' +
           (fig.number ? '<span class="num-badge">#' + T.esc(fig.number) + '</span>' : '') +
           (wished ? '<span class="heart" title="In your wishlist" aria-label="Wishlist">❤</span>' : '') +
@@ -72,7 +80,7 @@
         '<div class="card-body">' +
           '<h3 class="card-name">' + T.esc(fig.name) + '</h3>' +
           '<p class="card-franchise">' + T.esc(fig.franchise) + '</p>' +
-          '<div class="card-status">' + statusBadge(owned) + '</div>' +
+          '<div class="card-chips">' + variantChips(fig) + '</div>' +
         '</div>' +
       '</a>'
     );
@@ -167,10 +175,39 @@
   }
 
   /* ---------------------------------------------------------------- */
+  /* Survol d'une chip → change l'image de la card (délégation)        */
+  /* ---------------------------------------------------------------- */
+
+  function setImg(im, src) {
+    im.onerror = function () { this.onerror = null; this.src = T.PLACEHOLDER; };
+    im.src = src;
+  }
+
+  function bindChipHover() {
+    elGrid.addEventListener("mouseover", function (e) {
+      var chip = e.target.closest(".card-chip");
+      if (!chip || !elGrid.contains(chip)) return;
+      var card = chip.closest(".card");
+      var im = card && card.querySelector(".card-media img");
+      var v = chip.getAttribute("data-img");
+      if (im && v) setImg(im, v);
+    });
+    elGrid.addEventListener("mouseout", function (e) {
+      var chip = e.target.closest(".card-chip");
+      if (!chip || !elGrid.contains(chip)) return;
+      var card = chip.closest(".card");
+      var im = card && card.querySelector(".card-media img");
+      if (im) setImg(im, im.getAttribute("data-default"));
+    });
+  }
+
+  /* ---------------------------------------------------------------- */
   /* Événements                                                       */
   /* ---------------------------------------------------------------- */
 
   function bindEvents() {
+    bindChipHover();
+
     [elSearch, elFranchise, elSize, elPackaging, elStatus].forEach(function (el) {
       el.addEventListener("input", render);
       el.addEventListener("change", render);
