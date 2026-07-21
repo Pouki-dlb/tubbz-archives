@@ -29,12 +29,12 @@
     root.setAttribute("aria-busy", "false");
 
     var wished = T.isWished(state, fig.id);
-    var mainImg = fig.image || T.PLACEHOLDER;
+    var mainImg = T.imageFor(fig.id);
 
     var variantsHTML = (fig.variants || []).map(function (v) {
       var key = T.variantKey(v.size, v.packaging);
       var owned = T.isOwned(state, fig.id, key);
-      var img = v.image || fig.image || T.PLACEHOLDER;
+      var img = T.variantImageFor(fig.id, v.size, v.packaging);
       var sizeTxt = T.sizeLabel(meta, v.size);
       var packTxt = T.packagingLabel(meta, v.packaging);
       var packClass = v.packaging === "first-edition" ? "pack-fe" : "pack-box";
@@ -74,6 +74,7 @@
               '<div><dt>Number</dt><dd>' + (fig.number ? '#' + T.esc(fig.number) : '—') + '</dd></div>' +
               '<div><dt>Release year</dt><dd>' + (fig.releaseYear ? T.esc(fig.releaseYear) : 'Unknown') + '</dd></div>' +
             '</dl>' +
+            (fig.description ? '<p class="duck-description">' + T.esc(fig.description) + '</p>' : '') +
             '<button id="btn-wish" type="button" class="btn btn-wish' + (wished ? " is-active" : "") + '">' +
               (wished ? "❤ In wishlist" : "♡ Add to wishlist") +
             '</button>' +

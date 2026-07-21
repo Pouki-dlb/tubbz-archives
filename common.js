@@ -13,6 +13,22 @@ window.Tubbz = (function () {
   var STATE_VERSION = 1;
   var PLACEHOLDER = "images/placeholder.svg";
 
+  // Convention de nommage des images (convention pure : calculée depuis l'id, jamais stockée).
+  // Image principale : images/<id>.webp
+  // Image de variante : images/<id>-<taille><emballage>.webp  (ex. -cf, -cb, -mf, -xb)
+  var SIZE_INITIAL = { classic: "c", mini: "m", xl: "x" };
+  var PACK_INITIAL = { "first-edition": "f", boxed: "b" };
+
+  function imageFor(id) {
+    return "images/" + id + ".webp";
+  }
+
+  function variantImageFor(id, size, packaging) {
+    var s = SIZE_INITIAL[size] || "";
+    var p = PACK_INITIAL[packaging] || "";
+    return "images/" + id + "-" + s + p + ".webp";
+  }
+
   /* ------------------------------------------------------------------ */
   /* Catalogue                                                          */
   /* ------------------------------------------------------------------ */
@@ -221,6 +237,8 @@ window.Tubbz = (function () {
     ownedCountOf: ownedCountOf,
     sizeLabel: sizeLabel,
     packagingLabel: packagingLabel,
+    imageFor: imageFor,
+    variantImageFor: variantImageFor,
     esc: esc
   };
 })();

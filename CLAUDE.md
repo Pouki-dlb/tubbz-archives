@@ -46,7 +46,9 @@ cosplayés, marque Numskull) et permet à un visiteur de **suivre sa collection*
 - Interface du site **en anglais uniquement** ; noms de licences/personnages laissés tels quels.
   (Les commentaires de code peuvent rester en français.)
 - Tailles : `classic`, `mini`, `xl`. Emballages : `first-edition` (baignoire), `boxed` (boîte).
-- Images locales dans `images/` avec repli `placeholder.svg` (via `onerror` sur les `<img>`).
+- Images **déduites de l'`id`** (aucun chemin dans `data.js`) : principale `images/<id>.webp`,
+  variante `images/<id>-<taille><emballage>.webp` (c/m/x + f/b, ex. `-cf`). Repli `placeholder.svg`
+  via `onerror`. Helpers `Tubbz.imageFor` / `Tubbz.variantImageFor`.
 - Le site doit rester ouvrable par **double-clic** sur `index.html` (`file://`) : ne PAS
   réintroduire de `fetch` vers un fichier local (bloqué en `file://`). Le catalogue passe par
   `<script src="data.js">`.

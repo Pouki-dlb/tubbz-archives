@@ -46,11 +46,11 @@ window.TUBBZ_DATA = {
       "franchise": "Fallout",
       "number": "42",
       "releaseYear": "2020",
-      "image": "images/fallout-vault-boy.png",
+      "description": "Le mascotte souriant des abris Vault-Tec.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-vault-boy-classic-fe.png", "limitedTo": 5000 },
-        { "size": "classic", "packaging": "boxed",         "image": "images/fallout-vault-boy-classic-box.png" },
-        { "size": "mini",    "packaging": "boxed",         "image": "images/fallout-vault-boy-mini-box.png" }
+        { "size": "classic", "packaging": "first-edition", "limitedTo": 5000 },
+        { "size": "classic", "packaging": "boxed" },
+        { "size": "mini",    "packaging": "boxed" }
       ]
     }
   ]
@@ -58,6 +58,7 @@ window.TUBBZ_DATA = {
 ```
 
 > Concrètement : générez votre JSON, puis ajoutez `window.TUBBZ_DATA = ` devant et `;` à la fin.
+> **Aucun chemin d'image** à indiquer : ils sont déduits de l'`id` (voir « Images » plus bas).
 
 ### Champs d'une figurine
 
@@ -68,7 +69,7 @@ window.TUBBZ_DATA = {
 | `franchise`   | ✅          | Licence (sert au regroupement et aux filtres).                          |
 | `number`      | ⬜          | Numéro de la figurine dans la collection (ex. `"42"`). Affiché `#42` ; si absent (hors-série), affiché `—`. |
 | `releaseYear` | ⬜          | Année de sortie (ex. `"2026"`). Si absent, affiché `Unknown`.           |
-| `image`       | ⬜          | Vignette affichée sur la grille. Repli : `images/placeholder.svg`.      |
+| `description` | ⬜          | Court texte descriptif. Affiché sur la fiche (en italique). Les retours à la ligne (`\n`) sont conservés. |
 | `variants`    | ✅          | Liste des combinaisons **réellement existantes** (voir ci-dessous).     |
 
 ### Champs d'une variante
@@ -77,11 +78,26 @@ window.TUBBZ_DATA = {
 |-------------|-------------|----------------------------------------------------|
 | `size`      | ✅          | `classic` \| `mini` \| `xl`                         |
 | `packaging` | ✅          | `first-edition` (baignoire) \| `boxed` (boîte)     |
-| `image`     | ⬜          | Photo de cette version précise. Repli : `image` de la figurine, puis `placeholder.svg`. |
 | `limitedTo` | ⬜          | Tirage limité connu (nombre d'exemplaires, ex. `3000`). Affiché « Limited to 3,000 units ». Souvent pour les XL et certaines First Edition. |
 
 > N'ajoutez que les variantes qui existent vraiment. La clé interne d'une variante est
 > `"<size>|<packaging>"` (ex. `classic|first-edition`).
+
+### Images (déduites de l'`id`, aucun chemin à saisir)
+
+Les images ne sont **pas** listées dans `data.js` : l'application calcule leur chemin à partir de
+l'`id`. Placez simplement vos fichiers `.webp` dans `images/` en respectant cette nomenclature :
+
+| Image | Chemin attendu | Exemple |
+|-------|----------------|---------|
+| Principale (grille + haut de fiche) | `images/<id>.webp` | `images/fallout-vault-boy.webp` |
+| Variante (fiche) | `images/<id>-<taille><emballage>.webp` | `images/fallout-vault-boy-cf.webp` |
+
+- Initiales de **taille** : `classic` → `c`, `mini` → `m`, `xl` → `x`.
+- Initiales d'**emballage** : `first-edition` → `f`, `boxed` → `b`.
+- Combinaisons : `-cf`, `-cb`, `-mf`, `-mb`, `-xf`, `-xb`.
+- Extension **toujours `.webp`**. Si un fichier est **absent**, le **placeholder** s'affiche
+  automatiquement (aucune erreur visible).
 
 ## Données personnelles du visiteur (`localStorage`)
 

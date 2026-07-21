@@ -170,6 +170,7 @@ h1, h2, h3 { line-height: 1.2; }
 .duck-meta div { display: flex; gap: 8px; }
 .duck-meta dt { color: var(--muted); min-width: 120px; }
 .duck-meta dd { margin: 0; font-weight: 600; }
+.duck-description { margin: 0 0 16px; font-style: italic; color: var(--muted); white-space: pre-line; max-width: 52ch; }
 
 .btn-wish { background: var(--surface-2); color: var(--text); border-color: var(--border); }
 .btn-wish.is-active { background: #ffe3e3; color: #b02a37; border-color: #f2b8bd; }

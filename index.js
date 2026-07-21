@@ -59,7 +59,7 @@
   function cardHTML(fig) {
     var owned = T.ownedCountOf(state, fig).owned > 0;
     var wished = T.isWished(state, fig.id);
-    var img = fig.image || T.PLACEHOLDER;
+    var img = T.imageFor(fig.id);
     var url = "duck.html?id=" + encodeURIComponent(fig.id);
 
     return (
