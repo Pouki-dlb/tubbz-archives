@@ -5,3 +5,7 @@ Desktop.ini
 *.swp
 .vscode/
 .idea/
+
+# Sources d'import (lourdes, ne PAS versionner) — le script reste versionné
+import/*.xlsx
+import/photos/
