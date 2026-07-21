@@ -131,13 +131,65 @@ window.TUBBZ_DATA = {
       "id": "fallout-vault-boy",
       "name": "Vault Boy",
       "franchise": "Fallout",
-      "number": "42",
-      "releaseYear": "2020",
-      "image": "images/placeholder.svg",
+      "number": "1",
+      "releaseYear": "2019",
+      "image": "images/fallout-vault-boy.webp",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "image": "images/placeholder.svg" },
-        { "size": "classic", "packaging": "boxed", "image": "images/placeholder.svg" },
-        { "size": "mini", "packaging": "boxed", "image": "images/placeholder.svg" }
+        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-vault-boy-cf.webp" },
+        { "size": "classic", "packaging": "boxed", "image": "images/fallout-vault-boy-cb.webp" },
+        { "size": "mini", "packaging": "first-edition", "image": "images/fallout-vault-boy-mf.webp" }
+      ]
+    },
+    {
+      "id": "fallout-vault-girl",
+      "name": "Vault Girl",
+      "franchise": "Fallout",
+      "number": "2",
+      "releaseYear": "2019",
+      "image": "images/fallout-vault-girl.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-vault-girl-cf.webp" },
+        { "size": "classic", "packaging": "boxed", "image": "images/fallout-vault-girl-cb.webp" },
+        { "size": "mini", "packaging": "first-edition", "image": "images/fallout-vault-girl-mf.webp" }
+      ]
+    },
+    {
+      "id": "fallout-nuka-cola-t-51",
+      "name": "Nula-Cola T-51",
+      "franchise": "Fallout",
+      "number": "3.1",
+      "releaseYear": "2019",
+      "image": "images/fallout-nuka-cola-t-51.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-nuka-cola-t-51-cf.webp" },
+        { "size": "classic", "packaging": "boxed", "image": "images/fallout-nuka-cola-t-51-cb.webp" },
+        { "size": "mini", "packaging": "first-edition", "image": "images/fallout-nuka-cola-t-51-mf.webp" }
+      ]
+    },
+    {
+      "id": "fallout-nuka-cola-pin-up-girl",
+      "name": "Nuka Cola Pin UP Girl",
+      "franchise": "Fallout",
+      "number": "4",
+      "releaseYear": "2019",
+      "image": "images/fallout-nuka-cola-pin-up-girl.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-nuka-cola-pin-up-girl-cf.webp" },
+        { "size": "classic", "packaging": "boxed", "image": "images/fallout-nuka-cola-pin-up-girl-cb.webp" },
+        { "size": "mini", "packaging": "first-edition", "image": "images/fallout-nuka-cola-pin-up-girl-mf.webp" }
+      ]
+    },
+    {
+      "id": "fallout-t-51",
+      "name": "T-51",
+      "franchise": "Fallout",
+      "number": "3",
+      "releaseYear": "2019",
+      "image": "images/fallout-t-51.webp",
+      "variants": [
+        { "size": "classic", "packaging": "first-edition", "image": "images/fallout-t-51-cf.webp" },
+        { "size": "classic", "packaging": "boxed", "image": "images/fallout-t-51-cb.webp" },
+        { "size": "mini", "packaging": "first-edition", "image": "images/fallout-t-51-mf.webp" }
       ]
     },
     {
