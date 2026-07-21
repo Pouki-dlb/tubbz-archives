@@ -310,10 +310,17 @@
       checkStorage();
       populateFranchises();
       bindEvents();
-      var v = loadView();
-      applyView(v);      // restaure recherche + filtres
+      // Le logo mène à "index.html?home" → accueil propre : on efface l'état mémorisé.
+      var goHome = false;
+      try { goHome = new URLSearchParams(location.search).has("home"); } catch (e) {}
+      if (goHome) {
+        try { sessionStorage.removeItem(VIEW_KEY); } catch (e) {}
+        try { history.replaceState(null, "", location.pathname); } catch (e) {}
+      }
+      var v = goHome ? null : loadView();
+      applyView(v);      // restaure recherche + filtres (rien si accueil propre)
       render();
-      restoreScroll(v);  // restaure la position de scroll
+      restoreScroll(v);  // restaure la position de scroll (rien si accueil propre)
     })
     .catch(function (err) {
       elGrid.setAttribute("aria-busy", "false");
