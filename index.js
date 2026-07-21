@@ -9,7 +9,6 @@
 
   // Éléments du DOM
   var elGrid = document.getElementById("grid");
-  var elCount = document.getElementById("result-count");
   var elWarning = document.getElementById("storage-warning");
   var elSearch = document.getElementById("search");
   var elFranchise = document.getElementById("filter-franchise");
@@ -81,13 +80,6 @@
 
   function render() {
     var list = catalog.figurines.filter(matches);
-
-    var ownedTotal = catalog.figurines.reduce(function (n, fig) {
-      return n + (T.ownedCountOf(state, fig).owned > 0 ? 1 : 0);
-    }, 0);
-    elCount.textContent =
-      list.length + (list.length === 1 ? " figurine" : " figurines") +
-      " · " + ownedTotal + " owned";
 
     if (list.length === 0) {
       elGrid.innerHTML = '<p class="empty">No figurine matches your search.</p>';

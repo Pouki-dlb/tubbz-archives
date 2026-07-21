@@ -116,7 +116,6 @@ h1, h2, h3 { line-height: 1.2; }
 }
 .filters .btn { align-self: end; }
 
-.result-count { color: var(--muted); font-size: .9rem; margin: 8px 2px; }
 
 /* ---------------- Grille de cartes ---------------- */
 .grid {

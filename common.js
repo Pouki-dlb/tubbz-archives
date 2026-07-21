@@ -177,22 +177,8 @@ window.Tubbz = (function () {
   }
 
   /* ------------------------------------------------------------------ */
-  /* Statut agrégé d'une figurine                                       */
+  /* Nombre de variantes possédées d'une figurine                       */
   /* ------------------------------------------------------------------ */
-
-  // Renvoie "none" | "partial" | "full" selon les variantes possédées.
-  function ownedStateOf(state, figurine) {
-    var variants = figurine.variants || [];
-    if (variants.length === 0) return "none";
-    var owned = 0;
-    for (var i = 0; i < variants.length; i++) {
-      var key = variantKey(variants[i].size, variants[i].packaging);
-      if (isOwned(state, figurine.id, key)) owned++;
-    }
-    if (owned === 0) return "none";
-    if (owned === variants.length) return "full";
-    return "partial";
-  }
 
   function ownedCountOf(state, figurine) {
     var variants = figurine.variants || [];
@@ -233,7 +219,6 @@ window.Tubbz = (function () {
     toggleWishlist: toggleWishlist,
     getNote: getNote,
     setNote: setNote,
-    ownedStateOf: ownedStateOf,
     ownedCountOf: ownedCountOf,
     sizeLabel: sizeLabel,
     packagingLabel: packagingLabel,
