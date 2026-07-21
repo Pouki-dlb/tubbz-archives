@@ -17,6 +17,39 @@
   var elStatus = document.getElementById("filter-status");
 
   /* ---------------------------------------------------------------- */
+  /* Mémorisation de la vue (filtres + scroll) pour le retour arrière */
+  /* ---------------------------------------------------------------- */
+
+  var VIEW_KEY = "tubbz-index-view";
+  var ready = false;
+  // On gère nous-mêmes la restauration du scroll (sinon le navigateur interfère).
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+
+  function saveView() {
+    try {
+      sessionStorage.setItem(VIEW_KEY, JSON.stringify({
+        q: elSearch.value, franchise: elFranchise.value, size: elSize.value,
+        packaging: elPackaging.value, status: elStatus.value,
+        scrollY: window.pageYOffset || document.documentElement.scrollTop || 0
+      }));
+    } catch (e) {}
+  }
+  function loadView() {
+    try { return JSON.parse(sessionStorage.getItem(VIEW_KEY)); } catch (e) { return null; }
+  }
+  function applyView(v) {
+    if (!v) return;
+    elSearch.value = v.q || "";
+    elFranchise.value = v.franchise || "";
+    elSize.value = v.size || "";
+    elPackaging.value = v.packaging || "";
+    elStatus.value = v.status || "";
+  }
+  function restoreScroll(v) {
+    if (v && v.scrollY) window.scrollTo(0, v.scrollY);
+  }
+
+  /* ---------------------------------------------------------------- */
   /* Filtrage                                                         */
   /* ---------------------------------------------------------------- */
 
@@ -208,9 +241,10 @@
   function bindEvents() {
     bindChipHover();
 
+    function onFilterChange() { render(); saveView(); }
     [elSearch, elFranchise, elSize, elPackaging, elStatus].forEach(function (el) {
-      el.addEventListener("input", render);
-      el.addEventListener("change", render);
+      el.addEventListener("input", onFilterChange);
+      el.addEventListener("change", onFilterChange);
     });
 
     document.getElementById("btn-reset").addEventListener("click", function () {
@@ -220,6 +254,7 @@
       elPackaging.value = "";
       elStatus.value = "";
       render();
+      saveView();
     });
 
     document.getElementById("btn-export").addEventListener("click", exportBackup);
@@ -235,10 +270,23 @@
 
     bindHelpModal();
 
-    // Refresh state when the user comes back from duck.html (checkboxes changed).
-    window.addEventListener("pageshow", function () {
+    // Mémorise le scroll (débounce) et l'état complet juste avant de quitter la page.
+    var scrollTimer = null;
+    window.addEventListener("scroll", function () {
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(saveView, 120);
+    }, { passive: true });
+    window.addEventListener("pagehide", saveView);
+
+    // Retour depuis duck.html restauré du cache (bfcache) : le module ne re-tourne pas,
+    // donc on recharge la possession, on ré-applique filtres + rendu, puis on restaure le scroll.
+    window.addEventListener("pageshow", function (e) {
+      if (!e.persisted || !ready) return;
       state = T.loadState();
+      var v = loadView();
+      applyView(v);
       render();
+      restoreScroll(v);
     });
   }
 
@@ -258,10 +306,14 @@
   T.loadCatalog()
     .then(function (data) {
       catalog = data;
+      ready = true;
       checkStorage();
       populateFranchises();
       bindEvents();
+      var v = loadView();
+      applyView(v);      // restaure recherche + filtres
       render();
+      restoreScroll(v);  // restaure la position de scroll
     })
     .catch(function (err) {
       elGrid.setAttribute("aria-busy", "false");
