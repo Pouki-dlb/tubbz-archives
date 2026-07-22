@@ -1,30 +1,49 @@
-/* data.js — THE CATALOG of Tubbz figurines.
+/* data.js — LE CATALOGUE des figurines Tubbz.
  *
- * This is the only file you need to fill in (e.g. with the output of your scraping).
- * We use a .js file (not .json) so the site works by simply double-clicking
- * index.html (file://), without any server.
- *
- * The content is plain JSON, just assigned to window.TUBBZ_DATA.
- * See README.md for the field details.
+ * Généré / mis à jour par l'outil d'administration (admin.html).
+ * Contenu = JSON pur assigné à window.TUBBZ_DATA, pour rester chargeable
+ * par simple <script> (aucun serveur requis côté site).
  */
 window.TUBBZ_DATA = {
   "meta": {
-    "sizes": ["classic", "mini", "xl"],
-    "packaging": ["first-edition", "boxed"],
+    "sizes": [
+      "classic",
+      "mini",
+      "xl"
+    ],
+    "packaging": [
+      "first-edition",
+      "boxed"
+    ],
     "labels": {
-      "sizes": { "classic": "Classic", "mini": "Mini", "xl": "XL" },
-      "packaging": { "first-edition": "First Edition", "boxed": "Boxed" }
+      "sizes": {
+        "classic": "Classic",
+        "mini": "Mini",
+        "xl": "XL"
+      },
+      "packaging": {
+        "first-edition": "First Edition",
+        "boxed": "Boxed"
+      }
     }
   },
-  "figurines": [    {
+  "figurines": [
+    {
       "id": "bloodbath-horror-annabelle",
       "name": "Annabelle",
       "franchise": "'Bloodbath'\n'Horror'",
       "number": "7",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -34,8 +53,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -45,8 +70,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -56,8 +87,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -67,8 +104,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -78,8 +121,15 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -90,8 +140,15 @@ window.TUBBZ_DATA = {
       "releaseYear": "2022",
       "description": "Glow in the dark eyes",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -100,7 +157,14 @@ window.TUBBZ_DATA = {
       "franchise": "2001 Space Odyssey",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -108,7 +172,10 @@ window.TUBBZ_DATA = {
       "name": "Splash",
       "franchise": "5 year Anniversary",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -117,29 +184,38 @@ window.TUBBZ_DATA = {
       "franchise": "A Clockworkd Orange",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
       "id": "assassin-s-creeds-ezio-auditore-da-firenze",
       "name": "Ezio Auditore Da Firenze",
       "franchise": "Assassin's Creeds",
+      "number": "1",
       "releaseYear": "2025",
       "description": "Step into the shadows of Renaissance Italy with the Assassin’s Creed: Ezio TUBBZ. This legendary Master Assassin has been reimagined as a cosplaying duck, complete with his iconic hood, hidden blades, and unmistakable flair. From the sharp detailing on his robes to the confident stance, this duck is a must-have for any Assassin’s Creed fan looking to add a splash of stealth to their shelf.",
-      "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
       "id": "assassin-s-creeds-kassandra",
       "name": "Kassandra",
       "franchise": "Assassin's Creeds",
+      "number": "2",
       "releaseYear": "2025",
       "description": "The fearless mercenary turned legendary heroine has swapped her eagle for feathers!\n\nReimagined as a cosplaying duck, Kassandra dons her iconic Spartan armour and lethal weaponry, ready to leap into any battle or display shelf skirmish.\n\nWith intricate detailing that captures her strength, spirit, and sass, this collectible is an unmissable tribute to one of Assassin’s Creed’s fiercest leads.",
-      "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -149,7 +225,10 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -159,8 +238,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -170,8 +255,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -181,8 +272,14 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -192,8 +289,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -203,8 +306,14 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -214,7 +323,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -225,7 +337,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "Like Lilith, Brick is a veteran Vault Hunter who's always ready for a fight—though his opponents are typically knocked flat by a single punch. This cosplaying duck nails the look of Brick (occasionally codenamed \"Meatslab\"), from the scarred bill to the bolted-up knuckles on the feathered fists and even the commemorative paw he wears around his neck. This official Borderlands 3 collectable captures Brick's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -236,7 +351,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "As the leader of the Hyperion corporation and dictator of Pandora, one should not underestimate Handsome Jack's notorious ways, despite being a transformed into a quacking duck! This official Borderlands 3 Handsome Jack collectable turns the series' most beloved antagonist into a cute, highly collectable duck figurine, complete with the series' signature cel-shaded effect and a collector's display box. This one of a kind collectable is a total must have for fans!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -247,7 +365,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "Borderlands' Siren class heroine Lilith is originally from the planet Dionysus, but now she's jumping headfirst into the pond! This official Borderlands 3 Lilith collectable turns the series' most beloved Siren into a cute, highly collectable duck figurine, complete with the series' signature visual style and a collector's display box. This one of a kind collectable is a total must have for fans!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -258,7 +379,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "Maya is a powerful Siren with a serious sense of style, so it's no wonder this duck is dressed up like the blue-haired Vault Hunter. This official Borderlands 3 collectable captures Maya's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box. Turns out that blue lipstick, long hair, and a futuristic hoodie all look pretty dang cool on a duck—who knew?",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -269,7 +393,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "The Crimson Raider’s most iconic sharpshooter jumps headfirst into the pond, armed with his sniper rifle and trusty winged companion, Bloodwing! It would be a mistake to underestimate him even in his quacking form. This official Borderlands 3 Mordercai collectible turns the series’ most beloved Hunter into a cute, highly collectible duck figurine, complete with the series’ signature cel-shaded effect and a collector’s display box. This one of a kind collectible is a total must have for fans!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -280,7 +407,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "Mad Moxxi has always been a bit quackers, but even we're surprised to see her in duck form! This official Borderlands 3 collectable turns everyone's favourite deathmatch hostess and bar owner into a loveable, cute collectable duck, complete with a collector's display box and visual style from the games. If you're a real Vault Haunter, you need this in your collection!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -291,7 +421,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "These psychotic outlaws are almost as obsessed with the Vault as they are with bread! This official Borderlands 3 Psycho collectible turns the series’ most infamous enemies into loveable cutesy duck figurines, complete with Borderlands’ unique cel-shaded effect. If you love Borderlands, this unique collector’s item is a must-have!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -302,7 +435,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "Tiny Tina only eats crumpets, so her transition into a duck makes perfect sense! This official Borderlands 3 collectable take the explosive-loving, crumpet-eating queen of obscene into a cutesy duck, perfect for serious fans to display at home! Complete with the series' signature visual style and collector's packaging, this suited and booted Tina duck is a must-have collectable.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -313,7 +449,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "Troy Calypso is just as cruel and cocky as his twin sister Tyreen, but don't let that metal arm and sleek sword fool you—he's something of a parasite who depends on Tyreen's powers to survive. This official Borderlands 3 collectable captures Troy's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box. With its pond-ready cosplay of the only known male Siren in all of Borderlands, this Troy duck definitely deserves a spot in your collection.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -324,7 +463,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "You can just feel the air of superiority coming off this defiant duck styled after the self-proclaimed \"God Queen\" Tyreen Calypso, a wicked young Siren turned social media star and cult leader. This official Borderlands 3 collectable captures Tyreen's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box. Be careful that you don't let this duck leech your lifeforce when you add it to your collection!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -333,7 +475,10 @@ window.TUBBZ_DATA = {
       "franchise": "Carrie",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -343,8 +488,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -354,7 +505,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -364,7 +518,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -374,7 +531,10 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -384,7 +544,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -394,8 +557,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -405,8 +574,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -416,7 +591,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -426,8 +604,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -436,7 +620,10 @@ window.TUBBZ_DATA = {
       "franchise": "DC Comics",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -446,7 +633,10 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -455,7 +645,10 @@ window.TUBBZ_DATA = {
       "franchise": "DC Comics",
       "number": "8",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -465,8 +658,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -475,7 +674,10 @@ window.TUBBZ_DATA = {
       "franchise": "DC Comics",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -484,7 +686,10 @@ window.TUBBZ_DATA = {
       "franchise": "DC Comics",
       "number": "10",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -494,7 +699,10 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -504,8 +712,15 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -514,7 +729,10 @@ window.TUBBZ_DATA = {
       "franchise": "DC Comics",
       "number": "9",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -524,8 +742,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -535,7 +759,10 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -545,8 +772,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -556,8 +789,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -567,7 +806,10 @@ window.TUBBZ_DATA = {
       "number": "1.1",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -577,8 +819,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -588,7 +836,10 @@ window.TUBBZ_DATA = {
       "number": "9",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -598,8 +849,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -609,7 +866,10 @@ window.TUBBZ_DATA = {
       "number": "10",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -619,8 +879,14 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -630,7 +896,10 @@ window.TUBBZ_DATA = {
       "number": "11",
       "releaseYear": "2025",
       "variants": [
-        { "size": "xl", "packaging": "boxed" }
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -640,8 +909,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -651,8 +926,14 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -662,8 +943,14 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -673,8 +960,14 @@ window.TUBBZ_DATA = {
       "number": "8",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -683,7 +976,10 @@ window.TUBBZ_DATA = {
       "franchise": "Dirty Dancing",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -692,7 +988,10 @@ window.TUBBZ_DATA = {
       "franchise": "Dirty Dancing",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -703,9 +1002,18 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "DOOM Marine, The Slayer, the Unchained Predator, the Hell Walker (or to most of you, DOOM Guy): this cosplaying duck toy definitely lives up to his many names as he’s primed to wage the eternal war against Hell. Complete with his iconic green armour and super shotgun, it’s little wonder demons run at the mere sight of him. This one of a kind collectible is great for fans of the series to stock up on..",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" },
-        { "size": "mini", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -716,7 +1024,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "Discover the Hell Knight, one of DOOM's most imposing demons, in this TUBBZ figure by Numskull Designs. Powerful, brutal, and built to crush his enemies, this infernal gladiator remains a threat even in the form of a collectible cosplay duck.\n\nWith its massive silhouette, devastating fists, and demonic appearance, this figurine perfectly captures the dark and violent intensity of the DOOM universe.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -727,7 +1038,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "Hey you, quack-lover! Discover the fantastic rubber duck, that's more than just a rubber duck. Think you've seen it all? Think again. Here comes the \"Doom - IMP Duck\", a seductively squeaking work of art. This squeaky duck is no ordinary squeaky duck.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -738,8 +1052,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "Looking for the perfect gift that combines usefulness and nostalgia? How about a rubber duck that not only quacks but also rocks? Then we have something very special for you! The Doom - Marauder duck. A highlight for every bathtub and bathroom.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -750,9 +1070,18 @@ window.TUBBZ_DATA = {
       "releaseYear": "2025",
       "description": "Armoured up and angrier than ever, the Doom Slayer storms into the TUBBZ collection in his brutal Dark Ages form. With razor-edged helmet detail, a fur-lined cloak, studded armour, and his infamous spiked mace and demon-splitting shield, this duck means business.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" },
-        { "size": "mini", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -762,7 +1091,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -772,8 +1104,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -783,7 +1121,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2025",
       "description": "Amazon Exclusive",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -793,7 +1134,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2025",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -802,7 +1146,10 @@ window.TUBBZ_DATA = {
       "franchise": "Dungeons & Dragons",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -811,7 +1158,10 @@ window.TUBBZ_DATA = {
       "franchise": "Dungeons & Dragons",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -820,7 +1170,10 @@ window.TUBBZ_DATA = {
       "franchise": "Dungeons & Dragons",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -829,7 +1182,10 @@ window.TUBBZ_DATA = {
       "franchise": "Dungeons & Dragons",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -840,8 +1196,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2019",
       "description": "Double",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -850,8 +1212,14 @@ window.TUBBZ_DATA = {
       "franchise": "Fallout",
       "number": "3.1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -861,20 +1229,32 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
       "id": "fallout-vault-boy",
       "name": "Vault Boy",
       "franchise": "Fallout",
-      "description": "Fallout fans will definitely give Vault Boy’s quacking new look a big thumbs up, he’s looking awesome as a TUBBZ cosplaying collectable. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.",
       "number": "1",
       "releaseYear": "2019",
+      "description": "Fallout fans will definitely give Vault Boy’s quacking new look a big thumbs up, he’s looking awesome as a TUBBZ cosplaying collectable. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -884,9 +1264,18 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" },
-        { "size": "mini", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -896,8 +1285,14 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -908,8 +1303,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "Double",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -919,8 +1320,14 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -930,8 +1337,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -941,8 +1354,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -952,8 +1371,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -962,7 +1387,10 @@ window.TUBBZ_DATA = {
       "franchise": "Full Metal Jacket",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -971,7 +1399,10 @@ window.TUBBZ_DATA = {
       "franchise": "Ghost",
       "number": "8",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -980,7 +1411,10 @@ window.TUBBZ_DATA = {
       "franchise": "Ghost",
       "number": "11",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -989,7 +1423,10 @@ window.TUBBZ_DATA = {
       "franchise": "Ghost",
       "number": "6",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -998,7 +1435,10 @@ window.TUBBZ_DATA = {
       "franchise": "Ghost",
       "number": "7",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1007,7 +1447,10 @@ window.TUBBZ_DATA = {
       "franchise": "Ghost",
       "number": "10",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1017,7 +1460,10 @@ window.TUBBZ_DATA = {
       "number": "11",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1027,8 +1473,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1038,7 +1490,10 @@ window.TUBBZ_DATA = {
       "number": "9",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1048,8 +1503,15 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1059,7 +1521,10 @@ window.TUBBZ_DATA = {
       "number": "12",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1069,8 +1534,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1080,7 +1551,10 @@ window.TUBBZ_DATA = {
       "number": "3.1",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1090,8 +1564,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1102,8 +1582,15 @@ window.TUBBZ_DATA = {
       "releaseYear": "2022",
       "description": "Glow in the Dark",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1114,8 +1601,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2021",
       "description": "Smells of marshmallow",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1126,7 +1619,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2021",
       "description": "Smells of marshmallow",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1136,7 +1632,11 @@ window.TUBBZ_DATA = {
       "number": "8",
       "releaseYear": "2023",
       "variants": [
-        { "size": "xl", "packaging": "boxed", "limitedTo": 2000 }
+        {
+          "size": "xl",
+          "packaging": "boxed",
+          "limitedTo": 2000
+        }
       ]
     },
     {
@@ -1146,7 +1646,10 @@ window.TUBBZ_DATA = {
       "number": "10",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1156,8 +1659,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1166,7 +1675,10 @@ window.TUBBZ_DATA = {
       "franchise": "God of War",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1175,7 +1687,10 @@ window.TUBBZ_DATA = {
       "franchise": "God of War",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1184,7 +1699,10 @@ window.TUBBZ_DATA = {
       "franchise": "God of War Ragnarok",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1193,7 +1711,10 @@ window.TUBBZ_DATA = {
       "franchise": "God of War Ragnarok",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1202,7 +1723,10 @@ window.TUBBZ_DATA = {
       "franchise": "Godzilla",
       "number": "1",
       "variants": [
-        { "size": "xl", "packaging": "boxed" }
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1212,8 +1736,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1222,7 +1752,10 @@ window.TUBBZ_DATA = {
       "franchise": "Halloween (2007 A Rob Zombie film)",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1232,7 +1765,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1242,7 +1778,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1252,7 +1791,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1262,7 +1804,10 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1272,8 +1817,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1283,8 +1834,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1294,8 +1851,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1305,8 +1868,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1317,8 +1886,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2022",
       "description": "The iconic Hatsune Miku, virtual J-Pop superstar, is reinvented as Snow Miku in this TUBBZ. With her elegant winter look and icy details, she brings a touch of freshness and magic to your collection.\n\nReimagined as a cosplay duck, this collectible captures all of Miku's grace and unique aesthetic, with a fun and original interpretation unique to TUBBZ.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1329,7 +1904,11 @@ window.TUBBZ_DATA = {
       "releaseYear": "2023",
       "description": "The iconic Hatsune Miku, virtual J-Pop superstar, is reinvented as Snow Miku in this TUBBZ. With her elegant winter look and icy details, she adds a touch of freshness and magic to your collection.\n\nReimagined as a cosplaying duck, this collectible captures all of Miku's grace and unique aesthetic, with a fun and original interpretation unique to TUBBZ.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        }
       ]
     },
     {
@@ -1338,7 +1917,10 @@ window.TUBBZ_DATA = {
       "franchise": "Iron Maiden",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1347,7 +1929,10 @@ window.TUBBZ_DATA = {
       "franchise": "Iron Maiden",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1357,8 +1942,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1368,7 +1959,10 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2023",
       "variants": [
-        { "size": "xl", "packaging": "boxed" }
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1378,8 +1972,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1389,8 +1989,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1400,8 +2006,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1411,7 +2023,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1420,7 +2035,10 @@ window.TUBBZ_DATA = {
       "franchise": "John Wick",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1429,7 +2047,10 @@ window.TUBBZ_DATA = {
       "franchise": "John Wick",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1439,7 +2060,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "description": "Dome de la baignoire plastique cassé",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1448,7 +2072,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jujutsu Kaisën",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1457,7 +2084,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jujutsu Kaisën",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1467,8 +2097,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1477,7 +2113,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "9",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1487,8 +2126,15 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1498,8 +2144,15 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1509,8 +2162,15 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1520,8 +2180,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1530,7 +2196,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "7",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1539,7 +2208,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "10",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1549,7 +2221,11 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2022",
       "variants": [
-        { "size": "xl", "packaging": "boxed", "limitedTo": 1000 }
+        {
+          "size": "xl",
+          "packaging": "boxed",
+          "limitedTo": 1000
+        }
       ]
     },
     {
@@ -1558,7 +2234,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "8",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1567,7 +2246,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic World",
       "number": "14",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1576,7 +2258,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic World",
       "number": "12",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1585,7 +2270,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic World",
       "number": "13",
       "variants": [
-        { "size": "xl", "packaging": "boxed" }
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1594,7 +2282,10 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic World",
       "number": "11",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1604,7 +2295,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1614,8 +2308,14 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1625,8 +2325,14 @@ window.TUBBZ_DATA = {
       "number": "11",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1636,7 +2342,11 @@ window.TUBBZ_DATA = {
       "number": "19",
       "releaseYear": "2023",
       "variants": [
-        { "size": "xl", "packaging": "boxed", "limitedTo": 2000 }
+        {
+          "size": "xl",
+          "packaging": "boxed",
+          "limitedTo": 2000
+        }
       ]
     },
     {
@@ -1646,7 +2356,10 @@ window.TUBBZ_DATA = {
       "number": "13",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1656,7 +2369,10 @@ window.TUBBZ_DATA = {
       "number": "22",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1666,8 +2382,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1677,8 +2399,14 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1688,8 +2416,15 @@ window.TUBBZ_DATA = {
       "number": "20",
       "releaseYear": "2023",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1699,8 +2434,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1710,8 +2451,14 @@ window.TUBBZ_DATA = {
       "number": "16",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1721,8 +2468,14 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1732,8 +2485,14 @@ window.TUBBZ_DATA = {
       "number": "12",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1743,8 +2502,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1754,8 +2519,14 @@ window.TUBBZ_DATA = {
       "number": "8",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1765,8 +2536,15 @@ window.TUBBZ_DATA = {
       "number": "18",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1776,8 +2554,14 @@ window.TUBBZ_DATA = {
       "number": "15",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1787,8 +2571,15 @@ window.TUBBZ_DATA = {
       "number": "17",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1798,8 +2589,14 @@ window.TUBBZ_DATA = {
       "number": "10",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1809,8 +2606,14 @@ window.TUBBZ_DATA = {
       "number": "9",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1820,8 +2623,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1832,7 +2641,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2024",
       "description": "Holds 2 standard tubbz",
       "variants": [
-        { "size": "xl", "packaging": "boxed" }
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1842,7 +2654,10 @@ window.TUBBZ_DATA = {
       "number": "14",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1852,8 +2667,15 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2023",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1863,8 +2685,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1874,8 +2702,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1885,7 +2719,10 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2025",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1895,8 +2732,15 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2023",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1906,8 +2750,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1917,7 +2767,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2025",
       "description": "Amazon Exclusive",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1927,8 +2780,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -1938,7 +2797,10 @@ window.TUBBZ_DATA = {
       "number": "8",
       "releaseYear": "2025",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1948,7 +2810,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2025",
       "description": "This 1st edition does not come with the famous bathtub",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1957,7 +2822,10 @@ window.TUBBZ_DATA = {
       "franchise": "Minecraft",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1966,7 +2834,10 @@ window.TUBBZ_DATA = {
       "franchise": "Minecraft",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1975,7 +2846,10 @@ window.TUBBZ_DATA = {
       "franchise": "Minecraft",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1984,7 +2858,10 @@ window.TUBBZ_DATA = {
       "franchise": "Minecraft",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -1993,7 +2870,10 @@ window.TUBBZ_DATA = {
       "franchise": "Motörhead",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2002,7 +2882,10 @@ window.TUBBZ_DATA = {
       "franchise": "My Hero Academina",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2011,7 +2894,10 @@ window.TUBBZ_DATA = {
       "franchise": "My Hero Academina",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2020,7 +2906,10 @@ window.TUBBZ_DATA = {
       "franchise": "My Hero Academina",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2029,7 +2918,10 @@ window.TUBBZ_DATA = {
       "franchise": "My Hero Academina",
       "number": "5",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2038,7 +2930,10 @@ window.TUBBZ_DATA = {
       "franchise": "My Hero Academina",
       "number": "6",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2047,7 +2942,10 @@ window.TUBBZ_DATA = {
       "franchise": "My Hero Academina",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2056,7 +2954,10 @@ window.TUBBZ_DATA = {
       "franchise": "Ozzy Osbourne",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2065,7 +2966,10 @@ window.TUBBZ_DATA = {
       "franchise": "Ozzy Osbourne",
       "number": "5",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2074,7 +2978,10 @@ window.TUBBZ_DATA = {
       "franchise": "Poltergeist",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2083,7 +2990,10 @@ window.TUBBZ_DATA = {
       "franchise": "Power Rangers",
       "number": "5",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2092,7 +3002,10 @@ window.TUBBZ_DATA = {
       "franchise": "Power Rangers",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2101,7 +3014,10 @@ window.TUBBZ_DATA = {
       "franchise": "Power Rangers",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2110,7 +3026,10 @@ window.TUBBZ_DATA = {
       "franchise": "Power Rangers",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2119,51 +3038,66 @@ window.TUBBZ_DATA = {
       "franchise": "Power Rangers",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
       "id": "reservoir-dogs-mr-blonde",
       "name": "Mr. Blonde",
       "franchise": "Reservoir Dogs",
+      "number": "3",
       "releaseYear": "2025",
       "description": "‘Are you gonna quack all day little ducky?’\n\nThe unpredictable and menacing Mr. Blonde has arrived as a cosplaying duck with attitude! This TUBBZ recreates the Reservoir Dogs character's iconic look from the film, featuring a razor in one hand, and severed ear in the other!",
-      "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
       "id": "reservoir-dogs-mr-orange",
       "name": "Mr. Orange",
       "franchise": "Reservoir Dogs",
+      "number": "2",
       "releaseYear": "2025",
       "description": "Dressed in his signature black suit and tie, along with blood-stained white shirt and gunshot wound, the Mr. Orange TUBBZ perfectly captures the tension and drama of Tarantino’s classic crime thriller, Reservoir Dogs",
-      "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
       "id": "reservoir-dogs-mr-pink",
       "name": "Mr. Pink",
       "franchise": "Reservoir Dogs",
+      "number": "4",
       "releaseYear": "2025",
       "description": "The fast-talking, non-tipper, Mr. Pink, has arrived in the duck pond as a TUBBZ. Sporting a sarcastic, questioning expression, with gun in one hand and briefcase by his side, this cosplaying collectible brings the style and grit of Quentin Tarantino's seminal crime caper to your TUBBZ collection.",
-      "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
       "id": "reservoir-dogs-mr-white",
       "name": "Mr. White",
       "franchise": "Reservoir Dogs",
+      "number": "1",
       "releaseYear": "2025",
       "description": "Mr. White, the smooth and seasoned criminal from Reservoir Dogs, brings some classic cool to the TUBBZ duck pond. Dressed in his signature black suit, tie, and shades, and wielding pistols in both hands, this TUBBZ perfectly recreates Mr. White’s iconic scene from the cult movie.",
-      "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2173,8 +3107,14 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2184,8 +3124,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2195,8 +3141,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2206,8 +3158,14 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2217,8 +3175,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2228,8 +3192,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2240,8 +3210,15 @@ window.TUBBZ_DATA = {
       "releaseYear": "2022",
       "description": "Removable Hat",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2251,8 +3228,14 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2262,8 +3245,14 @@ window.TUBBZ_DATA = {
       "number": "8",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2273,8 +3262,14 @@ window.TUBBZ_DATA = {
       "number": "0",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2284,8 +3279,15 @@ window.TUBBZ_DATA = {
       "number": "10",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2295,7 +3297,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2305,7 +3310,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2315,7 +3323,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2324,7 +3335,10 @@ window.TUBBZ_DATA = {
       "franchise": "Shrek",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2333,7 +3347,10 @@ window.TUBBZ_DATA = {
       "franchise": "Shrek",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2342,7 +3359,10 @@ window.TUBBZ_DATA = {
       "franchise": "Shrek",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2351,7 +3371,10 @@ window.TUBBZ_DATA = {
       "franchise": "Shrek",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2360,7 +3383,10 @@ window.TUBBZ_DATA = {
       "franchise": "Silent Hill 2",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2369,7 +3395,10 @@ window.TUBBZ_DATA = {
       "franchise": "Silent Hill 2",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2379,8 +3408,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2390,8 +3425,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2401,8 +3442,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2412,8 +3459,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2423,7 +3476,10 @@ window.TUBBZ_DATA = {
       "number": "1.1",
       "description": "Very rare",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2433,8 +3489,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2444,8 +3506,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2455,8 +3523,15 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2466,8 +3541,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2477,7 +3558,10 @@ window.TUBBZ_DATA = {
       "number": "9",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2486,8 +3570,14 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2496,7 +3586,10 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "8",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2505,8 +3598,14 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "3",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2516,7 +3615,10 @@ window.TUBBZ_DATA = {
       "number": "10",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2526,8 +3628,15 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2537,7 +3646,10 @@ window.TUBBZ_DATA = {
       "number": "11",
       "releaseYear": "2024",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2547,8 +3659,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2557,8 +3675,14 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "5",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2568,7 +3692,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2578,7 +3705,10 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2588,7 +3718,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2598,7 +3731,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2607,8 +3743,14 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "18",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2618,8 +3760,14 @@ window.TUBBZ_DATA = {
       "number": "9",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2628,8 +3776,14 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "14",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2639,8 +3793,14 @@ window.TUBBZ_DATA = {
       "number": "8",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2650,8 +3810,14 @@ window.TUBBZ_DATA = {
       "number": "7",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2661,8 +3827,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2672,8 +3844,14 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2682,8 +3860,14 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "16",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2693,7 +3877,11 @@ window.TUBBZ_DATA = {
       "number": "13",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        }
       ]
     },
     {
@@ -2703,7 +3891,11 @@ window.TUBBZ_DATA = {
       "number": "12",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        }
       ]
     },
     {
@@ -2713,8 +3905,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2724,8 +3922,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2735,8 +3939,14 @@ window.TUBBZ_DATA = {
       "number": "10",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2745,8 +3955,14 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "20",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2756,8 +3972,15 @@ window.TUBBZ_DATA = {
       "number": "11",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2766,8 +3989,14 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "17",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2777,8 +4006,14 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2787,8 +4022,14 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "19",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2797,8 +4038,14 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "15",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2808,8 +4055,14 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2819,7 +4072,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2830,7 +4086,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2022",
       "description": "Baignoine sans embalage",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2841,7 +4100,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2021",
       "description": "Baignoine sans embalage",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2852,7 +4114,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2021",
       "description": "Baignoine sans embalage",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2862,7 +4127,10 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2872,7 +4140,10 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2882,7 +4153,10 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2892,7 +4166,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2901,7 +4178,10 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "8",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2911,7 +4191,10 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2921,7 +4204,10 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2931,7 +4217,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2941,7 +4230,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2019",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2950,7 +4242,10 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "7",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2960,8 +4255,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2971,8 +4272,15 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2022",
       "variants": [
-        { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -2981,7 +4289,10 @@ window.TUBBZ_DATA = {
       "franchise": "Texas Chainsaw Massacre",
       "number": "6",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2990,7 +4301,10 @@ window.TUBBZ_DATA = {
       "franchise": "The Hunger Games",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -2999,7 +4313,10 @@ window.TUBBZ_DATA = {
       "franchise": "The Hunger Games",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3009,7 +4326,10 @@ window.TUBBZ_DATA = {
       "number": "5",
       "releaseYear": "2023",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3019,7 +4339,10 @@ window.TUBBZ_DATA = {
       "number": "6",
       "releaseYear": "2023",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3029,8 +4352,14 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3041,8 +4370,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "Couleur boite délavé (soleil)",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3053,8 +4388,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2020",
       "description": "Couleur boite délavé (soleil)",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3064,8 +4405,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2020",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3076,7 +4423,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2025",
       "description": "Mr. Anderson… Agent Smith transforms into a cosplay duck, with all his coldness and calculated menace intact. From the stylish sunglasses to the impeccable suit, this TUBBZ captures the relentless digital enforcer of the Matrix. A must-have for fans who know the system always fights back.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3087,8 +4437,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2024",
       "description": "Welcome to the Matrix: Morpheus has arrived and he’s bringing his iconic wisdom to the duck pond! This Morpheus TUBBZ collectible transforms the legendary Matrix mentor into a dapper cosplay duck, complete with his signature glasses and dark suit. Whether you’re a die-hard Matrix fan or just love original collectibles, Morpheus is ready to join Neo in your collection. Part of the Matrix TUBBZ series, this release is a must-have for fans who want to relive iconic moments from the film in duck form!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3099,8 +4455,14 @@ window.TUBBZ_DATA = {
       "releaseYear": "2024",
       "description": "Step into the Matrix and bring Neo home in duck form with the Neo TUBBZ collectible! As the one destined to save both his world and now the world of TUBBZ, this Matrix TUBBZ transforms the iconic hero into an epic cosplay duck, complete with his signature dark glasses and costume. Whether you’re a Matrix fan or just love original collectibles, Neo is ready to dive right into your collection. A must-have for any Matrix fan, this collectible strikes the perfect balance of action and fantasy!",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3111,7 +4473,10 @@ window.TUBBZ_DATA = {
       "releaseYear": "2025",
       "description": "Dressed in her iconic black look and trademark cool, this duck is perfect for fans who love bending the rules and dodging bullets.",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3120,7 +4485,10 @@ window.TUBBZ_DATA = {
       "franchise": "The Shining",
       "number": "4",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3129,7 +4497,10 @@ window.TUBBZ_DATA = {
       "franchise": "The Silence of the Lambs",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3139,7 +4510,10 @@ window.TUBBZ_DATA = {
       "number": "4",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3149,8 +4523,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3160,7 +4540,10 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3170,7 +4553,10 @@ window.TUBBZ_DATA = {
       "number": "2",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3179,7 +4565,10 @@ window.TUBBZ_DATA = {
       "franchise": "Tomb Raider",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3189,8 +4578,14 @@ window.TUBBZ_DATA = {
       "number": "3",
       "releaseYear": "2026",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     },
     {
@@ -3199,7 +4594,10 @@ window.TUBBZ_DATA = {
       "franchise": "Tomb Raider",
       "number": "2",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3209,7 +4607,10 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3218,7 +4619,10 @@ window.TUBBZ_DATA = {
       "franchise": "Wonka",
       "number": "1",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
       ]
     },
     {
@@ -3228,8 +4632,14 @@ window.TUBBZ_DATA = {
       "number": "1",
       "releaseYear": "2021",
       "variants": [
-        { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
       ]
     }
   ]
