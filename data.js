@@ -2117,6 +2117,8 @@ window.TUBBZ_DATA = {
       "id": "reservoir-dogs-mr-blonde",
       "name": "Mr. Blonde",
       "franchise": "Reservoir Dogs",
+      "releaseYear": "2025",
+      "description": "‘Are you gonna quack all day little ducky?’\n\nThe unpredictable and menacing Mr. Blonde has arrived as a cosplaying duck with attitude! This TUBBZ recreates the Reservoir Dogs character's iconic look from the film, featuring a razor in one hand, and severed ear in the other!",
       "number": "3",
       "variants": [
         { "size": "classic", "packaging": "first-edition" }
@@ -2126,6 +2128,8 @@ window.TUBBZ_DATA = {
       "id": "reservoir-dogs-mr-orange",
       "name": "Mr. Orange",
       "franchise": "Reservoir Dogs",
+      "releaseYear": "2025",
+      "description": "Dressed in his signature black suit and tie, along with blood-stained white shirt and gunshot wound, the Mr. Orange TUBBZ perfectly captures the tension and drama of Tarantino’s classic crime thriller, Reservoir Dogs",
       "number": "2",
       "variants": [
         { "size": "classic", "packaging": "first-edition" }
@@ -2135,6 +2139,8 @@ window.TUBBZ_DATA = {
       "id": "reservoir-dogs-mr-pink",
       "name": "Mr. Pink",
       "franchise": "Reservoir Dogs",
+      "releaseYear": "2025",
+      "description": "The fast-talking, non-tipper, Mr. Pink, has arrived in the duck pond as a TUBBZ. Sporting a sarcastic, questioning expression, with gun in one hand and briefcase by his side, this cosplaying collectible brings the style and grit of Quentin Tarantino's seminal crime caper to your TUBBZ collection.",
       "number": "4",
       "variants": [
         { "size": "classic", "packaging": "first-edition" }
@@ -2144,6 +2150,8 @@ window.TUBBZ_DATA = {
       "id": "reservoir-dogs-mr-white",
       "name": "Mr. White",
       "franchise": "Reservoir Dogs",
+      "releaseYear": "2025",
+      "description": "Mr. White, the smooth and seasoned criminal from Reservoir Dogs, brings some classic cool to the TUBBZ duck pond. Dressed in his signature black suit, tie, and shades, and wielding pistols in both hands, this TUBBZ perfectly recreates Mr. White’s iconic scene from the cult movie.",
       "number": "1",
       "variants": [
         { "size": "classic", "packaging": "first-edition" }
