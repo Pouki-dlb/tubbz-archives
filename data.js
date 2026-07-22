@@ -29,129 +29,6 @@ window.TUBBZ_DATA = {
   },
   "figurines": [
     {
-      "id": "bloodbath-horror-annabelle",
-      "name": "Annabelle",
-      "franchise": "'Bloodbath'\n'Horror'",
-      "number": "7",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "bloodbath-horror-beetlejuice-beetlejuice",
-      "name": "Beetlejuice - Beetlejuice",
-      "franchise": "'Bloodbath'\n'Horror'",
-      "number": "1",
-      "releaseYear": "2020",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "bloodbath-horror-it-chapter-two-pennywise",
-      "name": "IT Chapter Two - Pennywise",
-      "franchise": "'Bloodbath'\n'Horror'",
-      "number": "3",
-      "releaseYear": "2020",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "bloodbath-horror-the-exorcist-regan",
-      "name": "The Exorcist - Regan",
-      "franchise": "'Bloodbath'\n'Horror'",
-      "number": "2",
-      "releaseYear": "2020",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "bloodbath-horror-the-lost-boys-david",
-      "name": "The Lost Boys - David",
-      "franchise": "'Bloodbath'\n'Horror'",
-      "number": "4",
-      "releaseYear": "2020",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "bloodbath-horror-the-lost-boys-mickael",
-      "name": "The Lost Boys - Mickael",
-      "franchise": "'Bloodbath'\n'Horror'",
-      "number": "5",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "bloodbath-horror-the-nun-the-nun",
-      "name": "The Nun - The Nun",
-      "franchise": "'Bloodbath'\n'Horror'",
-      "number": "6",
-      "releaseYear": "2022",
-      "description": "Glow in the dark eyes",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
       "id": "2001-space-odyssey-dr-david-bowman",
       "name": "Dr. David Bowman",
       "franchise": "2001 Space Odyssey",
@@ -336,6 +213,129 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "bloodbath-horror-annabelle",
+      "name": "Annabelle",
+      "franchise": "Bloodbath / Horror",
+      "number": "7",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "bloodbath-horror-beetlejuice-beetlejuice",
+      "name": "Beetlejuice - Beetlejuice",
+      "franchise": "Bloodbath / Horror",
+      "number": "1",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "bloodbath-horror-it-chapter-two-pennywise",
+      "name": "IT Chapter Two - Pennywise",
+      "franchise": "Bloodbath / Horror",
+      "number": "3",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "bloodbath-horror-the-exorcist-regan",
+      "name": "The Exorcist - Regan",
+      "franchise": "Bloodbath / Horror",
+      "number": "2",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "bloodbath-horror-the-lost-boys-david",
+      "name": "The Lost Boys - David",
+      "franchise": "Bloodbath / Horror",
+      "number": "4",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "bloodbath-horror-the-lost-boys-mickael",
+      "name": "The Lost Boys - Mickael",
+      "franchise": "Bloodbath / Horror",
+      "number": "5",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "bloodbath-horror-the-nun-the-nun",
+      "name": "The Nun - The Nun",
+      "franchise": "Bloodbath / Horror",
+      "number": "6",
+      "releaseYear": "2022",
+      "description": "Glow in the dark eyes",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
