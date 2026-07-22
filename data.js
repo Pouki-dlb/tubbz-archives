@@ -1315,6 +1315,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hatsune Miku",
       "number": "1",
       "releaseYear": "2022",
+      "description": "The iconic Hatsune Miku, virtual J-Pop superstar, is reinvented as Snow Miku in this TUBBZ. With her elegant winter look and icy details, she brings a touch of freshness and magic to your collection.\n\nReimagined as a cosplay duck, this collectible captures all of Miku's grace and unique aesthetic, with a fun and original interpretation unique to TUBBZ.",
       "variants": [
         { "size": "classic", "packaging": "first-edition" },
         { "size": "classic", "packaging": "boxed" }
@@ -1326,6 +1327,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hatsune Miku",
       "number": "1.1",
       "releaseYear": "2023",
+      "description": "The iconic Hatsune Miku, virtual J-Pop superstar, is reinvented as Snow Miku in this TUBBZ. With her elegant winter look and icy details, she adds a touch of freshness and magic to your collection.\n\nReimagined as a cosplaying duck, this collectible captures all of Miku's grace and unique aesthetic, with a fun and original interpretation unique to TUBBZ.",
       "variants": [
         { "size": "classic", "packaging": "first-edition", "limitedTo": 3000 }
       ]
