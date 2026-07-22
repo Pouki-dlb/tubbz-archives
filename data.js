@@ -701,9 +701,11 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "1",
       "releaseYear": "2020",
+      "description": "DOOM Marine, The Slayer, the Unchained Predator, the Hell Walker (or to most of you, DOOM Guy): this cosplaying duck toy definitely lives up to his many names as he’s primed to wage the eternal war against Hell. Complete with his iconic green armour and super shotgun, it’s little wonder demons run at the mere sight of him. This one of a kind collectible is great for fans of the series to stock up on..",
       "variants": [
         { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        { "size": "classic", "packaging": "boxed" },
+        { "size": "mini", "packaging": "first-edition" }
       ]
     },
     {
@@ -712,6 +714,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "3",
       "releaseYear": "2020",
+      "description": "Discover the Hell Knight, one of DOOM's most imposing demons, in this TUBBZ figure by Numskull Designs. Powerful, brutal, and built to crush his enemies, this infernal gladiator remains a threat even in the form of a collectible cosplay duck.\n\nWith its massive silhouette, devastating fists, and demonic appearance, this figurine perfectly captures the dark and violent intensity of the DOOM universe.",
       "variants": [
         { "size": "classic", "packaging": "first-edition" }
       ]
@@ -722,6 +725,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "2",
       "releaseYear": "2020",
+      "description": "Hey you, quack-lover! Discover the fantastic rubber duck, that's more than just a rubber duck. Think you've seen it all? Think again. Here comes the \"Doom - IMP Duck\", a seductively squeaking work of art. This squeaky duck is no ordinary squeaky duck.",
       "variants": [
         { "size": "classic", "packaging": "first-edition" }
       ]
@@ -732,6 +736,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "4",
       "releaseYear": "2020",
+      "description": "Looking for the perfect gift that combines usefulness and nostalgia? How about a rubber duck that not only quacks but also rocks? Then we have something very special for you! The Doom - Marauder duck. A highlight for every bathtub and bathroom.",
       "variants": [
         { "size": "classic", "packaging": "first-edition" },
         { "size": "classic", "packaging": "boxed" }
@@ -743,9 +748,11 @@ window.TUBBZ_DATA = {
       "franchise": "Doom The Dark Ages",
       "number": "1",
       "releaseYear": "2025",
+      "description": "Armoured up and angrier than ever, the Doom Slayer storms into the TUBBZ collection in his brutal Dark Ages form. With razor-edged helmet detail, a fur-lined cloak, studded armour, and his infamous spiked mace and demon-splitting shield, this duck means business.",
       "variants": [
         { "size": "classic", "packaging": "first-edition" },
-        { "size": "classic", "packaging": "boxed" }
+        { "size": "classic", "packaging": "boxed" },
+        { "size": "mini", "packaging": "first-edition" }
       ]
     },
     {
