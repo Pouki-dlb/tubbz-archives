@@ -1204,7 +1204,7 @@ window.TUBBZ_DATA = {
       "franchise": "Fallout",
       "number": "4",
       "releaseYear": "2019",
-      "description": "Double",
+      "description": "Done with gracing the wasteland, Nuka Cola Girl is setting her sights on the duck pond instead. There’s no mistaking her in the rocket suit and helmet. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans\n\nIf you play Fallout, you can’t help but notice the Nuka Cola Pin Up Girl poster throughout the Commonwealth, Island, and Nuka World. This blonde bombshell wears a fitted spacesuit and carries a raygun called the Thirst Zapper.",
       "variants": [
         {
           "size": "classic",
@@ -1213,6 +1213,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1221,11 +1225,9 @@ window.TUBBZ_DATA = {
       "name": "Nuka-Cola T-51",
       "franchise": "Fallout",
       "number": "3.1",
+      "releaseYear": "2023",
+      "description": "Check this out, what a suit! Nuka Cola T-51 is kitted out and ready to face the challenges of the post-apocalyptic wastelands and the duck pond. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.\n\nIf you’ve ever travelled through the Fallout universe, two items would be on your must-have list: the T-51 Armour and Nuka-Cola. Our TUBBZ duck brings together both of these essentials with Nuka-Cola-powered T-51 Armour. ",
       "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
         {
           "size": "classic",
           "packaging": "boxed"
@@ -1238,6 +1240,7 @@ window.TUBBZ_DATA = {
       "franchise": "Fallout",
       "number": "3",
       "releaseYear": "2019",
+      "description": "Power Armor T-51's development is finally complete and West Tek’s work is done, T-51 is now a cosplaying duck. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.\n\nThe T-51 TUBBZ is an homage to the Fallout series’s most powerful, mechanised armour. Our quirky duck has donned this armour and is ready to take on any pond battle. ",
       "variants": [
         {
           "size": "classic",
@@ -1246,6 +1249,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1264,6 +1271,14 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
+          "packaging": "boxed"
         }
       ]
     },
@@ -1273,6 +1288,7 @@ window.TUBBZ_DATA = {
       "franchise": "Fallout",
       "number": "2",
       "releaseYear": "2019",
+      "description": "Vault Girl has zipped up her iconic blue suit and is leaving Boston to join the duck collectables, she’s going to fit right in. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans. ",
       "variants": [
         {
           "size": "classic",
@@ -1281,10 +1297,6 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
-        },
-        {
-          "size": "mini",
-          "packaging": "first-edition"
         }
       ]
     },
