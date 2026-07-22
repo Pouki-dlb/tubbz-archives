@@ -2720,6 +2720,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2768,6 +2772,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2776,7 +2784,7 @@ window.TUBBZ_DATA = {
       "name": "Solid Snake",
       "franchise": "Metal Gear Solid",
       "releaseYear": "2025",
-      "description": "Amazon Exclusive",
+      "description": "This Stealth Camo Solid Snake duck figure is a must-have for fans of Metal Gear Solid merchandise and pop culture collectibles.\n\nOnly sold on Amazon, limited edition rare collectible, perfect for collectors and MGS fans.",
       "variants": [
         {
           "size": "classic",
@@ -2798,6 +2806,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2807,6 +2819,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "8",
       "releaseYear": "2025",
+      "description": "Command respect with The Boss TUBBZ. A powerful homage to the fearless mentor and warrior of MGS3. Reimagined as a TUBBZ duck with her white sneaking suit and composed strength, she’s every bit the legendary soldier, redefined with a ducky twist. Loyal to the mission and bold on display.",
       "variants": [
         {
           "size": "classic",
@@ -2819,7 +2832,7 @@ window.TUBBZ_DATA = {
       "name": "The Orange Box",
       "franchise": "Metal Gear Solid",
       "releaseYear": "2025",
-      "description": "This 1st edition does not come with the famous bathtub",
+      "description": "The Metal Gear Solid: The Orange Box TUBBZ takes iconic stealth to absurd new heights, because this time the box is the duck. With a bold orange beak peeking out from an otherwise plain, unmistakable cardboard crate, it’s a genius twist on the legendary in-game disguise. It’s simple, strange, and absolutely brilliant, exactly what you didn’t know your collection was missing \n\nImportant : This 1st edition does not come with the famous bathtub",
       "variants": [
         {
           "size": "classic",
