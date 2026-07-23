@@ -46,9 +46,15 @@ window.Tubbz = (function () {
       }
       var meta = data.meta || {};
       var figurines = Array.isArray(data.figurines) ? data.figurines.slice() : [];
+      // Numéro → entier ; absent ou invalide = Infinity (rejeté en fin de franchise).
+      function numOf(v) { var n = parseInt(v, 10); return isNaN(n) ? Infinity : n; }
+      // Tri par défaut : franchise (alpha), puis numéro croissant (sans-numéro à la fin),
+      // puis nom (départage à numéro égal ou entre sans-numéro).
       figurines.sort(function (a, b) {
         var byFranchise = String(a.franchise || "").localeCompare(String(b.franchise || ""), "fr");
         if (byFranchise !== 0) return byFranchise;
+        var na = numOf(a.number), nb = numOf(b.number);
+        if (na !== nb) return na - nb;
         return String(a.name || "").localeCompare(String(b.name || ""), "fr");
       });
       resolve({ meta: meta, figurines: figurines });
