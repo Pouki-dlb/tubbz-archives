@@ -120,6 +120,12 @@ h1, h2, h3 { line-height: 1.2; }
 .brand-mark { font-size: 1.4em; }
 .brand-text strong { color: var(--accent-ink); }
 .header-actions { display: flex; gap: 8px; }
+/* Titre + slogan empilés en colonne à gauche : le slogan passe SOUS le titre.
+   Réduit → l'ensemble tient dans la hauteur existante du header (69px inchangés). */
+.brand-block { display: flex; flex-direction: column; gap: 0; line-height: 1.1; }
+.brand-block .brand { line-height: 1.1; }
+.brand-block .brand-mark { font-size: 1.2em; }
+.tagline { margin: 0; font-style: italic; color: var(--muted); font-size: .72rem; line-height: 1.1; white-space: nowrap; }
 
 .site-footer { margin-top: 40px; border-top: 1px solid var(--border); padding: 20px 0; font-size: .9rem; }
 .site-footer p { margin: .3em 0; }
