@@ -106,15 +106,19 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "back-to-the-future-biff-tannen-2015",
-      "name": "Biff Tannen 2015",
+      "id": "back-to-the-future-marty-mcfly",
+      "name": "Marty Mcfly",
       "franchise": "Back to the Future",
-      "number": "7",
-      "releaseYear": "2022",
+      "number": "1",
+      "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -136,45 +140,24 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "back-to-the-future-doc-brown-1955",
-      "name": "Doc Brown 1955",
+      "id": "back-to-the-future-marty-mcfly-anti-radiation-suit",
+      "name": "Marty Mcfly Anti-Radiation Suit",
       "franchise": "Back to the Future",
-      "number": "4",
+      "number": "3",
       "releaseYear": "2021",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "back-to-the-future-doc-brown-2015",
-      "name": "Doc Brown 2015",
+      "id": "back-to-the-future-doc-brown-1955",
+      "name": "Doc Brown 1955",
       "franchise": "Back to the Future",
-      "number": "6",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "back-to-the-future-marty-mcfly",
-      "name": "Marty Mcfly",
-      "franchise": "Back to the Future",
-      "number": "1",
-      "releaseYear": "2020",
+      "number": "4",
+      "releaseYear": "2021",
       "variants": [
         {
           "size": "classic",
@@ -204,33 +187,32 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "back-to-the-future-marty-mcfly-anti-radiation-suit",
-      "name": "Marty Mcfly Anti-Radiation Suit",
+      "id": "back-to-the-future-doc-brown-2015",
+      "name": "Doc Brown 2015",
       "franchise": "Back to the Future",
-      "number": "3",
-      "releaseYear": "2021",
+      "number": "6",
+      "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "bloodbath-horror-annabelle",
-      "name": "Annabelle",
-      "franchise": "Bloodbath / Horror",
+      "id": "back-to-the-future-biff-tannen-2015",
+      "name": "Biff Tannen 2015",
+      "franchise": "Back to the Future",
       "number": "7",
       "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
+          "packaging": "first-edition"
         }
       ]
     },
@@ -252,10 +234,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "bloodbath-horror-it-chapter-two-pennywise",
-      "name": "IT Chapter Two - Pennywise",
+      "id": "bloodbath-horror-the-exorcist-regan",
+      "name": "The Exorcist - Regan",
       "franchise": "Bloodbath / Horror",
-      "number": "3",
+      "number": "2",
       "releaseYear": "2020",
       "variants": [
         {
@@ -269,10 +251,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "bloodbath-horror-the-exorcist-regan",
-      "name": "The Exorcist - Regan",
+      "id": "bloodbath-horror-it-chapter-two-pennywise",
+      "name": "IT Chapter Two - Pennywise",
       "franchise": "Bloodbath / Horror",
-      "number": "2",
+      "number": "3",
       "releaseYear": "2020",
       "variants": [
         {
@@ -340,26 +322,30 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "borderlands-3-brick",
-      "name": "Brick",
-      "franchise": "Borderlands 3",
-      "number": "5",
-      "releaseYear": "2019",
-      "description": "Like Lilith, Brick is a veteran Vault Hunter who's always ready for a fight—though his opponents are typically knocked flat by a single punch. This cosplaying duck nails the look of Brick (occasionally codenamed \"Meatslab\"), from the scarred bill to the bolted-up knuckles on the feathered fists and even the commemorative paw he wears around his neck. This official Borderlands 3 collectable captures Brick's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box.",
+      "id": "bloodbath-horror-annabelle",
+      "name": "Annabelle",
+      "franchise": "Bloodbath / Horror",
+      "number": "7",
+      "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "borderlands-3-handsome-jack",
-      "name": "Handsome Jack",
+      "id": "borderlands-3-psycho",
+      "name": "Psycho",
       "franchise": "Borderlands 3",
-      "number": "10",
-      "releaseYear": "2020",
-      "description": "As the leader of the Hyperion corporation and dictator of Pandora, one should not underestimate Handsome Jack's notorious ways, despite being a transformed into a quacking duck! This official Borderlands 3 Handsome Jack collectable turns the series' most beloved antagonist into a cute, highly collectable duck figurine, complete with the series' signature cel-shaded effect and a collector's display box. This one of a kind collectable is a total must have for fans!",
+      "number": "1",
+      "releaseYear": "2019",
+      "description": "These psychotic outlaws are almost as obsessed with the Vault as they are with bread! This official Borderlands 3 Psycho collectible turns the series’ most infamous enemies into loveable cutesy duck figurines, complete with Borderlands’ unique cel-shaded effect. If you love Borderlands, this unique collector’s item is a must-have!",
       "variants": [
         {
           "size": "classic",
@@ -382,54 +368,12 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "borderlands-3-maya",
-      "name": "Maya",
-      "franchise": "Borderlands 3",
-      "number": "6",
-      "releaseYear": "2019",
-      "description": "Maya is a powerful Siren with a serious sense of style, so it's no wonder this duck is dressed up like the blue-haired Vault Hunter. This official Borderlands 3 collectable captures Maya's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box. Turns out that blue lipstick, long hair, and a futuristic hoodie all look pretty dang cool on a duck—who knew?",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "borderlands-3-mordecai",
-      "name": "Mordecai",
-      "franchise": "Borderlands 3",
-      "number": "9",
-      "releaseYear": "2020",
-      "description": "The Crimson Raider’s most iconic sharpshooter jumps headfirst into the pond, armed with his sniper rifle and trusty winged companion, Bloodwing! It would be a mistake to underestimate him even in his quacking form. This official Borderlands 3 Mordercai collectible turns the series’ most beloved Hunter into a cute, highly collectible duck figurine, complete with the series’ signature cel-shaded effect and a collector’s display box. This one of a kind collectible is a total must have for fans!",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "borderlands-3-moxxi",
       "name": "Moxxi",
       "franchise": "Borderlands 3",
       "number": "3",
       "releaseYear": "2019",
       "description": "Mad Moxxi has always been a bit quackers, but even we're surprised to see her in duck form! This official Borderlands 3 collectable turns everyone's favourite deathmatch hostess and bar owner into a loveable, cute collectable duck, complete with a collector's display box and visual style from the games. If you're a real Vault Haunter, you need this in your collection!",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "borderlands-3-psycho",
-      "name": "Psycho",
-      "franchise": "Borderlands 3",
-      "number": "1",
-      "releaseYear": "2019",
-      "description": "These psychotic outlaws are almost as obsessed with the Vault as they are with bread! This official Borderlands 3 Psycho collectible turns the series’ most infamous enemies into loveable cutesy duck figurines, complete with Borderlands’ unique cel-shaded effect. If you love Borderlands, this unique collector’s item is a must-have!",
       "variants": [
         {
           "size": "classic",
@@ -452,12 +396,26 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "borderlands-3-troy-calypso",
-      "name": "Troy Calypso",
+      "id": "borderlands-3-brick",
+      "name": "Brick",
       "franchise": "Borderlands 3",
-      "number": "8",
+      "number": "5",
       "releaseYear": "2019",
-      "description": "Troy Calypso is just as cruel and cocky as his twin sister Tyreen, but don't let that metal arm and sleek sword fool you—he's something of a parasite who depends on Tyreen's powers to survive. This official Borderlands 3 collectable captures Troy's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box. With its pond-ready cosplay of the only known male Siren in all of Borderlands, this Troy duck definitely deserves a spot in your collection.",
+      "description": "Like Lilith, Brick is a veteran Vault Hunter who's always ready for a fight—though his opponents are typically knocked flat by a single punch. This cosplaying duck nails the look of Brick (occasionally codenamed \"Meatslab\"), from the scarred bill to the bolted-up knuckles on the feathered fists and even the commemorative paw he wears around his neck. This official Borderlands 3 collectable captures Brick's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "borderlands-3-maya",
+      "name": "Maya",
+      "franchise": "Borderlands 3",
+      "number": "6",
+      "releaseYear": "2019",
+      "description": "Maya is a powerful Siren with a serious sense of style, so it's no wonder this duck is dressed up like the blue-haired Vault Hunter. This official Borderlands 3 collectable captures Maya's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box. Turns out that blue lipstick, long hair, and a futuristic hoodie all look pretty dang cool on a duck—who knew?",
       "variants": [
         {
           "size": "classic",
@@ -480,10 +438,53 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "borderlands-3-troy-calypso",
+      "name": "Troy Calypso",
+      "franchise": "Borderlands 3",
+      "number": "8",
+      "releaseYear": "2019",
+      "description": "Troy Calypso is just as cruel and cocky as his twin sister Tyreen, but don't let that metal arm and sleek sword fool you—he's something of a parasite who depends on Tyreen's powers to survive. This official Borderlands 3 collectable captures Troy's essence in a cute duck figurine, complete with the series' signature visual style and a collector's display box. With its pond-ready cosplay of the only known male Siren in all of Borderlands, this Troy duck definitely deserves a spot in your collection.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "borderlands-3-mordecai",
+      "name": "Mordecai",
+      "franchise": "Borderlands 3",
+      "number": "9",
+      "releaseYear": "2020",
+      "description": "The Crimson Raider’s most iconic sharpshooter jumps headfirst into the pond, armed with his sniper rifle and trusty winged companion, Bloodwing! It would be a mistake to underestimate him even in his quacking form. This official Borderlands 3 Mordercai collectible turns the series’ most beloved Hunter into a cute, highly collectible duck figurine, complete with the series’ signature cel-shaded effect and a collector’s display box. This one of a kind collectible is a total must have for fans!",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "borderlands-3-handsome-jack",
+      "name": "Handsome Jack",
+      "franchise": "Borderlands 3",
+      "number": "10",
+      "releaseYear": "2020",
+      "description": "As the leader of the Hyperion corporation and dictator of Pandora, one should not underestimate Handsome Jack's notorious ways, despite being a transformed into a quacking duck! This official Borderlands 3 Handsome Jack collectable turns the series' most beloved antagonist into a cute, highly collectable duck figurine, complete with the series' signature cel-shaded effect and a collector's display box. This one of a kind collectable is a total must have for fans!",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "carrie-carrie",
       "name": "Carrie",
       "franchise": "Carrie",
       "number": "1",
+      "description": "Welcome to the world of Carrie, the cosplaying collectible toy duck that's sure to intrigue horror fans! With her striking red hair and unique appearance, she's not your typical collectible. This quirky and slightly disturbed version of Carrie is inspired by the infamous character from the horror genre. Embrace the dark and unexpected as you add Carrie to your toy collection - a playful twist on a classic tale. Don't miss the chance to own this one-of-a-kind cosplaying toy duck, and indulge in the nostalgia of horror with a touch of humor.",
       "variants": [
         {
           "size": "classic",
@@ -509,19 +510,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "crash-bandicoot-coco-bandicoot",
-      "name": "Coco Bandicoot",
-      "franchise": "Crash Bandicoot",
-      "number": "3",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "crash-bandicoot-crash",
       "name": "Crash",
       "franchise": "Crash Bandicoot",
@@ -535,10 +523,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "crash-bandicoot-dr-n-gin",
-      "name": "Dr. N. Gin",
+      "id": "crash-bandicoot-dr-neo-cortex",
+      "name": "Dr. Neo Cortex",
       "franchise": "Crash Bandicoot",
-      "number": "4",
+      "number": "2",
       "releaseYear": "2019",
       "variants": [
         {
@@ -548,10 +536,23 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "crash-bandicoot-dr-neo-cortex",
-      "name": "Dr. Neo Cortex",
+      "id": "crash-bandicoot-coco-bandicoot",
+      "name": "Coco Bandicoot",
       "franchise": "Crash Bandicoot",
-      "number": "2",
+      "number": "3",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "crash-bandicoot-dr-n-gin",
+      "name": "Dr. N. Gin",
+      "franchise": "Crash Bandicoot",
+      "number": "4",
       "releaseYear": "2019",
       "variants": [
         {
@@ -595,19 +596,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "dc-comics-aquaman-aquaman",
-      "name": "Aquaman - Aquaman",
-      "franchise": "DC Comics",
-      "number": "2",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "dc-comics-batman",
       "name": "Batman",
       "franchise": "DC Comics",
@@ -625,35 +613,57 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "dc-comics-ww84-wonder-woman",
+      "name": "WW84 - Wonder Woman",
+      "franchise": "DC Comics",
+      "number": "1",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "dc-comics-aquaman-aquaman",
+      "name": "Aquaman - Aquaman",
+      "franchise": "DC Comics",
+      "number": "2",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "dc-comics-the-joker",
+      "name": "The Joker",
+      "franchise": "DC Comics",
+      "number": "2",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
       "id": "dc-comics-batman-the-dark-knight",
       "name": "Batman (The Dark Knight",
       "franchise": "DC Comics",
       "number": "3",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "dc-comics-catwoman",
-      "name": "Catwoman",
-      "franchise": "DC Comics",
-      "number": "6",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "dc-comics-green-lantern",
-      "name": "Green Lantern",
-      "franchise": "DC Comics",
-      "number": "8",
       "variants": [
         {
           "size": "classic",
@@ -691,10 +701,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "dc-comics-martian-manhunter",
-      "name": "Martian Manhunter",
+      "id": "dc-comics-robin",
+      "name": "Robin",
       "franchise": "DC Comics",
-      "number": "10",
+      "number": "4",
+      "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
@@ -703,11 +714,24 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "dc-comics-robin",
-      "name": "Robin",
+      "id": "dc-comics-two-face",
+      "name": "Two-Face",
       "franchise": "DC Comics",
-      "number": "4",
-      "releaseYear": "2020",
+      "number": "5",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "dc-comics-catwoman",
+      "name": "Catwoman",
+      "franchise": "DC Comics",
+      "number": "6",
+      "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
@@ -734,6 +758,18 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "dc-comics-green-lantern",
+      "name": "Green Lantern",
+      "franchise": "DC Comics",
+      "number": "8",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "dc-comics-the-flash",
       "name": "The Flash",
       "franchise": "DC Comics",
@@ -746,49 +782,14 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "dc-comics-the-joker",
-      "name": "The Joker",
+      "id": "dc-comics-martian-manhunter",
+      "name": "Martian Manhunter",
       "franchise": "DC Comics",
-      "number": "2",
-      "releaseYear": "2020",
+      "number": "10",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "dc-comics-two-face",
-      "name": "Two-Face",
-      "franchise": "DC Comics",
-      "number": "5",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "dc-comics-ww84-wonder-woman",
-      "name": "WW84 - Wonder Woman",
-      "franchise": "DC Comics",
-      "number": "1",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
         }
       ]
     },
@@ -823,36 +824,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "destiny-eris-morn",
-      "name": "Eris Morn",
-      "franchise": "Destiny",
-      "number": "4",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "destiny-ikora",
-      "name": "Ikora",
-      "franchise": "Destiny",
-      "number": "9",
-      "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "destiny-lord-shaxx",
       "name": "Lord Shaxx",
       "franchise": "Destiny",
@@ -870,24 +841,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "destiny-mara-sov",
-      "name": "Mara Sov",
+      "id": "destiny-sweeper-bot",
+      "name": "Sweeper Bot",
       "franchise": "Destiny",
-      "number": "10",
-      "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "destiny-saint-14",
-      "name": "Saint 14",
-      "franchise": "Destiny",
-      "number": "5",
-      "releaseYear": "2020",
+      "number": "3",
+      "releaseYear": "2019",
       "variants": [
         {
           "size": "classic",
@@ -900,24 +858,28 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "destiny-savathun",
-      "name": "Savathûn",
+      "id": "destiny-eris-morn",
+      "name": "Eris Morn",
       "franchise": "Destiny",
-      "number": "11",
-      "releaseYear": "2025",
+      "number": "4",
+      "releaseYear": "2019",
       "variants": [
         {
-          "size": "xl",
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
           "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "destiny-sweeper-bot",
-      "name": "Sweeper Bot",
+      "id": "destiny-saint-14",
+      "name": "Saint 14",
       "franchise": "Destiny",
-      "number": "3",
-      "releaseYear": "2019",
+      "number": "5",
+      "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
@@ -981,6 +943,45 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "destiny-ikora",
+      "name": "Ikora",
+      "franchise": "Destiny",
+      "number": "9",
+      "releaseYear": "2024",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "destiny-mara-sov",
+      "name": "Mara Sov",
+      "franchise": "Destiny",
+      "number": "10",
+      "releaseYear": "2024",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "destiny-savathun",
+      "name": "Savathûn",
+      "franchise": "Destiny",
+      "number": "11",
+      "releaseYear": "2025",
+      "variants": [
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
       "id": "dirty-dancing-frances-baby-houseman",
       "name": "Frances ‘Baby’ Houseman",
       "franchise": "Dirty Dancing",
@@ -1027,12 +1028,12 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "doom-eternal-hell-knight",
-      "name": "Hell Knight",
+      "id": "doom-eternal-imp",
+      "name": "IMP",
       "franchise": "Doom Eternal",
-      "number": "3",
+      "number": "2",
       "releaseYear": "2020",
-      "description": "Discover the Hell Knight, one of DOOM's most imposing demons, in this TUBBZ figure by Numskull Designs. Powerful, brutal, and built to crush his enemies, this infernal gladiator remains a threat even in the form of a collectible cosplay duck.\n\nWith its massive silhouette, devastating fists, and demonic appearance, this figurine perfectly captures the dark and violent intensity of the DOOM universe.",
+      "description": "Hey you, quack-lover! Discover the fantastic rubber duck, that's more than just a rubber duck. Think you've seen it all? Think again. Here comes the \"Doom - IMP Duck\", a seductively squeaking work of art. This squeaky duck is no ordinary squeaky duck.",
       "variants": [
         {
           "size": "classic",
@@ -1041,12 +1042,12 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "doom-eternal-imp",
-      "name": "IMP",
+      "id": "doom-eternal-hell-knight",
+      "name": "Hell Knight",
       "franchise": "Doom Eternal",
-      "number": "2",
+      "number": "3",
       "releaseYear": "2020",
-      "description": "Hey you, quack-lover! Discover the fantastic rubber duck, that's more than just a rubber duck. Think you've seen it all? Think again. Here comes the \"Doom - IMP Duck\", a seductively squeaking work of art. This squeaky duck is no ordinary squeaky duck.",
+      "description": "Discover the Hell Knight, one of DOOM's most imposing demons, in this TUBBZ figure by Numskull Designs. Powerful, brutal, and built to crush his enemies, this infernal gladiator remains a threat even in the form of a collectible cosplay duck.\n\nWith its massive silhouette, devastating fists, and demonic appearance, this figurine perfectly captures the dark and violent intensity of the DOOM universe.",
       "variants": [
         {
           "size": "classic",
@@ -1095,19 +1096,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "dr-seuss-cindy-lou-who",
-      "name": "Cindy Lou Who",
-      "franchise": "Dr. Seuss",
-      "number": "2",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "dr-seuss-the-grinch",
       "name": "The Grinch",
       "franchise": "Dr. Seuss",
@@ -1125,11 +1113,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "dr-seuss-the-grinch-book-santa-costume",
-      "name": "The Grinch (Book: Santa Costume)",
+      "id": "dr-seuss-cindy-lou-who",
+      "name": "Cindy Lou Who",
       "franchise": "Dr. Seuss",
-      "releaseYear": "2025",
-      "description": "Amazon Exclusive",
+      "number": "2",
+      "releaseYear": "2021",
       "variants": [
         {
           "size": "classic",
@@ -1151,10 +1139,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "dungeons-dragons-diana-the-acrobat",
-      "name": "Diana, the acrobat",
-      "franchise": "Dungeons & Dragons",
-      "number": "2",
+      "id": "dr-seuss-the-grinch-book-santa-costume",
+      "name": "The Grinch (Book: Santa Costume)",
+      "franchise": "Dr. Seuss",
+      "releaseYear": "2025",
+      "description": "Amazon Exclusive",
       "variants": [
         {
           "size": "classic",
@@ -1167,6 +1156,18 @@ window.TUBBZ_DATA = {
       "name": "Hank, the ranger",
       "franchise": "Dungeons & Dragons",
       "number": "1",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "dungeons-dragons-diana-the-acrobat",
+      "name": "Diana, the acrobat",
+      "franchise": "Dungeons & Dragons",
+      "number": "2",
       "variants": [
         {
           "size": "classic",
@@ -1194,64 +1195,6 @@ window.TUBBZ_DATA = {
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "fallout-nuka-cola-pin-up-girl",
-      "name": "Nuka Cola Pin UP Girl",
-      "franchise": "Fallout",
-      "number": "4",
-      "releaseYear": "2019",
-      "description": "Done with gracing the wasteland, Nuka Cola Girl is setting her sights on the duck pond instead. There’s no mistaking her in the rocket suit and helmet. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans\n\nIf you play Fallout, you can’t help but notice the Nuka Cola Pin Up Girl poster throughout the Commonwealth, Island, and Nuka World. This blonde bombshell wears a fitted spacesuit and carries a raygun called the Thirst Zapper.",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        },
-        {
-          "size": "mini",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "fallout-nuka-cola-t-51",
-      "name": "Nuka-Cola T-51",
-      "franchise": "Fallout",
-      "number": "3.1",
-      "releaseYear": "2023",
-      "description": "Check this out, what a suit! Nuka Cola T-51 is kitted out and ready to face the challenges of the post-apocalyptic wastelands and the duck pond. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.\n\nIf you’ve ever travelled through the Fallout universe, two items would be on your must-have list: the T-51 Armour and Nuka-Cola. Our TUBBZ duck brings together both of these essentials with Nuka-Cola-powered T-51 Armour. ",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "fallout-t-51",
-      "name": "T-51",
-      "franchise": "Fallout",
-      "number": "3",
-      "releaseYear": "2019",
-      "description": "Power Armor T-51's development is finally complete and West Tek’s work is done, T-51 is now a cosplaying duck. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.\n\nThe T-51 TUBBZ is an homage to the Fallout series’s most powerful, mechanised armour. Our quirky duck has donned this armour and is ready to take on any pond battle. ",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        },
-        {
-          "size": "mini",
           "packaging": "first-edition"
         }
       ]
@@ -1301,10 +1244,68 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "friends-chandler-bing",
-      "name": "Chandler Bing",
+      "id": "fallout-t-51",
+      "name": "T-51",
+      "franchise": "Fallout",
+      "number": "3",
+      "releaseYear": "2019",
+      "description": "Power Armor T-51's development is finally complete and West Tek’s work is done, T-51 is now a cosplaying duck. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.\n\nThe T-51 TUBBZ is an homage to the Fallout series’s most powerful, mechanised armour. Our quirky duck has donned this armour and is ready to take on any pond battle. ",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "fallout-nuka-cola-t-51",
+      "name": "Nuka-Cola T-51",
+      "franchise": "Fallout",
+      "number": "3.1",
+      "releaseYear": "2023",
+      "description": "Check this out, what a suit! Nuka Cola T-51 is kitted out and ready to face the challenges of the post-apocalyptic wastelands and the duck pond. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans.\n\nIf you’ve ever travelled through the Fallout universe, two items would be on your must-have list: the T-51 Armour and Nuka-Cola. Our TUBBZ duck brings together both of these essentials with Nuka-Cola-powered T-51 Armour. ",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "fallout-nuka-cola-pin-up-girl",
+      "name": "Nuka Cola Pin UP Girl",
+      "franchise": "Fallout",
+      "number": "4",
+      "releaseYear": "2019",
+      "description": "Done with gracing the wasteland, Nuka Cola Girl is setting her sights on the duck pond instead. There’s no mistaking her in the rocket suit and helmet. This officially licensed collectable toy is part of the TUBBZ range, a highly collectable series of your favourite gaming, movie, TV show, and pop culture characters in duck form! With incredibly detailed features, this is a must for fans\n\nIf you play Fallout, you can’t help but notice the Nuka Cola Pin Up Girl poster throughout the Commonwealth, Island, and Nuka World. This blonde bombshell wears a fitted spacesuit and carries a raygun called the Thirst Zapper.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "friends-rachel-green",
+      "name": "Rachel Green",
       "franchise": "Friends",
-      "number": "5",
+      "number": "1",
       "releaseYear": "2020",
       "variants": [
         {
@@ -1336,10 +1337,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "friends-monica-geller",
-      "name": "Monica Geller",
+      "id": "friends-ross-geller",
+      "name": "Ross Geller",
       "franchise": "Friends",
-      "number": "6",
+      "number": "3",
       "releaseYear": "2020",
       "variants": [
         {
@@ -1370,10 +1371,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "friends-rachel-green",
-      "name": "Rachel Green",
+      "id": "friends-chandler-bing",
+      "name": "Chandler Bing",
       "franchise": "Friends",
-      "number": "1",
+      "number": "5",
       "releaseYear": "2020",
       "variants": [
         {
@@ -1387,10 +1388,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "friends-ross-geller",
-      "name": "Ross Geller",
+      "id": "friends-monica-geller",
+      "name": "Monica Geller",
       "franchise": "Friends",
-      "number": "3",
+      "number": "6",
       "releaseYear": "2020",
       "variants": [
         {
@@ -1409,30 +1410,6 @@ window.TUBBZ_DATA = {
       "franchise": "Full Metal Jacket",
       "number": "3",
       "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "ghost-cardinal-copia",
-      "name": "Cardinal Copia",
-      "franchise": "Ghost",
-      "number": "8",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "ghost-papa-emeritus-i",
-      "name": "Papa Emeritus I",
-      "franchise": "Ghost",
-      "number": "11",
       "variants": [
         {
           "size": "classic",
@@ -1465,6 +1442,18 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "ghost-cardinal-copia",
+      "name": "Cardinal Copia",
+      "franchise": "Ghost",
+      "number": "8",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "ghost-papa-perpetua-v",
       "name": "Papa Perpetua V",
       "franchise": "Ghost",
@@ -1477,11 +1466,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "ghostbusters-dana-barrett",
-      "name": "Dana Barrett",
-      "franchise": "Ghostbusters",
+      "id": "ghost-papa-emeritus-i",
+      "name": "Papa Emeritus I",
+      "franchise": "Ghost",
       "number": "11",
-      "releaseYear": "2024",
       "variants": [
         {
           "size": "classic",
@@ -1507,46 +1495,19 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "ghostbusters-gozer",
-      "name": "Gozer",
+      "id": "ghostbusters-ray-stantz",
+      "name": "Ray Stantz",
       "franchise": "Ghostbusters",
-      "number": "9",
-      "releaseYear": "2024",
+      "number": "2",
+      "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "ghostbusters-janine-melnitz",
-      "name": "Janine Melnitz",
-      "franchise": "Ghostbusters",
-      "number": "7",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
         },
         {
           "size": "classic",
           "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "ghostbusters-louis-tully",
-      "name": "Louis Tully",
-      "franchise": "Ghostbusters",
-      "number": "12",
-      "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
         }
       ]
     },
@@ -1581,34 +1542,15 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "ghostbusters-ray-stantz",
-      "name": "Ray Stantz",
+      "id": "ghostbusters-winston-zeddemore",
+      "name": "Winston Zeddemore",
       "franchise": "Ghostbusters",
-      "number": "2",
+      "number": "4",
       "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "ghostbusters-slimer",
-      "name": "Slimer",
-      "franchise": "Ghostbusters",
-      "number": "6",
-      "releaseYear": "2022",
-      "description": "Glow in the Dark",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
         },
         {
           "size": "classic",
@@ -1649,6 +1591,43 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "ghostbusters-slimer",
+      "name": "Slimer",
+      "franchise": "Ghostbusters",
+      "number": "6",
+      "releaseYear": "2022",
+      "description": "Glow in the Dark",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "ghostbusters-janine-melnitz",
+      "name": "Janine Melnitz",
+      "franchise": "Ghostbusters",
+      "number": "7",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
       "id": "ghostbusters-stay-puft-giant",
       "name": "Stay Puft (Giant)",
       "franchise": "Ghostbusters",
@@ -1659,6 +1638,19 @@ window.TUBBZ_DATA = {
           "size": "xl",
           "packaging": "boxed",
           "limitedTo": 2000
+        }
+      ]
+    },
+    {
+      "id": "ghostbusters-gozer",
+      "name": "Gozer",
+      "franchise": "Ghostbusters",
+      "number": "9",
+      "releaseYear": "2024",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1676,27 +1668,24 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "ghostbusters-winston-zeddemore",
-      "name": "Winston Zeddemore",
+      "id": "ghostbusters-dana-barrett",
+      "name": "Dana Barrett",
       "franchise": "Ghostbusters",
-      "number": "4",
-      "releaseYear": "2020",
+      "number": "11",
+      "releaseYear": "2024",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "god-of-war-atreus",
-      "name": "Atreus",
-      "franchise": "God of War",
-      "number": "2",
+      "id": "ghostbusters-louis-tully",
+      "name": "Louis Tully",
+      "franchise": "Ghostbusters",
+      "number": "12",
+      "releaseYear": "2024",
       "variants": [
         {
           "size": "classic",
@@ -1717,9 +1706,9 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "god-of-war-ragnarok-atreus",
+      "id": "god-of-war-atreus",
       "name": "Atreus",
-      "franchise": "God of War Ragnarok",
+      "franchise": "God of War",
       "number": "2",
       "variants": [
         {
@@ -1733,6 +1722,18 @@ window.TUBBZ_DATA = {
       "name": "Kratos",
       "franchise": "God of War Ragnarok",
       "number": "1",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "god-of-war-ragnarok-atreus",
+      "name": "Atreus",
+      "franchise": "God of War Ragnarok",
+      "number": "2",
       "variants": [
         {
           "size": "classic",
@@ -1851,6 +1852,23 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "harry-potter-slytherin",
+      "name": "Slytherin",
+      "franchise": "Harry Potter",
+      "number": "2",
+      "releaseYear": "2026",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
       "id": "harry-potter-hufflepuff",
       "name": "Hufflepuff",
       "franchise": "Harry Potter",
@@ -1872,23 +1890,6 @@ window.TUBBZ_DATA = {
       "name": "Ravenclaw",
       "franchise": "Harry Potter",
       "number": "4",
-      "releaseYear": "2026",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "harry-potter-slytherin",
-      "name": "Slytherin",
-      "franchise": "Harry Potter",
-      "number": "2",
       "releaseYear": "2026",
       "variants": [
         {
@@ -1935,18 +1936,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "iron-maiden-cyborg-eddie",
-      "name": "Cyborg Eddie",
-      "franchise": "Iron Maiden",
-      "number": "4",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "iron-maiden-eddie-the-trooper",
       "name": "Eddie The Trooper",
       "franchise": "Iron Maiden",
@@ -1959,57 +1948,22 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "iron-maiden-cyborg-eddie",
+      "name": "Cyborg Eddie",
+      "franchise": "Iron Maiden",
+      "number": "4",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "jaws-bruce",
       "name": "Bruce",
       "franchise": "Jaws",
       "number": "1",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "jaws-bruce-xl",
-      "name": "Bruce (Giant XL Edition)",
-      "franchise": "Jaws",
-      "number": "5",
-      "releaseYear": "2023",
-      "variants": [
-        {
-          "size": "xl",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "jaws-chief-martin-brody",
-      "name": "Chief Martin Brody",
-      "franchise": "Jaws",
-      "number": "4",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "jaws-matt-hooper",
-      "name": "Matt Hooper",
-      "franchise": "Jaws",
-      "number": "3",
       "releaseYear": "2021",
       "variants": [
         {
@@ -2040,6 +1994,53 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "jaws-matt-hooper",
+      "name": "Matt Hooper",
+      "franchise": "Jaws",
+      "number": "3",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "jaws-chief-martin-brody",
+      "name": "Chief Martin Brody",
+      "franchise": "Jaws",
+      "number": "4",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "jaws-bruce-xl",
+      "name": "Bruce (Giant XL Edition)",
+      "franchise": "Jaws",
+      "number": "5",
+      "releaseYear": "2023",
+      "variants": [
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
       "id": "jet-set-radio-beat",
       "name": "Beat",
       "franchise": "Jet Set Radio",
@@ -2065,6 +2066,19 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "john-wick-john-wick-with-pencil",
+      "name": "John Wick (With Pencil)",
+      "franchise": "John Wick",
+      "number": "2",
+      "description": "Dome de la baignoire plastique cassé",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "john-wick-john-wick-with-book",
       "name": "John Wick (With Book)",
       "franchise": "John Wick",
@@ -2077,11 +2091,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "john-wick-john-wick-with-pencil",
-      "name": "John Wick (With Pencil)",
-      "franchise": "John Wick",
-      "number": "2",
-      "description": "Dome de la baignoire plastique cassé",
+      "id": "jujutsu-kaisen-yuji-itadori",
+      "name": "Yuji Itadori",
+      "franchise": "Jujutsu Kaisën",
+      "number": "1",
       "variants": [
         {
           "size": "classic",
@@ -2102,14 +2115,19 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "jujutsu-kaisen-yuji-itadori",
-      "name": "Yuji Itadori",
-      "franchise": "Jujutsu Kaisën",
+      "id": "jurassic-park-dr-john-hammond",
+      "name": "Dr. John Hammond",
+      "franchise": "Jurassic Park",
       "number": "1",
+      "releaseYear": "2021",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -2131,22 +2149,42 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "jurassic-park-dilophosaurus",
-      "name": "Dilophosaurus",
-      "franchise": "Jurassic Park",
-      "number": "9",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "jurassic-park-dr-alan-grant",
       "name": "Dr. Alan Grant",
       "franchise": "Jurassic Park",
       "number": "3",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "jurassic-park-t-rex-giant",
+      "name": "T-Rex (Giant)",
+      "franchise": "Jurassic Park",
+      "number": "4",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "xl",
+          "packaging": "boxed",
+          "limitedTo": 1000
+        }
+      ]
+    },
+    {
+      "id": "jurassic-park-dr-ian-malcolm",
+      "name": "Dr. Ian Malcolm",
+      "franchise": "Jurassic Park",
+      "number": "5",
       "releaseYear": "2022",
       "variants": [
         {
@@ -2179,45 +2217,34 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "jurassic-park-dr-ian-malcolm",
-      "name": "Dr. Ian Malcolm",
-      "franchise": "Jurassic Park",
-      "number": "5",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "jurassic-park-dr-john-hammond",
-      "name": "Dr. John Hammond",
-      "franchise": "Jurassic Park",
-      "number": "1",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
       "id": "jurassic-park-robert-muldoon",
       "name": "Robert Muldoon",
       "franchise": "Jurassic Park",
       "number": "7",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "jurassic-park-velociraptor",
+      "name": "Velociraptor",
+      "franchise": "Jurassic Park",
+      "number": "8",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "jurassic-park-dilophosaurus",
+      "name": "Dilophosaurus",
+      "franchise": "Jurassic Park",
+      "number": "9",
       "variants": [
         {
           "size": "classic",
@@ -2238,36 +2265,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "jurassic-park-t-rex-giant",
-      "name": "T-Rex (Giant)",
-      "franchise": "Jurassic Park",
-      "number": "4",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "xl",
-          "packaging": "boxed",
-          "limitedTo": 1000
-        }
-      ]
-    },
-    {
-      "id": "jurassic-park-velociraptor",
-      "name": "Velociraptor",
-      "franchise": "Jurassic Park",
-      "number": "8",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "jurassic-world-blue",
-      "name": "Blue",
+      "id": "jurassic-world-owen-grady",
+      "name": "Owen Grady",
       "franchise": "Jurassic World",
-      "number": "14",
+      "number": "11",
       "variants": [
         {
           "size": "classic",
@@ -2300,10 +2301,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "jurassic-world-owen-grady",
-      "name": "Owen Grady",
+      "id": "jurassic-world-blue",
+      "name": "Blue",
       "franchise": "Jurassic World",
-      "number": "11",
+      "number": "14",
       "variants": [
         {
           "size": "classic",
@@ -2325,10 +2326,163 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "lord-of-the-rings-frodo-baggins",
+      "name": "Frodo Baggins",
+      "franchise": "Lord of the Rings",
+      "number": "1",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-gandalf-the-grey",
+      "name": "Gandalf The Grey",
+      "franchise": "Lord of the Rings",
+      "number": "2",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-sauron",
+      "name": "Sauron",
+      "franchise": "Lord of the Rings",
+      "number": "3",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-legolas",
+      "name": "Legolas",
+      "franchise": "Lord of the Rings",
+      "number": "4",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-gimli",
+      "name": "Gimli",
+      "franchise": "Lord of the Rings",
+      "number": "5",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-galadriel",
+      "name": "Galadriel",
+      "franchise": "Lord of the Rings",
+      "number": "6",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
       "id": "lord-of-the-rings-aragorn",
       "name": "Aragorn",
       "franchise": "Lord of the Rings",
       "number": "7",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-lurtz",
+      "name": "Lurtz",
+      "franchise": "Lord of the Rings",
+      "number": "8",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-saruman",
+      "name": "Saruman",
+      "franchise": "Lord of the Rings",
+      "number": "9",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-samwise-gamgee",
+      "name": "Samwise Gamgee",
+      "franchise": "Lord of the Rings",
+      "number": "10",
       "releaseYear": "2021",
       "variants": [
         {
@@ -2359,149 +2513,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "lord-of-the-rings-balrog",
-      "name": "Balrog",
-      "franchise": "Lord of the Rings",
-      "number": "19",
-      "releaseYear": "2023",
-      "variants": [
-        {
-          "size": "xl",
-          "packaging": "boxed",
-          "limitedTo": 2000
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-boromir",
-      "name": "Boromir",
-      "franchise": "Lord of the Rings",
-      "number": "13",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-eowyn",
-      "name": "Eowyn",
-      "franchise": "Lord of the Rings",
-      "number": "22",
-      "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-frodo-baggins",
-      "name": "Frodo Baggins",
-      "franchise": "Lord of the Rings",
-      "number": "1",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-galadriel",
-      "name": "Galadriel",
-      "franchise": "Lord of the Rings",
-      "number": "6",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-gandalf-ysnp",
-      "name": "Gandalf (YSNP)",
-      "franchise": "Lord of the Rings",
-      "number": "20",
-      "releaseYear": "2023",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-gandalf-the-grey",
-      "name": "Gandalf The Grey",
-      "franchise": "Lord of the Rings",
-      "number": "2",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-gandalf-the-white",
-      "name": "Gandalf The White",
-      "franchise": "Lord of the Rings",
-      "number": "16",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-gimli",
-      "name": "Gimli",
-      "franchise": "Lord of the Rings",
-      "number": "5",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
       "id": "lord-of-the-rings-gollum",
       "name": "Gollum",
       "franchise": "Lord of the Rings",
@@ -2519,27 +2530,36 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "lord-of-the-rings-legolas",
-      "name": "Legolas",
+      "id": "lord-of-the-rings-boromir",
+      "name": "Boromir",
       "franchise": "Lord of the Rings",
-      "number": "4",
-      "releaseYear": "2019",
+      "number": "13",
+      "releaseYear": "2021",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "lord-of-the-rings-lurtz",
-      "name": "Lurtz",
+      "id": "lord-of-the-rings-uruk-hai",
+      "name": "Uruk-Hai",
       "franchise": "Lord of the Rings",
-      "number": "8",
+      "number": "14",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "lord-of-the-rings-nazgul",
+      "name": "Nazgûl",
+      "franchise": "Lord of the Rings",
+      "number": "15",
       "releaseYear": "2021",
       "variants": [
         {
@@ -2553,28 +2573,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "lord-of-the-rings-merry-brandybuck",
-      "name": "Merry Brandybuck",
+      "id": "lord-of-the-rings-gandalf-the-white",
+      "name": "Gandalf The White",
       "franchise": "Lord of the Rings",
-      "number": "18",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "lord-of-the-rings-nazgul",
-      "name": "Nazgûl",
-      "franchise": "Lord of the Rings",
-      "number": "15",
+      "number": "16",
       "releaseYear": "2021",
       "variants": [
         {
@@ -2606,15 +2608,16 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "lord-of-the-rings-samwise-gamgee",
-      "name": "Samwise Gamgee",
+      "id": "lord-of-the-rings-merry-brandybuck",
+      "name": "Merry Brandybuck",
       "franchise": "Lord of the Rings",
-      "number": "10",
-      "releaseYear": "2021",
+      "number": "18",
+      "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
+          "packaging": "first-edition",
+          "limitedTo": 3000
         },
         {
           "size": "classic",
@@ -2623,32 +2626,30 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "lord-of-the-rings-saruman",
-      "name": "Saruman",
+      "id": "lord-of-the-rings-balrog",
+      "name": "Balrog",
       "franchise": "Lord of the Rings",
-      "number": "9",
-      "releaseYear": "2021",
+      "number": "19",
+      "releaseYear": "2023",
       "variants": [
         {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
+          "size": "xl",
+          "packaging": "boxed",
+          "limitedTo": 2000
         }
       ]
     },
     {
-      "id": "lord-of-the-rings-sauron",
-      "name": "Sauron",
+      "id": "lord-of-the-rings-gandalf-ysnp",
+      "name": "Gandalf (YSNP)",
       "franchise": "Lord of the Rings",
-      "number": "3",
-      "releaseYear": "2019",
+      "number": "20",
+      "releaseYear": "2023",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
+          "packaging": "first-edition",
+          "limitedTo": 3000
         },
         {
           "size": "classic",
@@ -2671,11 +2672,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "lord-of-the-rings-uruk-hai",
-      "name": "Uruk-Hai",
+      "id": "lord-of-the-rings-eowyn",
+      "name": "Eowyn",
       "franchise": "Lord of the Rings",
-      "number": "14",
-      "releaseYear": "2021",
+      "number": "22",
+      "releaseYear": "2024",
       "variants": [
         {
           "size": "classic",
@@ -2684,21 +2685,46 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "metal-gear-solid-dr-hal-otacon-emmerich",
-      "name": "Dr. Hal Otacon Emmerich",
+      "id": "metal-gear-solid-solid-snake",
+      "name": "Solid Snake",
       "franchise": "Metal Gear Solid",
-      "number": "5",
-      "releaseYear": "2023",
-      "description": "Dr. Hal Emmerich aka \"Otacon\" is a brilliant engineer specialising in robotics and computer science - even as a cosplaying duck he’s able to assist Solid Snake and other Metal Gear Solid protagonists by providing them with his technical expertise and valuable intel. This one of a kind collectible is great for fans of the series to stock up on. Coming in a Metal Gear Solid branded box, this one-of-a-kind collectible toy is great for fans of the series to stock up on. ",
+      "number": "1",
+      "releaseYear": "2020",
+      "description": "Make the Impossible Possible With A Solid Snake TUBBZ!\n\nAre you ready to make friends with a special operation soldier and mercenary known for his marksmanship? Solid Snake can now be part of your gang as an adorable and unique rubber duck toy. Solid Snake TUBBZ is a tribute to one of the greatest heroes of the gaming world. ",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
+          "packaging": "first-edition"
         },
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "metal-gear-solid-revolver-ocelot",
+      "name": "Revolver Ocelot",
+      "franchise": "Metal Gear Solid",
+      "number": "2",
+      "releaseYear": "2020",
+      "description": "Revolver Ocelot has adopted various identities to further his goals in the Metal Gear Solid series but no-one expected him to be a cosplaying duck! With a history of working as a triple agent, the other TUBBZ should be wary of trusting him too much. This one of a kind collectible is great for fans of the series to stock up on.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2747,16 +2773,21 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "metal-gear-solid-naked-snake-mgs3",
-      "name": "Naked Snake (MGS3)",
+      "id": "metal-gear-solid-dr-hal-otacon-emmerich",
+      "name": "Dr. Hal Otacon Emmerich",
       "franchise": "Metal Gear Solid",
-      "number": "7",
-      "releaseYear": "2025",
-      "description": "Go tactical with the Naked Snake TUBBZ. A stealthy tribute to the legendary soldier from Metal Gear Solid 3: Snake Eater. With his iconic sneaking suit, bandana, and steely expression, this cosplaying duck channels Snake’s survival instincts and battlefield grit, all in TUBBZ’s unmistakable style. A must-have for any operative’s shelf.",
+      "number": "5",
+      "releaseYear": "2023",
+      "description": "Dr. Hal Emmerich aka \"Otacon\" is a brilliant engineer specialising in robotics and computer science - even as a cosplaying duck he’s able to assist Solid Snake and other Metal Gear Solid protagonists by providing them with his technical expertise and valuable intel. This one of a kind collectible is great for fans of the series to stock up on. Coming in a Metal Gear Solid branded box, this one-of-a-kind collectible toy is great for fans of the series to stock up on. ",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -2780,58 +2811,15 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "metal-gear-solid-revolver-ocelot",
-      "name": "Revolver Ocelot",
+      "id": "metal-gear-solid-naked-snake-mgs3",
+      "name": "Naked Snake (MGS3)",
       "franchise": "Metal Gear Solid",
-      "number": "2",
-      "releaseYear": "2020",
-      "description": "Revolver Ocelot has adopted various identities to further his goals in the Metal Gear Solid series but no-one expected him to be a cosplaying duck! With a history of working as a triple agent, the other TUBBZ should be wary of trusting him too much. This one of a kind collectible is great for fans of the series to stock up on.",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        },
-        {
-          "size": "mini",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "metal-gear-solid-solid-snake-translucent",
-      "name": "Solid Snake",
-      "franchise": "Metal Gear Solid",
+      "number": "7",
       "releaseYear": "2025",
-      "description": "This Stealth Camo Solid Snake duck figure is a must-have for fans of Metal Gear Solid merchandise and pop culture collectibles.\n\nOnly sold on Amazon, limited edition rare collectible, perfect for collectors and MGS fans.",
+      "description": "Go tactical with the Naked Snake TUBBZ. A stealthy tribute to the legendary soldier from Metal Gear Solid 3: Snake Eater. With his iconic sneaking suit, bandana, and steely expression, this cosplaying duck channels Snake’s survival instincts and battlefield grit, all in TUBBZ’s unmistakable style. A must-have for any operative’s shelf.",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "metal-gear-solid-solid-snake",
-      "name": "Solid Snake",
-      "franchise": "Metal Gear Solid",
-      "number": "1",
-      "releaseYear": "2020",
-      "description": "Make the Impossible Possible With A Solid Snake TUBBZ!\n\nAre you ready to make friends with a special operation soldier and mercenary known for his marksmanship? Solid Snake can now be part of your gang as an adorable and unique rubber duck toy. Solid Snake TUBBZ is a tribute to one of the greatest heroes of the gaming world. ",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        },
-        {
-          "size": "mini",
           "packaging": "first-edition"
         }
       ]
@@ -2843,6 +2831,19 @@ window.TUBBZ_DATA = {
       "number": "8",
       "releaseYear": "2025",
       "description": "Command respect with The Boss TUBBZ. A powerful homage to the fearless mentor and warrior of MGS3. Reimagined as a TUBBZ duck with her white sneaking suit and composed strength, she’s every bit the legendary soldier, redefined with a ducky twist. Loyal to the mission and bold on display.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "metal-gear-solid-solid-snake-translucent",
+      "name": "Solid Snake",
+      "franchise": "Metal Gear Solid",
+      "releaseYear": "2025",
+      "description": "This Stealth Camo Solid Snake duck figure is a must-have for fans of Metal Gear Solid merchandise and pop culture collectibles.\n\nOnly sold on Amazon, limited edition rare collectible, perfect for collectors and MGS fans.",
       "variants": [
         {
           "size": "classic",
@@ -2864,34 +2865,22 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "minecraft-creeper",
-      "name": "Creeper",
-      "franchise": "Minecraft",
-      "number": "2",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "minecraft-skeleton",
-      "name": "Skeleton",
-      "franchise": "Minecraft",
-      "number": "4",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "minecraft-steve",
       "name": "Steve",
       "franchise": "Minecraft",
       "number": "1",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "minecraft-creeper",
+      "name": "Creeper",
+      "franchise": "Minecraft",
+      "number": "2",
       "variants": [
         {
           "size": "classic",
@@ -2912,10 +2901,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "motorhead-lemmy",
-      "name": "Lemmy",
-      "franchise": "Motörhead",
-      "number": "1",
+      "id": "minecraft-skeleton",
+      "name": "Skeleton",
+      "franchise": "Minecraft",
+      "number": "4",
       "variants": [
         {
           "size": "classic",
@@ -2924,10 +2913,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "my-hero-academina-all-might",
-      "name": "All Might",
-      "franchise": "My Hero Academina",
-      "number": "3",
+      "id": "motorhead-lemmy",
+      "name": "Lemmy",
+      "franchise": "Motörhead",
+      "number": "1",
       "variants": [
         {
           "size": "classic",
@@ -2960,6 +2949,30 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "my-hero-academina-all-might",
+      "name": "All Might",
+      "franchise": "My Hero Academina",
+      "number": "3",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "my-hero-academina-shoto-todorok",
+      "name": "Shoto Todorok",
+      "franchise": "My Hero Academina",
+      "number": "4",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "my-hero-academina-ochaco-uraraka",
       "name": "Ochaco Uraraka",
       "franchise": "My Hero Academina",
@@ -2976,18 +2989,6 @@ window.TUBBZ_DATA = {
       "name": "Shota Aizawa",
       "franchise": "My Hero Academina",
       "number": "6",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "my-hero-academina-shoto-todorok",
-      "name": "Shoto Todorok",
-      "franchise": "My Hero Academina",
-      "number": "4",
       "variants": [
         {
           "size": "classic",
@@ -3032,10 +3033,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "power-rangers-black-ranger",
-      "name": "Black Ranger",
+      "id": "power-rangers-red-ranger",
+      "name": "Red Ranger",
       "franchise": "Power Rangers",
-      "number": "5",
+      "number": "1",
       "variants": [
         {
           "size": "classic",
@@ -3068,18 +3069,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "power-rangers-red-ranger",
-      "name": "Red Ranger",
-      "franchise": "Power Rangers",
-      "number": "1",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "power-rangers-yellow-ranger",
       "name": "Yellow Ranger",
       "franchise": "Power Rangers",
@@ -3092,40 +3081,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "reservoir-dogs-mr-blonde",
-      "name": "Mr. Blonde",
-      "franchise": "Reservoir Dogs",
-      "number": "3",
-      "releaseYear": "2025",
-      "description": "‘Are you gonna quack all day little ducky?’\n\nThe unpredictable and menacing Mr. Blonde has arrived as a cosplaying duck with attitude! This TUBBZ recreates the Reservoir Dogs character's iconic look from the film, featuring a razor in one hand, and severed ear in the other!",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "reservoir-dogs-mr-orange",
-      "name": "Mr. Orange",
-      "franchise": "Reservoir Dogs",
-      "number": "2",
-      "releaseYear": "2025",
-      "description": "Dressed in his signature black suit and tie, along with blood-stained white shirt and gunshot wound, the Mr. Orange TUBBZ perfectly captures the tension and drama of Tarantino’s classic crime thriller, Reservoir Dogs",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "reservoir-dogs-mr-pink",
-      "name": "Mr. Pink",
-      "franchise": "Reservoir Dogs",
-      "number": "4",
-      "releaseYear": "2025",
-      "description": "The fast-talking, non-tipper, Mr. Pink, has arrived in the duck pond as a TUBBZ. Sporting a sarcastic, questioning expression, with gun in one hand and briefcase by his side, this cosplaying collectible brings the style and grit of Quentin Tarantino's seminal crime caper to your TUBBZ collection.",
+      "id": "power-rangers-black-ranger",
+      "name": "Black Ranger",
+      "franchise": "Power Rangers",
+      "number": "5",
       "variants": [
         {
           "size": "classic",
@@ -3148,61 +3107,52 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "resident-evil-ada-wong",
-      "name": "Ada Wong",
-      "franchise": "Resident Evil",
-      "number": "6",
-      "releaseYear": "2021",
+      "id": "reservoir-dogs-mr-orange",
+      "name": "Mr. Orange",
+      "franchise": "Reservoir Dogs",
+      "number": "2",
+      "releaseYear": "2025",
+      "description": "Dressed in his signature black suit and tie, along with blood-stained white shirt and gunshot wound, the Mr. Orange TUBBZ perfectly captures the tension and drama of Tarantino’s classic crime thriller, Reservoir Dogs",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "resident-evil-chris-redfield",
-      "name": "Chris Redfield",
-      "franchise": "Resident Evil",
+      "id": "reservoir-dogs-mr-blonde",
+      "name": "Mr. Blonde",
+      "franchise": "Reservoir Dogs",
       "number": "3",
-      "releaseYear": "2020",
+      "releaseYear": "2025",
+      "description": "‘Are you gonna quack all day little ducky?’\n\nThe unpredictable and menacing Mr. Blonde has arrived as a cosplaying duck with attitude! This TUBBZ recreates the Reservoir Dogs character's iconic look from the film, featuring a razor in one hand, and severed ear in the other!",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "resident-evil-claire-redfield",
-      "name": "Claire Redfield",
-      "franchise": "Resident Evil",
+      "id": "reservoir-dogs-mr-pink",
+      "name": "Mr. Pink",
+      "franchise": "Reservoir Dogs",
       "number": "4",
-      "releaseYear": "2020",
+      "releaseYear": "2025",
+      "description": "The fast-talking, non-tipper, Mr. Pink, has arrived in the duck pond as a TUBBZ. Sporting a sarcastic, questioning expression, with gun in one hand and briefcase by his side, this cosplaying collectible brings the style and grit of Quentin Tarantino's seminal crime caper to your TUBBZ collection.",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "resident-evil-hunk",
-      "name": "Hunk",
+      "id": "resident-evil-tofu",
+      "name": "Tofu",
       "franchise": "Resident Evil",
-      "number": "7",
+      "number": "0",
       "releaseYear": "2021",
       "variants": [
         {
@@ -3250,17 +3200,32 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "resident-evil-mr-x",
-      "name": "Mr X",
+      "id": "resident-evil-chris-redfield",
+      "name": "Chris Redfield",
       "franchise": "Resident Evil",
-      "number": "9",
-      "releaseYear": "2022",
-      "description": "Removable Hat",
+      "number": "3",
+      "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-claire-redfield",
+      "name": "Claire Redfield",
+      "franchise": "Resident Evil",
+      "number": "4",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
         },
         {
           "size": "classic",
@@ -3273,6 +3238,40 @@ window.TUBBZ_DATA = {
       "name": "Nemesis",
       "franchise": "Resident Evil",
       "number": "5",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-ada-wong",
+      "name": "Ada Wong",
+      "franchise": "Resident Evil",
+      "number": "6",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "resident-evil-hunk",
+      "name": "Hunk",
+      "franchise": "Resident Evil",
+      "number": "7",
       "releaseYear": "2021",
       "variants": [
         {
@@ -3303,15 +3302,17 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "resident-evil-tofu",
-      "name": "Tofu",
+      "id": "resident-evil-mr-x",
+      "name": "Mr X",
       "franchise": "Resident Evil",
-      "number": "0",
-      "releaseYear": "2021",
+      "number": "9",
+      "releaseYear": "2022",
+      "description": "Removable Hat",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
+          "packaging": "first-edition",
+          "limitedTo": 3000
         },
         {
           "size": "classic",
@@ -3338,10 +3339,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "rocky-apollo-creed",
-      "name": "Apollo Creed",
+      "id": "rocky-rocky-balboa",
+      "name": "Rocky Balboa",
       "franchise": "Rocky",
-      "number": "2",
+      "number": "1",
       "releaseYear": "2021",
       "variants": [
         {
@@ -3351,10 +3352,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "rocky-rocky-balboa",
-      "name": "Rocky Balboa",
+      "id": "rocky-apollo-creed",
+      "name": "Apollo Creed",
       "franchise": "Rocky",
-      "number": "1",
+      "number": "2",
       "releaseYear": "2021",
       "variants": [
         {
@@ -3369,6 +3370,18 @@ window.TUBBZ_DATA = {
       "franchise": "Shenmue",
       "number": "1",
       "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "shrek-shrek",
+      "name": "Shrek",
+      "franchise": "Shrek",
+      "number": "1",
       "variants": [
         {
           "size": "classic",
@@ -3405,18 +3418,6 @@ window.TUBBZ_DATA = {
       "name": "Lord Farquaad",
       "franchise": "Shrek",
       "number": "4",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "shrek-shrek",
-      "name": "Shrek",
-      "franchise": "Shrek",
-      "number": "1",
       "variants": [
         {
           "size": "classic",
@@ -3483,23 +3484,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "skyrim-alduin",
-      "name": "Alduin",
-      "franchise": "Skyrim",
-      "number": "2",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
       "id": "skyrim-dovahkiin",
       "name": "Dovahkiin",
       "franchise": "Skyrim",
@@ -3530,10 +3514,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "skyrim-jarl-balgruuf",
-      "name": "Jarl Balgruuf",
+      "id": "skyrim-alduin",
+      "name": "Alduin",
       "franchise": "Skyrim",
-      "number": "4",
+      "number": "2",
       "releaseYear": "2019",
       "variants": [
         {
@@ -3564,16 +3548,32 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "sonic-the-hedgehog-amy-rose",
-      "name": "Amy Rose",
-      "franchise": "Sonic the Hedgehog",
-      "number": "7",
-      "releaseYear": "2022",
+      "id": "skyrim-jarl-balgruuf",
+      "name": "Jarl Balgruuf",
+      "franchise": "Skyrim",
+      "number": "4",
+      "releaseYear": "2019",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "sonic-the-hedgehog-sonic-the-hedgehog",
+      "name": "Sonic the Hedgehog",
+      "franchise": "Sonic the Hedgehog",
+      "number": "1",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
         },
         {
           "size": "classic",
@@ -3599,47 +3599,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "sonic-the-hedgehog-espio-the-chameleon",
-      "name": "Espio the Chameleon",
-      "franchise": "Sonic the Hedgehog",
-      "number": "9",
-      "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "sonic-the-hedgehog-knuckles-the-echidna",
-      "name": "Knuckles The Echidna",
-      "franchise": "Sonic the Hedgehog",
-      "number": "4",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "sonic-the-hedgehog-metal-sonic",
-      "name": "Metal Sonic",
-      "franchise": "Sonic the Hedgehog",
-      "number": "8",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "sonic-the-hedgehog-miles-tails-prower",
       "name": "Miles \"Tails\" Prower",
       "franchise": "Sonic the Hedgehog",
@@ -3656,55 +3615,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "sonic-the-hedgehog-rouge-the-bat",
-      "name": "Rouge the Bat",
+      "id": "sonic-the-hedgehog-knuckles-the-echidna",
+      "name": "Knuckles The Echidna",
       "franchise": "Sonic the Hedgehog",
-      "number": "10",
-      "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "sonic-the-hedgehog-shadow-the-hedgehog",
-      "name": "Shadow The Hedgehog",
-      "franchise": "Sonic the Hedgehog",
-      "number": "6",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "sonic-the-hedgehog-silver-the-hedgehog",
-      "name": "Silver the Hedgehog",
-      "franchise": "Sonic the Hedgehog",
-      "number": "11",
-      "releaseYear": "2024",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "sonic-the-hedgehog-sonic-the-hedgehog",
-      "name": "Sonic the Hedgehog",
-      "franchise": "Sonic the Hedgehog",
-      "number": "1",
-      "releaseYear": "2020",
+      "number": "4",
       "variants": [
         {
           "size": "classic",
@@ -3729,6 +3643,119 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "sonic-the-hedgehog-shadow-the-hedgehog",
+      "name": "Shadow The Hedgehog",
+      "franchise": "Sonic the Hedgehog",
+      "number": "6",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "sonic-the-hedgehog-amy-rose",
+      "name": "Amy Rose",
+      "franchise": "Sonic the Hedgehog",
+      "number": "7",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition",
+          "limitedTo": 3000
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "sonic-the-hedgehog-metal-sonic",
+      "name": "Metal Sonic",
+      "franchise": "Sonic the Hedgehog",
+      "number": "8",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "sonic-the-hedgehog-espio-the-chameleon",
+      "name": "Espio the Chameleon",
+      "franchise": "Sonic the Hedgehog",
+      "number": "9",
+      "releaseYear": "2024",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "sonic-the-hedgehog-rouge-the-bat",
+      "name": "Rouge the Bat",
+      "franchise": "Sonic the Hedgehog",
+      "number": "10",
+      "releaseYear": "2024",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "sonic-the-hedgehog-silver-the-hedgehog",
+      "name": "Silver the Hedgehog",
+      "franchise": "Sonic the Hedgehog",
+      "number": "11",
+      "releaseYear": "2024",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "spyro-the-dragon-spyro",
+      "name": "Spyro",
+      "franchise": "Spyro the Dragon",
+      "number": "1",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "spyro-the-dragon-ripto",
+      "name": "Ripto",
+      "franchise": "Spyro the Dragon",
+      "number": "2",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3759,115 +3786,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "spyro-the-dragon-ripto",
-      "name": "Ripto",
-      "franchise": "Spyro the Dragon",
-      "number": "2",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "spyro-the-dragon-spyro",
-      "name": "Spyro",
-      "franchise": "Spyro the Dragon",
-      "number": "1",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "star-trek-benjamin-sisko",
-      "name": "Benjamin Sisko",
-      "franchise": "Star Trek",
-      "number": "18",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "star-trek-borg",
-      "name": "Borg",
-      "franchise": "Star Trek",
-      "number": "9",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "star-trek-data",
-      "name": "Data",
-      "franchise": "Star Trek",
-      "number": "14",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "star-trek-deanna-troi",
-      "name": "Deanna Troi",
-      "franchise": "Star Trek",
-      "number": "8",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "star-trek-geordi-la-forge",
-      "name": "Geordi La Forge",
-      "franchise": "Star Trek",
-      "number": "7",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
       "id": "star-trek-james-t-kirk",
       "name": "James T. Kirk",
       "franchise": "Star Trek",
@@ -3885,11 +3803,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "star-trek-jean-luc-picard",
-      "name": "Jean-Luc Picard",
+      "id": "star-trek-spock",
+      "name": "Spock",
       "franchise": "Star Trek",
-      "number": "5",
-      "releaseYear": "2021",
+      "number": "2",
+      "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
@@ -3898,50 +3816,6 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "star-trek-kathryn-janeway",
-      "name": "Kathryn Janeway",
-      "franchise": "Star Trek",
-      "number": "16",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "star-trek-khan-noonien-singh",
-      "name": "Khan Noonien Singh",
-      "franchise": "Star Trek",
-      "number": "13",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
-        }
-      ]
-    },
-    {
-      "id": "star-trek-klingon",
-      "name": "Klingon",
-      "franchise": "Star Trek",
-      "number": "12",
-      "releaseYear": "2022",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition",
-          "limitedTo": 3000
         }
       ]
     },
@@ -3980,10 +3854,78 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "star-trek-q",
-      "name": "Q",
+      "id": "star-trek-jean-luc-picard",
+      "name": "Jean-Luc Picard",
       "franchise": "Star Trek",
-      "number": "10",
+      "number": "5",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "star-trek-worf",
+      "name": "Worf",
+      "franchise": "Star Trek",
+      "number": "6",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "star-trek-geordi-la-forge",
+      "name": "Geordi La Forge",
+      "franchise": "Star Trek",
+      "number": "7",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "star-trek-deanna-troi",
+      "name": "Deanna Troi",
+      "franchise": "Star Trek",
+      "number": "8",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "star-trek-borg",
+      "name": "Borg",
+      "franchise": "Star Trek",
+      "number": "9",
       "releaseYear": "2022",
       "variants": [
         {
@@ -3997,10 +3939,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "star-trek-quark",
-      "name": "Quark",
+      "id": "star-trek-q",
+      "name": "Q",
       "franchise": "Star Trek",
-      "number": "20",
+      "number": "10",
+      "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
@@ -4031,43 +3974,38 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "star-trek-seven-of-nine",
-      "name": "Seven of Nine",
+      "id": "star-trek-klingon",
+      "name": "Klingon",
       "franchise": "Star Trek",
-      "number": "17",
+      "number": "12",
+      "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
+          "packaging": "first-edition",
+          "limitedTo": 3000
         }
       ]
     },
     {
-      "id": "star-trek-spock",
-      "name": "Spock",
+      "id": "star-trek-khan-noonien-singh",
+      "name": "Khan Noonien Singh",
       "franchise": "Star Trek",
-      "number": "2",
-      "releaseYear": "2020",
+      "number": "13",
+      "releaseYear": "2022",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
+          "packaging": "first-edition",
+          "limitedTo": 3000
         }
       ]
     },
     {
-      "id": "star-trek-the-doctor",
-      "name": "The Doctor",
+      "id": "star-trek-data",
+      "name": "Data",
       "franchise": "Star Trek",
-      "number": "19",
+      "number": "14",
       "variants": [
         {
           "size": "classic",
@@ -4096,11 +4034,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "star-trek-worf",
-      "name": "Worf",
+      "id": "star-trek-kathryn-janeway",
+      "name": "Kathryn Janeway",
       "franchise": "Star Trek",
-      "number": "6",
-      "releaseYear": "2021",
+      "number": "16",
       "variants": [
         {
           "size": "classic",
@@ -4113,29 +4050,66 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "stranger-things-demogorgon",
-      "name": "Demogorgon",
-      "franchise": "Stranger Things",
-      "number": "3",
-      "releaseYear": "2021",
+      "id": "star-trek-seven-of-nine",
+      "name": "Seven of Nine",
+      "franchise": "Star Trek",
+      "number": "17",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
     {
-      "id": "stranger-things-dustin-henderson",
-      "name": "Dustin Henderson",
-      "franchise": "Stranger Things",
-      "number": "6",
-      "releaseYear": "2022",
-      "description": "Baignoine sans embalage",
+      "id": "star-trek-benjamin-sisko",
+      "name": "Benjamin Sisko",
+      "franchise": "Star Trek",
+      "number": "18",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "star-trek-the-doctor",
+      "name": "The Doctor",
+      "franchise": "Star Trek",
+      "number": "19",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "star-trek-quark",
+      "name": "Quark",
+      "franchise": "Star Trek",
+      "number": "20",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -4168,11 +4142,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "stranger-things-lucas-sinclair",
-      "name": "Lucas Sinclair",
+      "id": "stranger-things-demogorgon",
+      "name": "Demogorgon",
       "franchise": "Stranger Things",
-      "number": "5",
-      "releaseYear": "2022",
+      "number": "3",
+      "releaseYear": "2021",
       "variants": [
         {
           "size": "classic",
@@ -4194,62 +4168,25 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "street-fighter-blanka",
-      "name": "Blanka",
-      "franchise": "Street Fighter",
-      "number": "4",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "street-fighter-chun-li",
-      "name": "Chun Li",
-      "franchise": "Street Fighter",
-      "number": "3",
-      "releaseYear": "2019",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "street-fighter-dhalsim",
-      "name": "Dhalsim",
-      "franchise": "Street Fighter",
-      "number": "8",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "street-fighter-e-honda",
-      "name": "E-Honda",
-      "franchise": "Street Fighter",
-      "number": "6",
-      "releaseYear": "2020",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "street-fighter-guile",
-      "name": "Guile",
-      "franchise": "Street Fighter",
+      "id": "stranger-things-lucas-sinclair",
+      "name": "Lucas Sinclair",
+      "franchise": "Stranger Things",
       "number": "5",
-      "releaseYear": "2020",
+      "releaseYear": "2022",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "stranger-things-dustin-henderson",
+      "name": "Dustin Henderson",
+      "franchise": "Stranger Things",
+      "number": "6",
+      "releaseYear": "2022",
+      "description": "Baignoine sans embalage",
       "variants": [
         {
           "size": "classic",
@@ -4284,10 +4221,74 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "street-fighter-chun-li",
+      "name": "Chun Li",
+      "franchise": "Street Fighter",
+      "number": "3",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "street-fighter-blanka",
+      "name": "Blanka",
+      "franchise": "Street Fighter",
+      "number": "4",
+      "releaseYear": "2019",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "street-fighter-guile",
+      "name": "Guile",
+      "franchise": "Street Fighter",
+      "number": "5",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "street-fighter-e-honda",
+      "name": "E-Honda",
+      "franchise": "Street Fighter",
+      "number": "6",
+      "releaseYear": "2020",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "street-fighter-zangief",
       "name": "Zangief",
       "franchise": "Street Fighter",
       "number": "7",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "street-fighter-dhalsim",
+      "name": "Dhalsim",
+      "franchise": "Street Fighter",
+      "number": "8",
       "variants": [
         {
           "size": "classic",
@@ -4367,37 +4368,12 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "the-last-of-us-bill",
-      "name": "Bill",
+      "id": "the-last-of-us-joel",
+      "name": "Joel",
       "franchise": "The Last of Us",
-      "number": "5",
-      "releaseYear": "2023",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "the-last-of-us-bloater",
-      "name": "Bloater",
-      "franchise": "The Last of Us",
-      "number": "6",
-      "releaseYear": "2023",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "the-last-of-us-clicker",
-      "name": "Clicker",
-      "franchise": "The Last of Us",
-      "number": "4",
+      "number": "1",
       "releaseYear": "2020",
+      "description": "Couleur boite délavé (soleil)",
       "variants": [
         {
           "size": "classic",
@@ -4414,24 +4390,6 @@ window.TUBBZ_DATA = {
       "name": "Ellie",
       "franchise": "The Last of Us",
       "number": "2",
-      "releaseYear": "2020",
-      "description": "Couleur boite délavé (soleil)",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        },
-        {
-          "size": "classic",
-          "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "the-last-of-us-joel",
-      "name": "Joel",
-      "franchise": "The Last of Us",
-      "number": "1",
       "releaseYear": "2020",
       "description": "Couleur boite délavé (soleil)",
       "variants": [
@@ -4463,26 +4421,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "the-matrix-agent-smith",
-      "name": "Agent Smith",
-      "franchise": "The Matrix",
+      "id": "the-last-of-us-clicker",
+      "name": "Clicker",
+      "franchise": "The Last of Us",
       "number": "4",
-      "releaseYear": "2025",
-      "description": "Mr. Anderson… Agent Smith transforms into a cosplay duck, with all his coldness and calculated menace intact. From the stylish sunglasses to the impeccable suit, this TUBBZ captures the relentless digital enforcer of the Matrix. A must-have for fans who know the system always fights back.",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "the-matrix-morpheus",
-      "name": "Morpheus",
-      "franchise": "The Matrix",
-      "number": "2",
-      "releaseYear": "2024",
-      "description": "Welcome to the Matrix: Morpheus has arrived and he’s bringing his iconic wisdom to the duck pond! This Morpheus TUBBZ collectible transforms the legendary Matrix mentor into a dapper cosplay duck, complete with his signature glasses and dark suit. Whether you’re a die-hard Matrix fan or just love original collectibles, Morpheus is ready to join Neo in your collection. Part of the Matrix TUBBZ series, this release is a must-have for fans who want to relive iconic moments from the film in duck form!",
+      "releaseYear": "2020",
       "variants": [
         {
           "size": "classic",
@@ -4491,6 +4434,32 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "the-last-of-us-bill",
+      "name": "Bill",
+      "franchise": "The Last of Us",
+      "number": "5",
+      "releaseYear": "2023",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "the-last-of-us-bloater",
+      "name": "Bloater",
+      "franchise": "The Last of Us",
+      "number": "6",
+      "releaseYear": "2023",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4513,12 +4482,44 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "the-matrix-morpheus",
+      "name": "Morpheus",
+      "franchise": "The Matrix",
+      "number": "2",
+      "releaseYear": "2024",
+      "description": "Welcome to the Matrix: Morpheus has arrived and he’s bringing his iconic wisdom to the duck pond! This Morpheus TUBBZ collectible transforms the legendary Matrix mentor into a dapper cosplay duck, complete with his signature glasses and dark suit. Whether you’re a die-hard Matrix fan or just love original collectibles, Morpheus is ready to join Neo in your collection. Part of the Matrix TUBBZ series, this release is a must-have for fans who want to relive iconic moments from the film in duck form!",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
       "id": "the-matrix-trinity",
       "name": "Trinity",
       "franchise": "The Matrix",
       "number": "3",
       "releaseYear": "2025",
       "description": "Dressed in her iconic black look and trademark cool, this duck is perfect for fans who love bending the rules and dodging bullets.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "the-matrix-agent-smith",
+      "name": "Agent Smith",
+      "franchise": "The Matrix",
+      "number": "4",
+      "releaseYear": "2025",
+      "description": "Mr. Anderson… Agent Smith transforms into a cosplay duck, with all his coldness and calculated menace intact. From the stylish sunglasses to the impeccable suit, this TUBBZ captures the relentless digital enforcer of the Matrix. A must-have for fans who know the system always fights back.",
       "variants": [
         {
           "size": "classic",
@@ -4552,19 +4553,6 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "the-suicide-squad-bloodsport",
-      "name": "Bloodsport",
-      "franchise": "The Suicide Squad",
-      "number": "4",
-      "releaseYear": "2021",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
       "id": "the-suicide-squad-harley-quinn",
       "name": "Harley Quinn",
       "franchise": "The Suicide Squad",
@@ -4582,6 +4570,19 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "the-suicide-squad-tdk",
+      "name": "TDK",
+      "franchise": "The Suicide Squad",
+      "number": "2",
+      "releaseYear": "2021",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "the-suicide-squad-peacemaker",
       "name": "Peacemaker",
       "franchise": "The Suicide Squad",
@@ -4595,10 +4596,10 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "the-suicide-squad-tdk",
-      "name": "TDK",
+      "id": "the-suicide-squad-bloodsport",
+      "name": "Bloodsport",
       "franchise": "The Suicide Squad",
-      "number": "2",
+      "number": "4",
       "releaseYear": "2021",
       "variants": [
         {
@@ -4620,6 +4621,18 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "tomb-raider-survivor-lara-croft",
+      "name": "Survivor Lara Croft",
+      "franchise": "Tomb Raider",
+      "number": "2",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "tomb-raider-lara-croft-30th-anniversary",
       "name": "Lara Croft 30th Anniversary",
       "franchise": "Tomb Raider",
@@ -4633,18 +4646,6 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
-        }
-      ]
-    },
-    {
-      "id": "tomb-raider-survivor-lara-croft",
-      "name": "Survivor Lara Croft",
-      "franchise": "Tomb Raider",
-      "number": "2",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
         }
       ]
     },
