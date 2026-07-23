@@ -515,6 +515,7 @@ window.TUBBZ_DATA = {
       "franchise": "Crash Bandicoot",
       "number": "1",
       "releaseYear": "2019",
+      "description": "Crash, bang, woooooah!\n\nFind Crash Bandicoot, the craziest marsupial in video games. Always ready to rush, spin, and cause chaos, Crash joins the TUBBZ pond as a collector's cosplay duck.\n\nWith his mischievous smile, uncontrollable energy, and instantly recognizable style, this figurine perfectly captures the fun and explosive spirit of the Crash Bandicoot license.",
       "variants": [
         {
           "size": "classic",
@@ -528,6 +529,7 @@ window.TUBBZ_DATA = {
       "franchise": "Crash Bandicoot",
       "number": "2",
       "releaseYear": "2019",
+      "description": "Crash, bang, woooooah!\n\nMeet Dr. Neo Cortex, Crash Bandicoot's arch-nemesis. An evil genius, megalomaniacal inventor, and expert in failed schemes, Cortex joins the TUBBZ pond as an even more villainous cosplay duck.\n\nWith his recognizable oversized head, his Machiavellian look, and his chaos-ready equipment, this figurine perfectly captures the wacky humor and cartoon energy of the Crash Bandicoot universe.",
       "variants": [
         {
           "size": "classic",
@@ -541,6 +543,7 @@ window.TUBBZ_DATA = {
       "franchise": "Crash Bandicoot",
       "number": "3",
       "releaseYear": "2019",
+      "description": "Crash, bang, wooooah!\n\nFind Coco Bandicoot, Crash's brilliant and inventive sister. Intelligent, resourceful, and always ready to thwart Dr. Neo Cortex's plans, Coco joins the TUBBZ pond with all her energy and gadgets.\n\nWith her iconic look, clever mind, and essential role in the Crash Bandicoot universe, this cosplay duck version perfectly captures Coco's charm and personality.",
       "variants": [
         {
           "size": "classic",
@@ -554,6 +557,7 @@ window.TUBBZ_DATA = {
       "franchise": "Crash Bandicoot",
       "number": "4",
       "releaseYear": "2019",
+      "description": "Crash, bang, woooooah!\n\nMeet Dr. N. Gin, the completely crazy cyborg scientist from the Crash Bandicoot universe. Dr. Neo Cortex's loyal right-hand man, N. Gin is ready to do anything to capture Crash and impress his master.\n\nWith his cybernetic appearance, his crazy look, and his cult role in the saga, this duck cosplay version perfectly captures the chaotic and humorous energy of Crash Bandicoot.",
       "variants": [
         {
           "size": "classic",
@@ -3775,6 +3779,7 @@ window.TUBBZ_DATA = {
       "franchise": "Spyro the Dragon",
       "number": "1",
       "releaseYear": "2019",
+      "description": "The purple dragon is setting the pond on fire. Discover Spyro, the famous purple dragon from the Spyro the Dragon universe. Ready for adventure, Spyro trades magical realms for a charming collectible cosplay duck form. With his instantly recognizable look, horns, wings, and mischievous energy, this figurine perfectly captures the spirit of the cult video game hero.",
       "variants": [
         {
           "size": "classic",
@@ -3788,6 +3793,7 @@ window.TUBBZ_DATA = {
       "franchise": "Spyro the Dragon",
       "number": "2",
       "releaseYear": "2019",
+      "description": "Hey, Bath Hero! Ever heard of the Spyro - Ripto Rubber Duck? Yes, you read right, a duck. But not just any duck – this is the rubber duck that will rock your bathroom! Made of high-quality vinyl and crafted with an infinite amount of detail, this duck is the ultimate gift for every Spyro fan.",
       "variants": [
         {
           "size": "classic",
@@ -3801,6 +3807,7 @@ window.TUBBZ_DATA = {
       "franchise": "Spyro the Dragon",
       "number": "3",
       "releaseYear": "2019",
+      "description": "Welcome one of the most beloved characters from the Spyro the Dragon video game into your collection with the Elora TUBBZ version. Elora is a pivotal character in the Spyro universe because of her intelligence, compassion, and peace-loving nature. A friend of Spyro, and a foe of Ripto, this half-human and half-goat mythical character is simply extraordinary.",
       "variants": [
         {
           "size": "classic",
@@ -3814,6 +3821,7 @@ window.TUBBZ_DATA = {
       "franchise": "Spyro the Dragon",
       "number": "4",
       "releaseYear": "2019",
+      "description": "Hey there, water baby! Let´s take a dip into the fantastic world of rubber ducks. Say ´hello´ to our newest addition - the incomparable, spectacular, squeaking Spyro - Moneybags Duck!",
       "variants": [
         {
           "size": "classic",
@@ -4236,6 +4244,7 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "1",
       "releaseYear": "2019",
+      "description": "COINKOUKEN! Ken enters the TUBBZ arena.\n\nFind Ken Masters, one of Street Fighter's most iconic fighters. Ryu's rival and friend, Ken joins the pond with his flamboyant style, explosive energy, and famous competitive spirit.\n\nWith his recognizable look, confident attitude, and direct link to the saga's greatest battles, this figurine perfectly captures the arcade and versus fighting universe of Street Fighter.",
       "variants": [
         {
           "size": "classic",
@@ -4249,6 +4258,7 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "2",
       "releaseYear": "2019",
+      "description": "COINKOUKEN! The legendary fighter joins the pond.\n\nFind Ryu, one of Street Fighter's most iconic characters. Whether in the arena or by the pond, Ryu remains ready to fight with discipline, power, and determination.\n\nWith his white gi, red headband, and warrior spirit, this cosplay duck version perfectly captures the aura of Capcom's cult fighter.",
       "variants": [
         {
           "size": "classic",
@@ -4262,6 +4272,7 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "3",
       "releaseYear": "2019",
+      "description": "QUACKOUKEN! The queen of combat joins the TUBBZ pond.\n\nMeet Chun-Li, one of Street Fighter's most iconic fighters. Elegant, fast, and formidable, Chun-Li trades her fists for wings... but remains just as powerful.\n\nWith her iconic blue outfit, recognizable martial arts style, and legendary fighter energy, this figurine perfectly captures the spirit of the Street Fighter saga.",
       "variants": [
         {
           "size": "classic",
@@ -4275,6 +4286,7 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "4",
       "releaseYear": "2019",
+      "description": "COINKOUKEN! The wild fighter electrifies the pond.\n\nDiscover Blanka, one of the most iconic characters from Street Fighter. With his brute strength, electric attacks, and wild appearance, Blanka joins the collection in a cosplay duck form that is as zany as it is formidable.\n\nKnown for his unpredictable fighting style and animal power, Blanka retains his iconic look here with his green skin, flamboyant orange hair, and fierce expression. A must-have piece for all fighting game fans.",
       "variants": [
         {
           "size": "classic",
@@ -4288,6 +4300,7 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "5",
       "releaseYear": "2020",
+      "description": "COINKOUKEN! Sonic Boom in the pond.\n\nFind Guile, the famous US Air Force major from Street Fighter. With his military approach to combat, camouflage pants, and iconic flat top haircut, Guile is ready to shake up the pond.\n\nEven transformed into a cosplay duck, Guile retains all his power with his cult attacks like Sonic Boom and Flash Kick.",
       "variants": [
         {
           "size": "classic",
@@ -4301,6 +4314,7 @@ window.TUBBZ_DATA = {
       "franchise": "Street Fighter",
       "number": "6",
       "releaseYear": "2020",
+      "description": "COINKOUKEN! The sumo master enters the pond.\n\nFind E. Honda, an iconic Street Fighter character. Edmond Honda, the grand sumo master from Japan, is ready to shake up the pond with his famous Hundred Hand Slaps.\n\nEven transformed into a cosplaying duck, E. Honda retains all his power, honor, and unique fighting style.",
       "variants": [
         {
           "size": "classic",
@@ -4313,6 +4327,8 @@ window.TUBBZ_DATA = {
       "name": "Zangief",
       "franchise": "Street Fighter",
       "number": "7",
+      "releaseYear": "2020",
+      "description": "COINKOUKEN! The Street Fighter colossus is splashing into the pond.\n\nDiscover Zangief, the powerful wrestler from Street Fighter. When he’s not fighting bears or dancing like a Cossack, Zangief imposes his unique fighting style in the arena… even in cosplay duck form.\n\nWith his mohawk, impressive physique, and iconic body hair, this figurine perfectly captures the character’s raw energy and muscular humor.",
       "variants": [
         {
           "size": "classic",
@@ -4325,6 +4341,8 @@ window.TUBBZ_DATA = {
       "name": "Dhalsim",
       "franchise": "Street Fighter",
       "number": "8",
+      "releaseYear": "2020",
+      "description": "COINKOUKEN! The Yoga Master joins the pond.\n\nMeet Dhalsim, mystical fighter from Street Fighter. With his unique yoga-inspired fighting style, his ability to stretch his body, and his fire attacks, Dhalsim remains a formidable opponent even as a cosplay duck.\n\nWise, spiritual, and determined to help his people, Dhalsim brings a mystical and original touch to the Street Fighter TUBBZ collection.",
       "variants": [
         {
           "size": "classic",
