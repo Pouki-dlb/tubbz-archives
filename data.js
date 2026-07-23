@@ -111,6 +111,7 @@ window.TUBBZ_DATA = {
       "franchise": "Back to the Future",
       "number": "1",
       "releaseYear": "2020",
+      "description": "\"Your kids, Marty! Something's got to be done about your kids!\"\n\nMeet Marty McFly, the iconic hero from Back to the Future. Armed with his trusty camcorder, Marty is ready to go back in time to try and regain his human form.\n\nWith his red puffer vest, typical 1980s style, and instantly recognizable gear, this figurine perfectly captures the energy and charm of the famous time traveler.",
       "variants": [
         {
           "size": "classic",
@@ -119,6 +120,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -128,6 +133,7 @@ window.TUBBZ_DATA = {
       "franchise": "Back to the Future",
       "number": "2",
       "releaseYear": "2020",
+      "description": "Great Scott! The flux capacitor has done it again.\n\nMeet Dr Emmett Brown, the brilliant inventor of the time-traveling DeLorean. It seems a temporal experiment went wrong: Doc Brown has been transformed into a collectible cosplay duck.\n\nWith his wild white hair, scientist's coat, and instantly recognizable look, this figurine perfectly captures the eccentricity and genius of one of Back to the Future's most iconic characters.",
       "variants": [
         {
           "size": "classic",
@@ -136,6 +142,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -145,9 +155,14 @@ window.TUBBZ_DATA = {
       "franchise": "Back to the Future",
       "number": "3",
       "releaseYear": "2021",
+      "description": "We're not entirely sure Marty McFly's radiation suit works – he looks like he's turned into a bath duck after handling plutonium!",
       "variants": [
         {
           "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
           "packaging": "first-edition"
         }
       ]
@@ -158,6 +173,7 @@ window.TUBBZ_DATA = {
       "franchise": "Back to the Future",
       "number": "4",
       "releaseYear": "2021",
+      "description": "Even before the flux capacitor, Doc Emmet Brown was the creator of all sorts of strange and wonderful inventions. One of them dates back to 1955, when he built a mind-reading brainwave analyzer (which doesn't work).",
       "variants": [
         {
           "size": "classic",
@@ -166,6 +182,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -175,6 +195,7 @@ window.TUBBZ_DATA = {
       "franchise": "Back to the Future",
       "number": "5",
       "releaseYear": "2022",
+      "description": "Great Scott! It seems Marty's antics in time have gone slightly awry as he's been turned into a duck in 2015.",
       "variants": [
         {
           "size": "classic",
@@ -192,6 +213,7 @@ window.TUBBZ_DATA = {
       "franchise": "Back to the Future",
       "number": "6",
       "releaseYear": "2022",
+      "description": "Who would have thought we'd have flying cars and hoverboards in 2015?! We're sure Doc Emmet Brown didn't expect it!",
       "variants": [
         {
           "size": "classic",
@@ -209,10 +231,48 @@ window.TUBBZ_DATA = {
       "franchise": "Back to the Future",
       "number": "7",
       "releaseYear": "2022",
+      "description": "The big, aggressive, stupid bully Biff Tannen is no different in 2015! He's still busy waxing cars to keep himself afloat.",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "back-to-the-future-george-mcfly",
+      "name": "George Mcfly",
+      "franchise": "Back to the Future",
+      "description": "George McFly, the geek turned hero, is here ! Clumsy but determined, he is living proof that a single moment can change everything. Whether he's dodging bullies or finding the courage to fight back, he perfectly embodies the adage \"one moment can change everything.\"",
+      "variants": [
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "back-to-the-future-lorraine-baines",
+      "name": "Lorraine Baines",
+      "franchise": "Back to the Future",
+      "description": "Before the future got complicated, Lorraine was a charming young woman, always smiling and elegant. But don't be fooled by her innocent look: this TUBBZ has many surprises in store, especially if your name is Calvin Klein!",
+      "variants": [
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "back-to-the-future-time-machine-special-edition",
+      "name": "Time Machine (Special Edition)",
+      "franchise": "Back to the Future",
+      "releaseYear": "2025",
+      "description": "Great Scott! Take your Mini TUBBZ on a time-traveling adventure with this officially licensed TUBBZ Time Machine! Inspired by the iconic vehicle from Back to the Future, this highly detailed time machine is designed to fit two Mini TUBBZ figures. Travel in style to the past, present, or future! With its intricate piping, detailed time circuits, and unforgettable butterfly doors, this piece is a must-have addition to any Back to the Future fan's collection.\n\nNo plutonium needed: simply install your Mini TUBBZ and get ready to reach 142 km/h!",
+      "variants": [
+        {
+          "size": "xl",
+          "packaging": "boxed"
         }
       ]
     },
@@ -222,6 +282,7 @@ window.TUBBZ_DATA = {
       "franchise": "Bloodbath / Horror",
       "number": "1",
       "releaseYear": "2020",
+      "description": "Discover Beetlejuice (Betelgeuse), the craziest bio-exorcist in cinema. With his black and white striped suit, messy hair, and macabre humor, Beetlejuice takes on a new appearance that is as strange as it is irresistible: a collectible cosplay duck.\n\nCunning, unpredictable, and always ready to sow chaos, Beetlejuice retains all his charisma even in duck form. A must-have for fans of fantastic cinema and dark humor.",
       "variants": [
         {
           "size": "classic",
@@ -230,6 +291,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -239,6 +304,7 @@ window.TUBBZ_DATA = {
       "franchise": "Bloodbath / Horror",
       "number": "2",
       "releaseYear": "2020",
+      "description": "The 1973 cult horror is coming to the pond.\n\nMeet Regan MacNeil, the iconic character from the film The Exorcist. Possessed by a demonic force, Regan is reinterpreted here as a collectible cosplay duck that is as unsettling as it is quirky.\n\nWith her floral nightgown, scarred face, turned head, and details inspired by the cult green vomit scene, this figurine pays homage to one of the most memorable characters in horror cinema.",
       "variants": [
         {
           "size": "classic",
@@ -256,6 +322,7 @@ window.TUBBZ_DATA = {
       "franchise": "Bloodbath / Horror",
       "number": "3",
       "releaseYear": "2020",
+      "description": "You'll all float… even in the pond.\n\nMeet Pennywise, also known as Grippe-Sou. Even transformed into a cosplay duck, the terrifying clown from IT retains his unsettling smile, iconic makeup, and famous red balloon.\n\nWith his detailed clown costume and menacing expression, this figurine perfectly captures the character's horrifying atmosphere. This piece is as original as it is terrifying, ideal for haunting your collection for a long time.",
       "variants": [
         {
           "size": "classic",
@@ -264,6 +331,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -273,6 +344,7 @@ window.TUBBZ_DATA = {
       "franchise": "Bloodbath / Horror",
       "number": "4",
       "releaseYear": "2020",
+      "description": "\"You'll never grow old, Michael... but you must feed.\"\n\nMeet David, the charismatic and unsettling vampire from The Lost Boys. Even transformed into a cosplay duck, the leader of the Lost Boys retains his menacing gaze, rebellious look, and all the dark aura of the cult 1980s film.\n\nWith his rock style, vampiric appearance, and central role in the story, this figurine pays tribute to one of the most iconic characters in 80s fantasy cinema.",
       "variants": [
         {
           "size": "classic",
@@ -290,6 +362,7 @@ window.TUBBZ_DATA = {
       "franchise": "Bloodbath / Horror",
       "number": "5",
       "releaseYear": "2022",
+      "description": "It's better to be a duck than to join the vampires.\n\nMeet Michael Emerson, the central character from the cult film The Lost Boys. Unwillingly drawn into the dangerous world of the Lost Boys, Michael tries to preserve his humanity against the temptations of the vampiric lifestyle.\n\nEven in cosplay duck form, he retains his rebellious look and his connection to the dark, rock, and fantastic atmosphere of the film.",
       "variants": [
         {
           "size": "classic",
@@ -308,7 +381,7 @@ window.TUBBZ_DATA = {
       "franchise": "Bloodbath / Horror",
       "number": "6",
       "releaseYear": "2022",
-      "description": "Glow in the dark eyes",
+      "description": "Don't cross her gaze... even as a duck.\n\nThe terrifying demonic Nun from The Nun joins the TUBBZ collection, in a version as unsettling as it is fascinating.\nWith her piercing gaze... that glows in the dark, this figure transforms an icon of horror into a unique and disturbing collectible.\n\nSilent, menacing, and omnipresent, she perfectly captures the dark atmosphere of the film with the quirky touch characteristic of TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -327,6 +400,7 @@ window.TUBBZ_DATA = {
       "franchise": "Bloodbath / Horror",
       "number": "7",
       "releaseYear": "2022",
+      "description": "Evil has found a new form…\n\nThe terrifying Annabelle joins the TUBBZ collection, in a version as disturbing as it is fascinating.\nReimagined as a porcelain doll duck, she retains her unnerving gaze and sinister aura, ready to haunt your collection.\n\nBetween horror and dark humor, this collectible perfectly captures the film's universe with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -498,6 +572,7 @@ window.TUBBZ_DATA = {
       "franchise": "Chucky",
       "number": "1",
       "releaseYear": "2021",
+      "description": "It looks like the serial killer Chucky has accidentally transferred his soul into the wrong body and found himself in a quacking duck! This doesn't make him any less vicious as he's relentless in his attempts to possess a suitable human body.",
       "variants": [
         {
           "size": "classic",
@@ -506,6 +581,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -798,6 +877,50 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "demon-slayer-tanjiro-kamado",
+      "name": "Tanjiro Kamado",
+      "franchise": "Demon Slayer",
+      "number": "1",
+      "releaseYear": "2026",
+      "description": "Driven by compassion and unbreakable will, Tanjiro Kamado arrives in duck form ready to take on any demon in his path. This Demon Slayer TUBBZ captures the determined swordsman wielding his Nichirin blade, dressed in his iconic checkered haori, and prepared for battle with the calm focus of a true member of the Demon Slayer Corps.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-nezuko-kamado",
+      "name": "Nezuko Kamado",
+      "franchise": "Demon Slayer",
+      "number": "2",
+      "releaseYear": "2026",
+      "description": "Beneath Nezuko Kamado’s quiet appearance lies the strength of a powerful demon determined to protect the ones she loves. This Demon Slayer TUBBZ captures Nezuko in her iconic pink kimono and bamboo muzzle, faithfully reimagined in duck form while showcasing the fierce spirit that made her one of the series’ most beloved characters.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "destiny-cayde-6",
       "name": "Cayde-6",
       "franchise": "Destiny",
@@ -1051,7 +1174,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "1",
       "releaseYear": "2020",
-      "description": "DOOM Marine, The Slayer, the Unchained Predator, the Hell Walker (or to most of you, DOOM Guy): this cosplaying duck toy definitely lives up to his many names as he’s primed to wage the eternal war against Hell. Complete with his iconic green armour and super shotgun, it’s little wonder demons run at the mere sight of him. This one of a kind collectible is great for fans of the series to stock up on..",
+      "description": "Rip and tear... even in the pond.\n\nDiscover the legendary DOOM Slayer, also known as DOOM Guy. Even transformed into a cosplay duck, the Hell Walker remains ready to wage his eternal war against the demons of Hell.\n\nWith his iconic green armor, relentless attitude, and famous super shotgun, this figurine perfectly captures all the brutal power of the DOOM universe.",
       "variants": [
         {
           "size": "classic",
@@ -1073,7 +1196,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "2",
       "releaseYear": "2020",
-      "description": "Hey you, quack-lover! Discover the fantastic rubber duck, that's more than just a rubber duck. Think you've seen it all? Think again. Here comes the \"Doom - IMP Duck\", a seductively squeaking work of art. This squeaky duck is no ordinary squeaky duck.",
+      "description": "An infernal demon splashes into the pond.\n\nDiscover the Imp, one of DOOM’s most iconic enemies. Even if considered a relatively weak opponent against the DOOM Slayer, the Imp remains the backbone of the infernal hordes.\n\nWith its demonic appearance, aggressive style, and direct link to the brutal DOOM universe, this figurine perfectly captures the infernal atmosphere of the franchise.",
       "variants": [
         {
           "size": "classic",
@@ -1087,7 +1210,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "3",
       "releaseYear": "2020",
-      "description": "Discover the Hell Knight, one of DOOM's most imposing demons, in this TUBBZ figure by Numskull Designs. Powerful, brutal, and built to crush his enemies, this infernal gladiator remains a threat even in the form of a collectible cosplay duck.\n\nWith its massive silhouette, devastating fists, and demonic appearance, this figurine perfectly captures the dark and violent intensity of the DOOM universe.",
+      "description": "An infernal behemoth arrives in the pond.\n\nDiscover the Hell Knight, one of DOOM's most imposing demons. Powerful, brutal, and built to crush his enemies, this infernal gladiator remains a threat even in the form of a collectible cosplay duck.\n\nWith its massive silhouette, devastating fists, and demonic appearance, this figurine perfectly captures the dark and violent intensity of the DOOM universe",
       "variants": [
         {
           "size": "classic",
@@ -1101,7 +1224,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom Eternal",
       "number": "4",
       "releaseYear": "2020",
-      "description": "Looking for the perfect gift that combines usefulness and nostalgia? How about a rubber duck that not only quacks but also rocks? Then we have something very special for you! The Doom - Marauder duck. A highlight for every bathtub and bathroom.",
+      "description": "The demon hunter enters the pond.\n\nDiscover the Marauder, one of DOOM's most formidable enemies. Armed with his double-bladed battle axe, super shotgun, and infernal appearance, this horned demon remains a threat even in the form of a collectible cosplay duck.\n\nWith his chain of skulls, brutal equipment, and dark style, this figurine perfectly captures the violent and demonic intensity of the DOOM universe.",
       "variants": [
         {
           "size": "classic",
@@ -1119,7 +1242,7 @@ window.TUBBZ_DATA = {
       "franchise": "Doom The Dark Ages",
       "number": "1",
       "releaseYear": "2025",
-      "description": "Armoured up and angrier than ever, the Doom Slayer storms into the TUBBZ collection in his brutal Dark Ages form. With razor-edged helmet detail, a fur-lined cloak, studded armour, and his infamous spiked mace and demon-splitting shield, this duck means business.",
+      "description": "The Legions of Hell never saw him coming! Decked out in medieval armor, wielding his brutal spiked mace and demonic shield, the DOOM Slayer is reimagined as a formidable cosplay duck.\n\nThis officially licensed collectible TUBBZ replicates the look of the Dark Ages Slayer with incredible detail: from the razor-sharp helmet to the shaggy fur cape and studded armor, every inch of this First Edition duck reflects the raw power of the Slayer.",
       "variants": [
         {
           "size": "classic",
@@ -1834,6 +1957,7 @@ window.TUBBZ_DATA = {
       "franchise": "Gremlins",
       "number": "1",
       "releaseYear": "2021",
+      "description": "Did you drop your Mogwai in water? Oh dear. You'd better hope it's not Stripe as he's known as one of the most mischievous and sinister Gremlins. Even in duck form, he's still terrifying!",
       "variants": [
         {
           "size": "classic",
@@ -1842,6 +1966,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3229,6 +3357,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "0",
       "releaseYear": "2021",
+      "description": "Resident Evil's most unlikely secret character joins the pond.\n\nMeet Tofu, the famous bonus character from the Resident Evil saga. Known for his deliberately absurd appearance and improbable survivor status, Tofu takes the form of an unusual yet essential collectible cosplay duck.\n\nInspired by the unlockable secret character from the franchise, this figurine pays homage to Resident Evil's hidden humor while retaining the series' dark and cult aesthetic.",
       "variants": [
         {
           "size": "classic",
@@ -3237,6 +3366,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3246,6 +3379,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "1",
       "releaseYear": "2020",
+      "description": "Even Raccoon City zombies aren't ready for this duck.\n\nMeet Jill Valentine, elite member of the S.T.A.R.S. and iconic heroine of Resident Evil. Accustomed to facing hordes of zombies and Umbrella creatures, Jill retains all her determination even as a cosplay duck.\n\nWith her iconic look, composure, and legendary survivor status, this figurine perfectly captures the survival horror spirit of the Resident Evil saga.",
       "variants": [
         {
           "size": "classic",
@@ -3254,6 +3388,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3263,6 +3401,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "2",
       "releaseYear": "2020",
+      "description": "First day in Raccoon City... and already turned into a duck.\n\nDiscover Leon S. Kennedy, the iconic survivor of the Raccoon City incident. Targeted by Umbrella Corporation's bio-weapons, Leon makes out pretty well: he becomes a collectible cosplay duck rather than a carnivorous zombie.\n\nWith his iconic young police officer look, his bravery against the infected, and his major role in the Resident Evil saga, this figurine perfectly captures the survival horror spirit of the franchise.",
       "variants": [
         {
           "size": "classic",
@@ -3271,6 +3410,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3280,6 +3423,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "3",
       "releaseYear": "2020",
+      "description": "The biological threat better watch out.\n\nFind Chris Redfield, one of Resident Evil's most iconic heroes. A specialist in biological weapon elimination and a pillar in the fight against Umbrella Corporation, Chris remains a formidable force… even when transformed into a cosplay duck.\n\nWith his fighter's demeanor, his experience facing mutant creatures, and his central role in the saga, this figurine perfectly captures the survival horror spirit of Resident Evil.",
       "variants": [
         {
           "size": "classic",
@@ -3288,6 +3432,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3297,6 +3445,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "4",
       "releaseYear": "2020",
+      "description": "Raccoon City never ceases to surprise.\n\nDiscover Claire Redfield, one of the most popular survivors of Resident Evil. Investigating the zombie outbreak and Umbrella Corporation's plans, Claire finds herself transformed into a collector cosplay duck.\n\nWith her iconic look, courage, and determination in the face of Raccoon City's horrors, this figurine perfectly captures the survival horror spirit of the Resident Evil saga.",
       "variants": [
         {
           "size": "classic",
@@ -3305,6 +3454,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3314,6 +3467,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "5",
       "releaseYear": "2021",
+      "description": "S.T.A.R.S… even in the pond.\n\nMeet Nemesis, Umbrella Corporation's ultimate bio-organic weapon. Ruthless, intelligent, and possessing devastating power, Resident Evil's famous pursuer remains a formidable threat even as a collectible cosplay duck.\n\nWith its distorted face, imposing musculature, and instantly recognizable appearance, this figurine perfectly captures the oppressive and monstrous atmosphere of Resident Evil 3.",
       "variants": [
         {
           "size": "classic",
@@ -3331,6 +3485,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "6",
       "releaseYear": "2021",
+      "description": "Resident Evil's most enigmatic spy infiltrates the pond.\n\nMeet Ada Wong, the mysterious agent and iconic spy from Resident Evil. Accustomed to top-secret missions, double-crossing, and the most dangerous situations, Ada maintains her elegance and composure even as a collectible cosplay duck.\n\nWith her immediately recognizable appearance and sophisticated style, this figure pays homage to one of the franchise's most elusive characters.",
       "variants": [
         {
           "size": "classic",
@@ -3348,6 +3503,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "7",
       "releaseYear": "2021",
+      "description": "Death joins the pond... and leaves no one alive.\n\nMeet HUNK, Umbrella Corporation's most mysterious elite agent. Cold, silent, and relentless, the leader of the U.S.S. Alpha team is famous for completing the most dangerous missions and often returning alone.\n\nEven transformed into a collector cosplay duck, the one nicknamed Mr. Death or Grim Reaper retains his tactical appearance and particularly menacing aura.",
       "variants": [
         {
           "size": "classic",
@@ -3365,6 +3521,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "8",
       "releaseYear": "2021",
+      "description": "“Heh heh heh… Thank you!”\n\nMeet the Merchant, the mysterious weapons and supplies dealer from Resident Evil 4. Despite his intimidating appearance, this traveling merchant proves to be a particularly useful ally for surviving the creatures and dangers encountered during the adventure.\n\nWith his long dark coat, hidden face, and impressive stock of equipment, this figurine perfectly captures the enigmatic allure of one of the most memorable secondary characters in the saga.",
       "variants": [
         {
           "size": "classic",
@@ -3382,7 +3539,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "9",
       "releaseYear": "2022",
-      "description": "Removable Hat",
+      "description": "Impossible to escape… even as a duck.\n\nThe fearsome Mr. X (T-103 Tyrant), Umbrella's iconic biological weapon, joins the TUBBZ collection. Relentless, silent, and terrifying, he is reimagined here as a cosplay duck, ready to hunt you down… in style.\n\nInstantly recognizable with his trench coat and iconic fedora, this figurine captures all the character's menacing presence… with an unexpected quirky touch.",
       "variants": [
         {
           "size": "classic",
@@ -3401,6 +3558,7 @@ window.TUBBZ_DATA = {
       "franchise": "Resident Evil",
       "number": "10",
       "releaseYear": "2022",
+      "description": "The mutation never stops… even as a duck.\n\nThe terrifying William Birkin, a scientist turned creature due to the G-Virus, joins the TUBBZ collection. In this revisited version, he appears as a mutant cosplay duck, capturing all the horror and iconic transformation of the character.\n\nAltered, unstable, and monstrous, this collectible perfectly captures Birkin's nightmarish evolution with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -3696,6 +3854,7 @@ window.TUBBZ_DATA = {
       "name": "Miles \"Tails\" Prower",
       "franchise": "Sonic the Hedgehog",
       "number": "3",
+      "description": "Sonic's best friend takes flight in the pond.\n\nDiscover Tails, the famous two-tailed fox from Sonic the Hedgehog. Ingenious, loyal, and always ready to help Sonic against Dr. Eggman's schemes, Tails joins the collection as a collectible cosplay duck.\n\nEven with wings, Tails remains true to his iconic method: using his two tails as a propeller to fly and accompany his friends on the most perilous adventures.",
       "variants": [
         {
           "size": "classic",
@@ -3716,6 +3875,7 @@ window.TUBBZ_DATA = {
       "name": "Knuckles The Echidna",
       "franchise": "Sonic the Hedgehog",
       "number": "4",
+      "description": "Sonic's brute strength joins the pond.\n\nDiscover Knuckles the Echidna, Sonic's powerful and determined ally. Guardian of the Master Emerald and the last descendant of the Knuckles clan, he's ready to smash all obstacles... even as a collector cosplay duck.\n\nWith his iconic red color, powerful fists, and fighter attitude, this figure perfectly captures the energy of one of the most popular characters from Sonic the Hedgehog.",
       "variants": [
         {
           "size": "classic",
@@ -3736,6 +3896,7 @@ window.TUBBZ_DATA = {
       "name": "Super Sonic",
       "franchise": "Sonic the Hedgehog",
       "number": "5",
+      "description": "It looks like the famous blue blur, Sonic, has finally unleashed his greatest asset in combat! Sonic can transform into his Super State by harnessing the seven Chaos Emeralds, bringing down Dr. Robotnik and his evil ambitions once and for all.",
       "variants": [
         {
           "size": "classic",
@@ -3757,6 +3918,7 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "6",
       "releaseYear": "2022",
+      "description": "The ruthless lone wolf and Shadow \"Ultimate Life Form\" has been transformed into a quacking duck. Delivered in a superb displayable \"Sonic the Hedgehog\" bathtub display stand, this one-of-a-kind collectible is ideal for fans of the series.",
       "variants": [
         {
           "size": "classic",
@@ -3779,6 +3941,7 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "7",
       "releaseYear": "2022",
+      "description": "Determined to be by Sonic's side wherever he goes, nothing will stop Amy Rose from supporting him on his journey, even if she finds herself turned into a duck!",
       "variants": [
         {
           "size": "classic",
@@ -3800,6 +3963,7 @@ window.TUBBZ_DATA = {
       "name": "Metal Sonic",
       "franchise": "Sonic the Hedgehog",
       "number": "8",
+      "description": "At first glance, you'd be forgiven for thinking this is Sonic the Hedgehog, but oh no, this TUBBZ is the evil robotic hedgehog… Metal Sonic. He might be a bad guy, but this cosplay duck is still a must-have for any Sonic collection.",
       "variants": [
         {
           "size": "classic",
@@ -3813,6 +3977,7 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "9",
       "releaseYear": "2024",
+      "description": "As a chameleon, Espio has the ability to blend into his surroundings – we wonder if Sonic the Hedgehog and the rest of the TUBBZ will recognize him in duck form?",
       "variants": [
         {
           "size": "classic",
@@ -3826,6 +3991,7 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "10",
       "releaseYear": "2024",
+      "description": "Rouge the Bat, the iconic treasure hunter from the Sonic the Hedgehog universe, joins the TUBBZ collection with all her inimitable style.\nHer signature black jumpsuit, her heart-shaped chest plate, her distinctive makeup, and her confident attitude are perfectly recreated in this cosplay duck version.\n\nBoth elegant, cunning, and charismatic, this figurine captures the character's entire personality with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -3839,6 +4005,7 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "11",
       "releaseYear": "2024",
+      "description": "Time travel... collector's edition.\n\nSilver the Hedgehog crosses dimensions to join the TUBBZ universe!\nEven in duck cosplay form, he retains his determination to protect the future from the plans of the formidable Dr. Eggman.\n\nWith its faithful design and recognizable style, this figurine perfectly captures the character's spirit, combining power, mystery, and heroism.",
       "variants": [
         {
           "size": "classic",
@@ -4446,6 +4613,7 @@ window.TUBBZ_DATA = {
       "franchise": "Texas Chainsaw Massacre",
       "number": "5",
       "releaseYear": "2022",
+      "description": "The sound of the chainsaw... even as a duck.\n\nThe terrifying Leatherface, an absolute icon of The Texas Chainsaw Massacre, joins the TUBBZ collection.\nArmed with his iconic chainsaw, this revisited duck captures all the brutality and unsettling presence of the character.\n\nRelentless, disturbing, and instantly recognizable, this collectible perfectly captures the film's oppressive atmosphere with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -4455,6 +4623,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4463,10 +4635,15 @@ window.TUBBZ_DATA = {
       "name": "Leatherface Pretty Woman",
       "franchise": "Texas Chainsaw Massacre",
       "number": "6",
+      "description": "Quack. Scream. Repeat. Leatherface is straight out of The Texas Chainsaw Massacre and coming to your TUBBZ collection, whether you like it or not! Chainsaw in hand and sporting his bizarre “Pretty Woman” mask, plus a suit jacket and fancy tie, this deranged duck is dressed to the nines and ready to… well, you don’t want to be on the menu! ",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -4509,6 +4686,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4527,6 +4708,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4536,6 +4721,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Last of Us",
       "number": "3",
       "releaseYear": "2020",
+      "description": "Even the toughest survivors are not safe from the Cordyceps.\n\nMeet Tess, Joel's partner and a prominent figure from The Last of Us. An experienced smuggler and formidable strategist, Tess here succumbs to a very particular strain of the Cordyceps infection... which transforms her into a collector's cosplay duck.",
       "variants": [
         {
           "size": "classic",
@@ -4553,6 +4739,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Last of Us",
       "number": "4",
       "releaseYear": "2020",
+      "description": "The Cordyceps infection even reaches the pond.\n\nDiscover the terrifying Clicker from The Last of Us. The infection has taken a strange turn: instead of a contaminated human, here is an infected cosplay duck, much less dangerous... but just as unsettling.",
       "variants": [
         {
           "size": "classic",
@@ -4570,6 +4757,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Last of Us",
       "number": "5",
       "releaseYear": "2023",
+      "description": "It’s clear that Bill will know exactly what to do to survive in the duck pond, no one is more resourceful than him, and Ellie and Joel TUBBZ will be glad to have him by their side. Here is Bill in collectible TUBBZ cosplay, weapon in hand, ready to defend his territory.",
       "variants": [
         {
           "size": "classic",
@@ -4583,6 +4771,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Last of Us",
       "number": "6",
       "releaseYear": "2023",
+      "description": "The last thing other cosplaying ducks need is for the Bloater to bring the dreaded fungal infection to the pond. The best thing The Last of Us fans need is for The Bloater to arrive in the TUBBZ collection, so here he is, a must-have for collections in all his grizzly and infected detail. It looks horrifying and fantastic all at once!",
       "variants": [
         {
           "size": "classic",
