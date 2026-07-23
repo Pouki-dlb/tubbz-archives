@@ -224,8 +224,20 @@ h1, h2, h3 { line-height: 1.2; }
   background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow);
 }
+.duck-hero-figure { display: flex; flex-direction: column; gap: 10px; }
 .duck-hero-media { background: var(--surface-2); border-radius: 12px; aspect-ratio: 1/1; display: grid; place-items: center; }
 .duck-hero-media img { width: 100%; height: 100%; object-fit: contain; padding: 14px; }
+/* Bouton « flip » du hero : bascule l'image entre les tailles disponibles. */
+.hero-flip {
+  align-self: center;
+  display: inline-flex; align-items: center; gap: .4em;
+  font: inherit; font-weight: 600; font-size: .85rem;
+  padding: .35em .9em; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text);
+  cursor: pointer; transition: background .15s ease, border-color .15s ease;
+}
+.hero-flip:hover { background: var(--surface); border-color: var(--accent); }
+.hero-flip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .duck-name { margin: 0 0 4px; font-size: 1.8rem; }
 .duck-franchise { margin: 0 0 12px; color: var(--muted); font-weight: 600; }
 .duck-meta { display: grid; gap: 8px; margin: 0 0 16px; }

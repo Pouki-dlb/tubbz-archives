@@ -29,7 +29,10 @@
     root.setAttribute("aria-busy", "false");
 
     var wished = T.isWished(state, fig.id);
-    var mainImg = T.imageFor(fig.id);
+    // Tailles disponibles (classic → mini → xl) ; le hero part de la 1re (taille primaire).
+    var sizes = T.sizesOf(fig);
+    if (!sizes.length) sizes = ["classic"];
+    var mainImg = T.sizeImageFor(fig.id, sizes[0]);
 
     var variantsHTML = (fig.variants || []).map(function (v) {
       var key = T.variantKey(v.size, v.packaging);
@@ -62,9 +65,16 @@
     root.innerHTML =
       '<article class="duck">' +
         '<div class="duck-hero">' +
-          '<div class="duck-hero-media">' +
-            '<img src="' + T.esc(mainImg) + '" alt="' + T.esc(fig.name) + '" ' +
-              'onerror="this.onerror=null;this.src=\'' + T.PLACEHOLDER + '\'" />' +
+          '<div class="duck-hero-figure">' +
+            '<div class="duck-hero-media">' +
+              '<img id="hero-img" src="' + T.esc(mainImg) + '" alt="' + T.esc(fig.name) + '" ' +
+                'onerror="this.onerror=null;this.src=\'' + T.PLACEHOLDER + '\'" />' +
+            '</div>' +
+            (sizes.length > 1 ?
+              '<button id="hero-flip" class="hero-flip" type="button" ' +
+                'title="Show ' + T.esc(T.sizeLabel(meta, sizes[1])) + '">' +
+                '⇄ ' + T.esc(T.sizeLabel(meta, sizes[0])) +
+              '</button>' : '') +
           '</div>' +
           '<div class="duck-hero-info">' +
             '<h1 class="duck-name">' +
@@ -99,6 +109,20 @@
       '</article>';
 
     bindEvents(fig);
+
+    // Flip du hero : cycle sur les tailles disponibles (uniquement si >1).
+    if (sizes.length > 1) {
+      var heroIdx = 0;
+      var heroImg = document.getElementById("hero-img");
+      var flip = document.getElementById("hero-flip");
+      flip.addEventListener("click", function () {
+        heroIdx = (heroIdx + 1) % sizes.length;
+        heroImg.onerror = function () { this.onerror = null; this.src = T.PLACEHOLDER; };
+        heroImg.src = T.sizeImageFor(fig.id, sizes[heroIdx]);
+        flip.textContent = "⇄ " + T.sizeLabel(meta, sizes[heroIdx]);
+        flip.title = "Show " + T.sizeLabel(meta, sizes[(heroIdx + 1) % sizes.length]);
+      });
+    }
   }
 
   /* ---------------------------------------------------------------- */

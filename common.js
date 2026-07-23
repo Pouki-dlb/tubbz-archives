@@ -14,13 +14,27 @@ window.Tubbz = (function () {
   var PLACEHOLDER = "images/placeholder.svg";
 
   // Convention de nommage des images (convention pure : calculée depuis l'id, jamais stockée).
-  // Image principale : images/<id>.webp
-  // Image de variante : images/<id>-<taille><emballage>.webp  (ex. -cf, -cb, -mf, -xb)
+  // Image par taille    : images/<id>-<taille>.webp             (ex. -c, -m, -x) → figurine « nue »
+  // Image de variante   : images/<id>-<taille><emballage>.webp  (ex. -cf, -cb, -mf, -xb) → dans son packaging
+  // Image principale    : images/<id>.webp (legacy — plus utilisée par le site, cf. admin.html)
   var SIZE_INITIAL = { classic: "c", mini: "m", xl: "x" };
   var PACK_INITIAL = { "first-edition": "f", boxed: "b" };
+  var SIZE_ORDER = ["classic", "mini", "xl"];
 
   function imageFor(id) {
     return "images/" + id + ".webp";
+  }
+
+  // Image « nue » d'une taille donnée (hero de duck.html + image par défaut des cards).
+  function sizeImageFor(id, size) {
+    return "images/" + id + "-" + (SIZE_INITIAL[size] || "") + ".webp";
+  }
+
+  // Tailles distinctes présentes dans les variantes, ordonnées classic → mini → xl.
+  function sizesOf(fig) {
+    var present = {};
+    (fig.variants || []).forEach(function (v) { if (v && v.size) present[v.size] = true; });
+    return SIZE_ORDER.filter(function (s) { return present[s]; });
   }
 
   function variantImageFor(id, size, packaging) {
@@ -249,6 +263,8 @@ window.Tubbz = (function () {
     packagingClass: packagingClass,
     variantChipLabel: variantChipLabel,
     imageFor: imageFor,
+    sizeImageFor: sizeImageFor,
+    sizesOf: sizesOf,
     variantImageFor: variantImageFor,
     esc: esc
   };

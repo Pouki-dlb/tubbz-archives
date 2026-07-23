@@ -119,7 +119,7 @@
 
   function cardHTML(fig) {
     var wished = T.isWished(state, fig.id);
-    var img = T.imageFor(fig.id);
+    var img = T.sizeImageFor(fig.id, (T.sizesOf(fig)[0] || "classic"));
     var url = "duck.html?id=" + encodeURIComponent(fig.id);
 
     // La card n'est PAS un lien global : seuls l'image et le nom mènent à la fiche.

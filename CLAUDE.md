@@ -47,9 +47,21 @@ cosplayés, marque Numskull) et permet à un visiteur de **suivre sa collection*
   (Les commentaires de code peuvent rester en français.)
 - Tailles : `classic`, `mini`, `xl`. Emballages : `first-edition` (baignoire 🛁),
   `boxed` (boîte 📦).
-- Images **déduites de l'`id`** (aucun chemin dans `data.js`) : principale `images/<id>.webp`,
-  variante `images/<id>-<taille><emballage>.webp` (c/m/x + f/b, ex. `-cf`). Repli `placeholder.svg`
-  via `onerror`. Helpers `Tubbz.imageFor` / `Tubbz.variantImageFor`.
+- Images **déduites de l'`id`** (aucun chemin dans `data.js`). Deux conventions :
+  - **Par taille** (figurine « nue ») : `images/<id>-<c|m|x>.webp`. Sert au **hero de `duck.html`**
+    et à l'**image par défaut des cards** de l'index. Helper `Tubbz.sizeImageFor(id, size)`.
+    La **taille primaire** (classic si dispo, sinon la taille unique) = `Tubbz.sizesOf(fig)[0]`,
+    c'est l'image affichée par défaut.
+  - **Par variante** (figurine dans son packaging) : `images/<id>-<c|m|x><f|b>.webp` (ex. `-cf`).
+    Sert à la **partie basse « Available versions »** et au **survol des chips** de l'index.
+    Helper `Tubbz.variantImageFor(id, size, packaging)`.
+  - Repli `placeholder.svg` via `onerror`. `Tubbz.imageFor` (`<id>.webp` nu) est **legacy** : plus
+    utilisé par le site (reste pour `admin.html` en attendant sa mise à jour).
+- **Hero de `duck.html` = image par taille + bouton flip.** Si le canard a plusieurs tailles, un
+  bouton `.hero-flip` (`#hero-flip`, libellé « ⇄ <Taille> ») cycle l'image `#hero-img` sur les
+  tailles disponibles (ordre classic→mini→xl). Un seul canard mono-taille → **pas** de bouton.
+  La partie basse ne change pas. L'image `mini` (`<id>-m.webp`) doit être créée à la main ;
+  tant qu'elle manque, le flip affiche le placeholder.
 - **Chip de variante** = « taille + emoji d'emballage » (ex. « Classic 📦 »), helper
   `Tubbz.variantChipLabel` ; couleur d'emballage via `Tubbz.packagingClass` (`pack-fe`/`pack-box`,
   scopées `.chip` sur la fiche). Sur la fiche : une chip colorée par variante. Sur les cards de
