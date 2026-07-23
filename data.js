@@ -799,6 +799,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "1",
       "releaseYear": "2019",
+      "description": "Stand Guard With the Destiny Cayde-6 TUBBZ\nCayde-6 is one of the most popular characters in the Destiny series; a heroic Hunter Vanguard who brings humour and hope to the stark world constantly under threat.\n\nPossessing the same skills and optimism as the original Cayde-6, our whimsical rubber duck version is now leading the way in the TUBBZ pond. This Cayde-6 TUBBZ toy wears all his iconic gear: the Exo helmet, tattered cloak and signature mask. Our quirky duck also has Cayde-6’s trademark glowing, blue eyes.",
       "variants": [
         {
           "size": "classic",
@@ -807,6 +808,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -815,7 +820,8 @@ window.TUBBZ_DATA = {
       "name": "Cayde-6 Gunsliger",
       "franchise": "Destiny",
       "number": "1.1",
-      "releaseYear": "2022",
+      "releaseYear": "2021",
+      "description": "Hey, you! Yes, you! Ready for the ultimate bathing experience? Then we´ve got the perfect accessory for you - our Destiny - Cayde 6 Gunslinger Duck! This snappy rubber ducky is not just a rubber duck, no, it´s also a high-quality collectible. With his faithful spirit Sundance by his side, Cayde-6 is a true free spirit. Up for mischief? He´s always in! But don´t underestimate him, he´s a gunslinger that will surprise you with his incredible skills.",
       "variants": [
         {
           "size": "classic",
@@ -829,6 +835,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "2",
       "releaseYear": "2019",
+      "description": "The titan manager of the crucible is trading places for the duck pond, make way as Lord Shaxx joins the TUBBZ Collection. Beyond being the Crucible’s gatekeeper, Lord Shaxx is a living testament to the power of discipline and resilience.\n\nDonning his classic armoured costume, our Destiny: Lord Shaxx TUBBZ figure pays homage to the mighty warrior. His armour tells the story of a warrior who’s seen countless fights but still maintains an unbroken resolve.",
       "variants": [
         {
           "size": "classic",
@@ -837,6 +844,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -846,6 +857,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "3",
       "releaseYear": "2019",
+      "description": "The duck pond welcomes Sweeper Bot who will put in some hard graft even as a cosplaying collectible. Make Destiny’s favourite Tower caretaker part of your collection with the Destiny: Sweeper Bot TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -863,6 +875,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "4",
       "releaseYear": "2019",
+      "description": "Become a true collector with the Destiny: Eris Morn TUBBZ! This edition features Destiny's iconic character Eris Morn cosplaying as a collectable duck toy. Show off your love for the game with this unique and fun addition to your collection.",
       "variants": [
         {
           "size": "classic",
@@ -871,6 +884,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -880,6 +897,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "5",
       "releaseYear": "2020",
+      "description": "Saint 14, the strongest Titan, aims to be the strongest duck in the TUBBZ Collection as he gets the coveted duck makeover treatment.\n\n“For the city!” Channel the spirit of the Last City’s defender with the Destiny: Saint-14 TUBBZ figure! Known for his unbreakable will and iconic helmet, Saint-14 fought tirelessly to protect humanity. The legendary titan himself takes on a new challenge to become the strongest duck in a TUBBZ collection.",
       "variants": [
         {
           "size": "classic",
@@ -897,6 +915,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "6",
       "releaseYear": "2020",
+      "description": "The Drifter has resurrected again, this time as a TUBBZ cosplaying duck, great news for Destiny fans. Channel the cunning of the Drifter and add the game master himself to your collection with the Destiny: The Drifter TUBBZ figure!",
       "variants": [
         {
           "size": "classic",
@@ -905,6 +924,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -914,6 +937,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "7",
       "releaseYear": "2020",
+      "description": "Take Control of the Future With Destiny: The Stranger TUBBZ\nThe Exo Stranger is an integral character in the story arc of the Destiny video game series. And now we present our quacktastic Destiny: The Stranger TUBBZ – the perfect blend of the Destiny game and our TUBBZ collectables design.\n\nLike the original character, our TUBBZ toy duck wears a hood and armour pieces while carrying its signature pulse rifle and blue face plate. We take pride in our attention to detail, blurring the line between the on-screen and off-screen versions of your favourite characters.",
       "variants": [
         {
           "size": "classic",
@@ -931,6 +955,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "8",
       "releaseYear": "2022",
+      "description": "Leader of the Vanguard, now Leader of the TUBBZ. Zavala has a newfound status, a TUBBZ cosplaying duck.\n\nWho could be a better protector of your collection than the Vanguard Commander himself? Inspire leadership and bring home the Destiny: Zavala TUBBZ figure!",
       "variants": [
         {
           "size": "classic",
@@ -939,6 +964,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -948,9 +977,14 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "9",
       "releaseYear": "2024",
+      "description": "Introducing Destiny's Ikora, now in adorable TUBBZ form! This collectible toy is a must-have for any fan of the game. Ikora's powerful presence and iconic design will make a bold statement on any desk, shelf, or collector's display. ",
       "variants": [
         {
           "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
           "packaging": "first-edition"
         }
       ]
@@ -961,6 +995,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "10",
       "releaseYear": "2024",
+      "description": "Unleash the power of Mara Sov, the Queen of Awoken, with the Destiny TUBBZ. Join her on epic adventures and conquer the unknown in style. This collectible toy is a must-have for any Destiny fan.",
       "variants": [
         {
           "size": "classic",
@@ -974,6 +1009,7 @@ window.TUBBZ_DATA = {
       "franchise": "Destiny",
       "number": "11",
       "releaseYear": "2025",
+      "description": "Dominate your collection with the cunning and power of Savathûn, the Witch Queen - now available in duck form as an XL TUBBZ!\n\nPrepare to welcome the cunning and powerful Witch Queen into your TUBBZ collection with this XL edition of the Hive deity, Savathûn! This larger-than-life collectable toy stands at 11-inches tall and transforms the Hive goddess into a monstrous, imposing duck, capturing her regal and fearsome essence in incredible detail. From her glowing, all-seeing eyes to the intricate armor of her Hive throne world, Savathun’s iconic look has never been more captivating — or quack-tastic.",
       "variants": [
         {
           "size": "xl",
