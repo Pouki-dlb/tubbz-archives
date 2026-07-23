@@ -174,8 +174,8 @@ h1, h2, h3 { line-height: 1.2; }
   transition: transform .1s ease, border-color .15s ease;
 }
 .card:hover { transform: translateY(-3px); border-color: var(--accent); }
-.card-media { display: block; position: relative; aspect-ratio: 1 / 1; background: var(--surface-2); }
-.card-media img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
+.card-media { display: block; position: relative; aspect-ratio: 1 / 1; background: var(--surface-2); border-radius: var(--radius); }
+.card-media img { width: 100%; height: 100%; object-fit: contain; padding: 6px; border-radius: inherit; }
 .heart { position: absolute; top: 8px; right: 8px; font-size: 1.1rem; filter: drop-shadow(0 1px 2px rgba(0,0,0,.3)); }
 .num-badge {
   position: absolute; top: 8px; left: 8px;
@@ -227,7 +227,7 @@ h1, h2, h3 { line-height: 1.2; }
 }
 .duck-hero-figure { display: flex; flex-direction: column; gap: 10px; }
 .duck-hero-media { background: var(--surface-2); border-radius: 12px; aspect-ratio: 1/1; display: grid; place-items: center; }
-.duck-hero-media img { width: 100%; height: 100%; object-fit: contain; padding: 14px; }
+.duck-hero-media img { width: 100%; height: 100%; object-fit: contain; padding: 6px; border-radius: inherit; }
 /* Bouton « flip » du hero : bascule l'image entre les tailles disponibles. */
 .hero-flip {
   align-self: center;
@@ -240,11 +240,17 @@ h1, h2, h3 { line-height: 1.2; }
 .hero-flip:hover { background: var(--surface); border-color: var(--accent); }
 .hero-flip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .duck-name { margin: 0 0 4px; font-size: 1.8rem; }
-.duck-franchise { margin: 0 0 12px; color: var(--muted); font-weight: 600; }
-.duck-meta { display: grid; gap: 8px; margin: 0 0 16px; }
+/* Bloc franchise + année, avec le bouton wishlist aligné à droite. Le wrap est
+   assuré par flex-wrap : si la place manque, le bouton retombe sous le bloc
+   (donc entre l'année et la description, qui suit en dehors de ce conteneur). */
+.duck-subhead { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-start; gap: 10px 20px; margin: 0 0 16px; }
+.duck-subinfo { min-width: 0; }
+.duck-franchise { margin: 0 0 8px; color: var(--muted); font-weight: 600; }
+.duck-meta { display: grid; gap: 8px; margin: 0; }
 .duck-meta div { display: flex; gap: 8px; }
 .duck-meta dt { color: var(--muted); min-width: 120px; }
 .duck-meta dd { margin: 0; font-weight: 600; }
+.duck-subhead .btn-wish { flex: none; }
 .duck-description { margin: 0 0 16px; font-style: italic; color: var(--muted); white-space: pre-line; max-width: 52ch; }
 
 .btn-wish { background: var(--surface-2); color: var(--text); border-color: var(--border); }
@@ -261,8 +267,8 @@ h1, h2, h3 { line-height: 1.2; }
   display: flex; flex-direction: column;
 }
 .variant.is-owned { border-color: var(--ok); box-shadow: 0 0 0 2px color-mix(in srgb, var(--ok) 40%, transparent); }
-.variant-media { aspect-ratio: 1/1; background: var(--surface-2); }
-.variant-media img { width: 100%; height: 100%; object-fit: contain; padding: 10px; }
+.variant-media { aspect-ratio: 1/1; background: var(--surface-2); border-radius: 12px; }
+.variant-media img { width: 100%; height: 100%; object-fit: contain; padding: 6px; border-radius: inherit; }
 .variant-info { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 10px 0; }
 .chip { font-size: .78rem; font-weight: 700; padding: .2em .55em; border-radius: 999px; background: var(--surface-2); color: var(--text); }
 .chip.pack-fe { background: color-mix(in srgb, var(--fe) 18%, var(--surface)); color: var(--fe); border: 1px solid color-mix(in srgb, var(--fe) 40%, transparent); }

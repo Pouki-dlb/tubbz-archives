@@ -80,20 +80,24 @@
             '<h1 class="duck-name">' +
               (fig.number ? '#' + T.esc(fig.number) + ' ' : '') + T.esc(fig.name) +
             '</h1>' +
-            '<p class="duck-franchise">' +
-              '<a class="franchise-link text-link" href="index.html?franchise=' +
-                encodeURIComponent(fig.franchise) + '" ' +
-                'title="Show all ' + T.esc(fig.franchise) + ' ducks">' +
-                T.esc(fig.franchise) +
-              '</a>' +
-            '</p>' +
-            '<dl class="duck-meta">' +
-              '<div><dt>Release year</dt><dd>' + (fig.releaseYear ? T.esc(fig.releaseYear) : 'Unknown') + '</dd></div>' +
-            '</dl>' +
+            '<div class="duck-subhead">' +
+              '<div class="duck-subinfo">' +
+                '<p class="duck-franchise">' +
+                  '<a class="franchise-link text-link" href="index.html?franchise=' +
+                    encodeURIComponent(fig.franchise) + '" ' +
+                    'title="Show all ' + T.esc(fig.franchise) + ' ducks">' +
+                    T.esc(fig.franchise) +
+                  '</a>' +
+                '</p>' +
+                '<dl class="duck-meta">' +
+                  '<div><dt>Release year</dt><dd>' + (fig.releaseYear ? T.esc(fig.releaseYear) : 'Unknown') + '</dd></div>' +
+                '</dl>' +
+              '</div>' +
+              '<button id="btn-wish" type="button" class="btn btn-wish' + (wished ? " is-active" : "") + '">' +
+                (wished ? "❤ In wishlist" : "♡ Add to wishlist") +
+              '</button>' +
+            '</div>' +
             (fig.description ? '<p class="duck-description">' + T.esc(fig.description) + '</p>' : '') +
-            '<button id="btn-wish" type="button" class="btn btn-wish' + (wished ? " is-active" : "") + '">' +
-              (wished ? "❤ In wishlist" : "♡ Add to wishlist") +
-            '</button>' +
           '</div>' +
         '</div>' +
 
