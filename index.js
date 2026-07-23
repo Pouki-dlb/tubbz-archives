@@ -15,6 +15,7 @@
   var elSize = document.getElementById("filter-size");
   var elPackaging = document.getElementById("filter-packaging");
   var elStatus = document.getElementById("filter-status");
+  var elToTop = document.getElementById("to-top");
 
   /* ---------------------------------------------------------------- */
   /* Mémorisation de la vue (filtres + scroll) pour le retour arrière */
@@ -47,6 +48,13 @@
   }
   function restoreScroll(v) {
     if (v && v.scrollY) window.scrollTo(0, v.scrollY);
+  }
+
+  // Bouton « retour en haut » : visible seulement au-delà d'un certain scroll.
+  var TO_TOP_AT = 400;
+  function updateToTop() {
+    var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+    elToTop.classList.toggle("is-visible", y > TO_TOP_AT);
   }
 
   // Clic sur une franchise (card de l'index ou fiche duck) : vue neuve filtrée
@@ -327,9 +335,15 @@
 
     bindHelpModal();
 
+    elToTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
     // Mémorise le scroll (débounce) et l'état complet juste avant de quitter la page.
+    // La visibilité du bouton « haut » est mise à jour à chaque scroll (non débouncée).
     var scrollTimer = null;
     window.addEventListener("scroll", function () {
+      updateToTop();
       clearTimeout(scrollTimer);
       scrollTimer = setTimeout(saveView, 120);
     }, { passive: true });
@@ -344,6 +358,7 @@
       applyView(v);
       render();
       restoreScroll(v);
+      updateToTop();
     });
   }
 
@@ -391,6 +406,7 @@
         render();
         restoreScroll(v);  // restaure la position de scroll (rien si accueil propre)
       }
+      updateToTop();       // affiche le bouton « haut » si on arrive déjà scrollé
     })
     .catch(function (err) {
       elGrid.setAttribute("aria-busy", "false");

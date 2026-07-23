@@ -91,6 +91,23 @@ h1, h2, h3 { line-height: 1.2; }
 .btn-small { padding: .4em .7em; font-size: .9rem; }
 .btn-icon { width: 2.3em; padding-left: 0; padding-right: 0; justify-content: center; font-weight: 800; }
 
+/* Bouton « retour en haut » : fixe en bas à droite, révélé après un certain scroll. */
+.to-top {
+  position: fixed; right: 20px; bottom: 20px; z-index: 40;
+  width: 46px; height: 46px; border-radius: 50%;
+  display: grid; place-items: center;
+  font-size: 1.35rem; line-height: 1; font-weight: 700;
+  color: var(--accent-ink); background: var(--surface);
+  border: 1px solid var(--border); box-shadow: var(--shadow);
+  cursor: pointer;
+  opacity: 0; transform: translateY(10px); pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease, background .15s ease, border-color .15s ease;
+}
+.to-top.is-visible { opacity: 1; transform: none; pointer-events: auto; }
+.to-top:hover { background: var(--surface-2); border-color: var(--accent); }
+.to-top:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 520px) { .to-top { right: 14px; bottom: 14px; } }
+
 /* ---------------- En-tête / pied ---------------- */
 .site-header {
   position: sticky; top: 0; z-index: 20;
