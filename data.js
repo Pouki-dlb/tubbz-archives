@@ -1523,6 +1523,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "1",
       "releaseYear": "2020",
+      "description": "Who ya gonna call? Ghostbusters!\n\nDiscover Egon Spengler, the scientific mastermind of the Ghostbusters team. A paranormal specialist, brilliant inventor, and methodical ghost hunter, Egon joins the pond as a collectible cosplay duck.",
       "variants": [
         {
           "size": "classic",
@@ -1531,6 +1532,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1540,6 +1545,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "2",
       "releaseYear": "2020",
+      "description": "Who ya gonna call? Ghostbusters!\n\nMeet Ray Stantz, the passionate and enthusiastic ghost hunter from the Ghostbusters team. Always ready to study the strangest paranormal phenomena, Ray joins the pond as a collector cosplay duck.",
       "variants": [
         {
           "size": "classic",
@@ -1548,6 +1554,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1557,6 +1567,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "3",
       "releaseYear": "2020",
+      "description": "Who ya gonna call? Ghostbusters!\n\nMeet Peter Venkman, the most charismatic of ghostbusters. Always ready to investigate with humor, composure, and a good dose of irony, Venkman joins the pond as a collector cosplay duck.",
       "variants": [
         {
           "size": "classic",
@@ -1565,6 +1576,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1574,6 +1589,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "3.1",
       "releaseYear": "2022",
+      "description": "\"Who ya gonna call? Ghostbusters!\"\n\nMeet Peter Venkman, the most charismatic of the ghost hunters. During a new paranormal mission, Venkman was splattered by a mysterious green ectoplasm… with the unexpected consequence of his transformation into a collector cosplaying duck!\n\nThis exclusive Slime Edition features Peter Venkman covered in green slime, an unmissable nod to the Ghostbusters universe. With his Ghostbuster uniform, Proton Pack, and ectoplasm-covered details, this version is an original piece that will appeal to all collectors.",
       "variants": [
         {
           "size": "classic",
@@ -1587,6 +1603,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "4",
       "releaseYear": "2020",
+      "description": "Who are you gonna call? Ghostbusters!\n\nMeet Winston Zeddemore, the courageous member of the Ghostbusters team. Equipped with his Proton Pack, Winston is ready to take on ghosts, ghouls, and paranormal creatures... even in the pond.",
       "variants": [
         {
           "size": "classic",
@@ -1595,6 +1612,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1604,7 +1625,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "5",
       "releaseYear": "2021",
-      "description": "Smells of marshmallow",
+      "description": "The Marshmallow Man joins the pond… with a marshmallow scent.\n\nMeet Stay Puft, one of the most iconic creatures from Ghostbusters. This special edition recreates the instantly recognizable appearance of the giant marshmallow while adding an original finish: a marshmallow scent.\n\nWith his sailor suit, innocent smile, and deceptively soft appearance, Stay Puft becomes a collector's cosplay duck that is as amusing as it is original.",
       "variants": [
         {
           "size": "classic",
@@ -1613,6 +1634,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1622,7 +1647,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "5.1",
       "releaseYear": "2021",
-      "description": "Smells of marshmallow",
+      "description": "The Stay Puft Marshmallow Man is back… slightly overdone!\n\nMeet Stay Puft, the famous Marshmallow Man from Ghostbusters. Transformed into a collectible cosplay duck, this time he sports an exclusive \"burnt\" finish reminiscent of his final confrontation in the film.\n\nEven more original, this limited edition emits a subtle marshmallow scent, for a collecting experience that is as fun as it is immersive.",
       "variants": [
         {
           "size": "classic",
@@ -1636,7 +1661,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "6",
       "releaseYear": "2022",
-      "description": "Glow in the Dark",
+      "description": "We got slimed... and it glows!\n\nThe legendary Slimer from Ghostbusters joins the TUBBZ collection, ready to haunt your shelf... even in the dark.\nTransformed into a glow-in-the-dark cosplay duck, he retains all his gooey, funny, and unpredictable charm.\n\nAfter escaping the Ghostbusters, Slimer thinks he can hide... but his glow-in-the-dark effect might just give him away!",
       "variants": [
         {
           "size": "classic",
@@ -1646,6 +1671,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -1655,6 +1684,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "7",
       "releaseYear": "2022",
+      "description": "Look! There's a new girl at the Duckbusting Firehouse! A staple of the Ghostbusters firehouse, Janine loves making coffee and knowing who's on call. Show your love for Ghostbusters with this Janine Melnitz TUBBZ, the collectible cosplay duck figurine and shout WE GOT ONE!",
       "variants": [
         {
           "size": "classic",
@@ -1673,6 +1703,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "8",
       "releaseYear": "2023",
+      "description": "Stay Puft Marshmallow Man was a huge character in Ghostbusters and is now Extra Large! (XL) as a cosplay duck character. Giant Stay Puft TUBBZ towers over the rest of the Ghostbusters TUBBZ in the collection, making him a must-have for collectors.\n\nIn Ghostbusters, Stay Puft is larger than life as he rages around New York City, making his gruesome presence unavoidable. Now, Giant Stay Puft TUBBZ is also making his mark in the duck pond. He is oversized, much larger than the other Ghostbusters TUBBZ and all collections need him!",
       "variants": [
         {
           "size": "xl",
@@ -1687,6 +1718,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "9",
       "releaseYear": "2024",
+      "description": "Oh no, Gozer has new ideas. No more trying to destroy Earth, Gozer is now moving on to the duck pond.",
       "variants": [
         {
           "size": "classic",
@@ -1700,6 +1732,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "10",
       "releaseYear": "2024",
+      "description": "Zuul is going through an identity crisis, part terror dog, part cosplay duck, but still looking to possess his next victim. Look at the glowing red eyes, horns, and teeth, it's clearly Zuul.",
       "variants": [
         {
           "size": "classic",
@@ -1713,6 +1746,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "11",
       "releaseYear": "2024",
+      "description": "Poor Dana Barrett, she's about to go on a date with Venkman and now this... she's not only possessed by Zuul, but also by a rubber duck. Dana Barrett joins the TUBBZ cosplay collection in all her flowing brown hair and red dress glory.",
       "variants": [
         {
           "size": "classic",
@@ -1726,6 +1760,7 @@ window.TUBBZ_DATA = {
       "franchise": "Ghostbusters",
       "number": "12",
       "releaseYear": "2024",
+      "description": "I am the Duck Master! Louis Tully is clearly possessed by Vinz Clortho, the colander hat is attached to his head and he runs around town in a frenzied state. The nerdy neighbor has also been chosen to become a quacking cosplay duck and he looks pretty cool for once!",
       "variants": [
         {
           "size": "classic",
@@ -3529,6 +3564,7 @@ window.TUBBZ_DATA = {
       "franchise": "Skyrim",
       "number": "1",
       "releaseYear": "2019",
+      "description": "Born with the soul of a dragon, the Dovahkiin are tasked with defeating the powerful dragon, Alduin – it’s an even harder task when you’re a duck - the protagonist of Skyrim will need all of their Dragonborn skills to succeed in this task!",
       "variants": [
         {
           "size": "classic",
@@ -3537,6 +3573,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3545,7 +3585,7 @@ window.TUBBZ_DATA = {
       "name": "Dovahkiin Ebony",
       "franchise": "Skyrim",
       "number": "1.1",
-      "description": "Very rare",
+      "description": "The last Dragonborn dons Ebony Armor… even in the pond.\n\nMeet Dovahkiin, the iconic hero of The Elder Scrolls V: Skyrim. Despite his dragon soul and new cosplay duck appearance, the last Dragonborn remains a formidable fighter.\n\nThis special edition features him in an imposing all-black outfit inspired by Ebony Armor, ready to face dragons, Draugr, and creatures of the northern lands.",
       "variants": [
         {
           "size": "classic",
@@ -3559,6 +3599,7 @@ window.TUBBZ_DATA = {
       "franchise": "Skyrim",
       "number": "2",
       "releaseYear": "2019",
+      "description": "The powerful dragon Alduin shouldn’t be underestimated – even as a cosplaying duck! Traverse the world and explore the mountains, fields, and villages of Skyrim with the Elder Scrolls range of TUBBZ, the collectable cosplaying duck toy figurines! ",
       "variants": [
         {
           "size": "classic",
@@ -3576,6 +3617,7 @@ window.TUBBZ_DATA = {
       "franchise": "Skyrim",
       "number": "3",
       "releaseYear": "2019",
+      "description": "Hero or power-hungry opportunist? As the leader of the Stormcloak rebellion, Ulfric might be a polarising figure in Skyrim but there's no denying how good he looks as a cosplaying duck! Traverse the world and explore the mountains, fields, and villages of Skyrim with the Elder Scrolls range of TUBBZ, the collectable cosplaying duck figurines!",
       "variants": [
         {
           "size": "classic",
@@ -3593,6 +3635,7 @@ window.TUBBZ_DATA = {
       "franchise": "Skyrim",
       "number": "4",
       "releaseYear": "2019",
+      "description": "Even as a cosplaying duck, we imagine Jarl Balgruuf the Greater would still be respected and admired by the citizens of Whiterun.&nbsp; Traverse the world and explore the mountains, fields, and villages of Skyrim with the Elder Scrolls range of TUBBZ, the collectable cosplaying duck figurines!",
       "variants": [
         {
           "size": "classic",
@@ -3610,6 +3653,7 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "1",
       "releaseYear": "2020",
+      "description": "The fastest blue hedgehog in video games joins the pond.\n\nFind Sonic, the legendary SEGA mascot. Inspired by his classic 1991 style, Sonic retains all his supersonic energy, iconic pose, and confident attitude… even when transformed into a collectible cosplay duck.",
       "variants": [
         {
           "size": "classic",
@@ -3618,6 +3662,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3627,6 +3675,7 @@ window.TUBBZ_DATA = {
       "franchise": "Sonic the Hedgehog",
       "number": "2",
       "releaseYear": "2020",
+      "description": "Sonic's evil genius is planning a new scheme... in the pond.\n\nDiscover Dr. Eggman, also known as Dr. Robotnik. Sonic's sworn enemy, a megalomaniacal inventor, and master of diabolical schemes, Eggman retains all his ambition for world domination, even as a collectible cosplay duck.\n\nWith his iconic mustache, instantly recognizable look, and mad scientist spirit, this figurine perfectly captures the humor and energy of the Sonic the Hedgehog universe.",
       "variants": [
         {
           "size": "classic",
@@ -3635,6 +3684,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3651,6 +3704,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3667,6 +3724,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3683,6 +3744,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3701,6 +3766,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -3719,6 +3788,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
