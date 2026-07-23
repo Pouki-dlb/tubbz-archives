@@ -650,6 +650,7 @@ window.TUBBZ_DATA = {
       "franchise": "Dark Souls",
       "number": "1",
       "releaseYear": "2021",
+      "description": "The first knight of your adventure joins the pond.\n\nMeet Oscar, Knight of Astora, one of the first characters encountered in Dark Souls. Found in the Undead Asylum, Oscar entrusts the player with a mission that marks the true beginning of their journey through Lordran.\n\nEven transformed into a collectible cosplay duck, he retains all his heroic allure thanks to his iconic western armor, Astora's Straight Sword, and Crest Shield.",
       "variants": [
         {
           "size": "classic",
@@ -667,6 +668,7 @@ window.TUBBZ_DATA = {
       "franchise": "Dark Souls",
       "number": "2",
       "releaseYear": "2021",
+      "description": "\"Praise the Sun!\"\n\nMeet Solaire of Astora, the most iconic knight from Dark Souls. Recognizable by his armor adorned with the radiant sun and his unwavering optimism, Solaire has become one of the most beloved characters in the Souls community.\n\nAlways ready to lend a hand to the chosen Undead, this valiant knight tirelessly pursues his personal quest in search of his own sun. Even transformed into a collectible cosplay duck, he retains all his nobility and his famous, now cult, salute.",
       "variants": [
         {
           "size": "classic",
@@ -2249,6 +2251,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jet Set Radio",
       "number": "1",
       "releaseYear": "2021",
+      "description": "The king of rollerblading and graffiti lands in the pond.\n\nMeet Beat, the iconic hero from Jet Set Radio. As the leader of the GGs (Graffiti Gang), Beat cruises the streets of Tokyo-to on rollerblades, creating spectacular graffiti while evading the police force.\n\nEven transformed into a collectible cosplay duck, Beat retains his overflowing energy, unique urban style, and passion for street art. With his rollerblades, iconic glasses, and colorful outfit, this figurine perfectly captures the spirit of SEGA's cult game.",
       "variants": [
         {
           "size": "classic",
@@ -2323,6 +2326,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "1",
       "releaseYear": "2021",
+      "description": "Welcome to Jurassic Park… in duck form.\n\nMeet Dr. John Hammond, the visionary founder of Jurassic Park. A passionate billionaire and the creator of InGen, Hammond realizes his most ambitious dream: bringing dinosaurs to life through genetic engineering and opening a unique park on Isla Nublar.\n\nWith his white suit, hat, glasses, amber-topped cane, and characteristic beard, this cosplay duck version incorporates the character's most recognizable details.",
       "variants": [
         {
           "size": "classic",
@@ -2340,6 +2344,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "2",
       "releaseYear": "2021",
+      "description": "Greed sometimes has dire consequences... even for a duck.\n\nMeet Dennis Nedry, the computer programmer from Jurassic Park. An InGen employee, Nedry agrees to steal dinosaur embryos for a rival company, causing the park's security systems to fail and the ensuing chaos.\n\nWith his iconic glasses, yellow raincoat, and appearance faithful to the cult 1993 film, this cosplaying duck version pays homage to one of the most memorable characters from Jurassic Park.",
       "variants": [
         {
           "size": "classic",
@@ -2357,6 +2362,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "3",
       "releaseYear": "2022",
+      "description": "Facing the T-Rex... he's in control.\n\nThe legendary Dr. Alan Grant, renowned paleontologist, joins the TUBBZ collection in an iconic scene from Jurassic Park. Flare in hand, ready to distract the T-Rex, he perfectly embodies courage and ingenuity in the face of danger... even as a duck.\n\nReimagined as a cosplaying duck, this collectible captures all the tension and intelligence of the character with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -2375,6 +2381,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "4",
       "releaseYear": "2022",
+      "description": "The king of dinosaurs... in XXL version.\n\nThe legendary Tyrannosaurus rex from Jurassic Park escapes its enclosure to join the TUBBZ collection in Giant XL Edition. An unlikely fusion of dinosaur and duck, this legendary predator becomes a spectacular, oversized piece.\n\nMassive, imposing, and ultra-detailed, this reinterpreted T. rex captures all the power and terror of the film... with an irresistible quirky touch.\n\nPresented in an official Jurassic Park display box, this model is designed to become the centerpiece of your collection.",
       "variants": [
         {
           "size": "xl",
@@ -2389,6 +2396,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "5",
       "releaseYear": "2022",
+      "description": "\"Life finds a way...\" even as a duck.\n\nThe charismatic Dr. Ian Malcolm, a specialist in chaos theory, joins the TUBBZ collection. Reimagined as a cosplaying duck, he retains all his iconic style and inimitable attitude in the face of Jurassic Park's chaos.\n\nWith his iconic look, legendary charisma, and unpredictable wit, this figure perfectly captures the essence of the character with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -2407,6 +2415,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jurassic Park",
       "number": "6",
       "releaseYear": "2022",
+      "description": "Science. Courage. Survival.\n\nThe brilliant Dr. Ellie Sattler, iconic paleobotanist from Jurassic Park, joins the TUBBZ collection. Reimagined as a cosplaying duck, she retains all her determination and key role in the face of the park's chaos.\n\nIntelligent, courageous, and indispensable to the group's survival, this figurine perfectly captures the spirit of the character with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -2424,10 +2433,15 @@ window.TUBBZ_DATA = {
       "name": "Robert Muldoon",
       "franchise": "Jurassic Park",
       "number": "7",
+      "description": "Robert Muldoon takes his job as Game Warden very seriously, even as a cosplaying duck. Safety is paramount; he must ensure the safety of visitors and make sure they don't end up as dinosaur lunch. He also has to keep a close eye on the dinosaurs, as they could turn on him at any moment.",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -2436,9 +2450,14 @@ window.TUBBZ_DATA = {
       "name": "Velociraptor",
       "franchise": "Jurassic Park",
       "number": "8",
+      "description": "There's a shake-up coming to the duck pond. The TUBBZ T-Rex is about to get some dino company as the Velociraptor joins the TUBBZ Jurassic Park lineup. This dinosaur/hybrid is a predator on the prowl; no duck is safe.",
       "variants": [
         {
           "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
           "packaging": "first-edition"
         }
       ]
@@ -2448,9 +2467,18 @@ window.TUBBZ_DATA = {
       "name": "Dilophosaurus",
       "franchise": "Jurassic Park",
       "number": "9",
+      "description": "This Dilophosaurus feels right at home in Jurassic Park, strutting around as if it owns the place, until it realizes there's an audience. Who are all these strange-looking creatures staring blankly ahead? Apparently, these creatures are ducks in cosplay. Dilophosaurus isn't quite sure what to make of them, so it decides to eat them!",
       "variants": [
         {
           "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
           "packaging": "first-edition"
         }
       ]
@@ -2460,10 +2488,27 @@ window.TUBBZ_DATA = {
       "name": "T-Rex",
       "franchise": "Jurassic Park",
       "number": "10",
+      "description": "Why is the duck pond water rippling? What's that thudding sound? T-rex is now a collectible cosplay duck and joins the other 9 Jurassic Park characters in this ever-growing popular range.",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "jurassic-park-t-rex-duck-natural-history-museum-edition",
+      "name": "T-Rex Duck (Natural History Museum Edition)",
+      "franchise": "Jurassic Park",
+      "description": "Beware, the deadly T. rex has escaped its enclosure and has a huge new dinosaur-duck hybrid form to stalk its prey! This officially licensed collectible is part of the TUBBZ range, a collectible series of your favorite game, movie, TV show, and pop culture characters in duck form! Featuring incredibly detailed features, this amazing collectible comes complete in a themed display box.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -2472,6 +2517,8 @@ window.TUBBZ_DATA = {
       "name": "Owen Grady",
       "franchise": "Jurassic World",
       "number": "11",
+      "releaseYear": "2025",
+      "description": " Life always finds a way… and so does Owen Grady, now transformed into a collectible, quacking TUBBZ! This expert raptor trainer has traded the jungle for the water, sporting his signature vest, utility belt, and rugged boots, ready to take on even the most mischievous Mini TUBBZ.\n\nWith its intricate details and Jurassic World-inspired case, this TUBBZ is a must-have for fans of the franchise and collectors! Add Owen Grady TUBBZ to your collection today, but keep an eye out for Blue lurking nearby!",
       "variants": [
         {
           "size": "classic",
@@ -2484,6 +2531,8 @@ window.TUBBZ_DATA = {
       "name": "Claire Dearing",
       "franchise": "Jurassic World",
       "number": "12",
+      "releaseYear": "2025",
+      "description": "From running a dinosaur theme park to running away, Claire Dearing is always ready for action and now she's available as a TUBBZ! Reimagined as an adorable collectible duck, she sports her signature white work outfit, complete with a stylish blazer. Adorned with intricate details and housed in a Jurassic World-themed bathtub, this TUBBZ is a must-have for fans of the franchise and collectors!\n\nAdd Claire Dearing TUBBZ to your collection today and remember: surviving the dinosaurs is just like any other day at work!",
       "variants": [
         {
           "size": "classic",
@@ -2496,6 +2545,8 @@ window.TUBBZ_DATA = {
       "name": "Mosasaurus (Giant XL Edition)",
       "franchise": "Jurassic World",
       "number": "13",
+      "releaseYear": "2025",
+      "description": "The ocean's apex predator has resurfaced...bigger, bolder, and ready to make a splash in your collection as an epic TUBBZ XL! This mind-blowing TUBBZ XL transforms the mighty Mosasaurus into an oversized, highly detailed duck, complete with scales, a piercing stare, and its most frightening feature yet: an entire shark caught in its beak!\n\nMore than twice the size of a standard TUBBZ , this colossal collectible perfectly captures the raw power of the titan of the deep with playful yet breathtaking detail. Whether you're a die-hard Jurassic World fan or simply love larger-than-life collectibles, the Mosasaurus XL TUBBZ is a must-have.",
       "variants": [
         {
           "size": "xl",
@@ -2508,10 +2559,16 @@ window.TUBBZ_DATA = {
       "name": "Blue",
       "franchise": "Jurassic World",
       "number": "14",
+      "releaseYear": "2025",
+      "description": "Jurassic World's smartest raptor is ready to rule the pond! Blue has transformed into a collectible TUBBZ that's as fearsome as it is adorable, sporting her signature blue stripes, piercing yellow eyes, and sharp claws. Whether leading the pack or quietly slinking across your shelf, this highly detailed duck-raptor hybrid is a must-have for fans of the franchise. Housed in a Jurassic World -themed tub, this TUBBZ is perfect for any collector looking to add a prehistoric touch to their collection!\n\nAdd the TUBBZ Blue to your collection, but stay alert: it's always watching you!",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
         }
       ]
     },
@@ -2521,6 +2578,7 @@ window.TUBBZ_DATA = {
       "franchise": "Knight Rider",
       "number": "1",
       "releaseYear": "2021",
+      "description": "One man, one car… and now a duck.\n\nMeet Michael Knight, the iconic hero of Knight Rider. Recognizable by his leather jacket and casual style, Michael fights crime with the help of KITT, his intelligent car equipped with advanced artificial intelligence.\n\nEven transformed into a collector cosplaying duck, he retains all his confidence and remains ready to defend the innocent against criminals.",
       "variants": [
         {
           "size": "classic",
@@ -2893,7 +2951,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "1",
       "releaseYear": "2020",
-      "description": "Make the Impossible Possible With A Solid Snake TUBBZ!\n\nAre you ready to make friends with a special operation soldier and mercenary known for his marksmanship? Solid Snake can now be part of your gang as an adorable and unique rubber duck toy. Solid Snake TUBBZ is a tribute to one of the greatest heroes of the gaming world. ",
+      "description": "The infiltration mission begins in the pond.\n\nDiscover Solid Snake, the legendary hero of Metal Gear Solid. Even transformed into a cosplay duck, Snake remains an infiltration expert, ready to neutralize his target with precision and discretion.\n\nWith his iconic spec-ops gear, his suppressor, and his elite soldier attitude, this figurine perfectly captures the tactical and cult spirit of the Metal Gear Solid saga.",
       "variants": [
         {
           "size": "classic",
@@ -2915,7 +2973,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "2",
       "releaseYear": "2020",
-      "description": "Revolver Ocelot has adopted various identities to further his goals in the Metal Gear Solid series but no-one expected him to be a cosplaying duck! With a history of working as a triple agent, the other TUBBZ should be wary of trusting him too much. This one of a kind collectible is great for fans of the series to stock up on.",
+      "description": "The ricochet genius joins the pond.\n\nMeet Revolver Ocelot, Solid Snake's iconic rival. Master interrogator, formidable marksman, and essential character from Metal Gear Solid, Ocelot retains all his charisma even in the form of a collectible cosplay duck.\n\nWith his iconic revolvers, Major's uniform, and duelist's attitude, this figurine perfectly captures the tactical, military, and cult spirit of the Metal Gear Solid saga.",
       "variants": [
         {
           "size": "classic",
@@ -2937,7 +2995,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "3",
       "releaseYear": "2021",
-      "description": "Stand Guard With Genome Soldier TUBBZ.\nThe Genome Army was created to deal with terrorist activities, and their skills were strengthened through gene therapy using the genes of Big Boss. Now, the Genome Soldier can stand guard beside your bedside or bathtub (or on your display shelf!) as a premium TUBBZ.\n\nA loveable rubber duck toy has been transformed into a formidable and lethal Genome soldier from the Metal Gear Solid franchise. These characters are known for their superior reflexes, senses and combat skills. Our yellow cosplaying duck is seen wearing a snow tactical jacket with the Foxhound logo embossed on it and the Naked Snake STABO Harness. The TUBBZ duck also holds a gun and is wearing a holster to carry his ammunition. ",
+      "description": "FOXHOUND's genetically modified elite infiltrates the pond.\n\nMeet the Genome Soldier, the iconic elite soldier from Metal Gear Solid. Originating from a top-secret military program, Genome Soldiers were genetically modified to enhance their combat abilities and complete the most dangerous missions.\n\nEven transformed into a collector cosplay duck, this soldier retains his tactical gear, full-face mask, and menacing demeanor. He is ready to eliminate anyone who might compromise the operation on Shadow Moses.",
       "variants": [
         {
           "size": "classic",
@@ -2959,7 +3017,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "4",
       "releaseYear": "2021",
-      "description": "Want to bring the legendary cyborg ninja, Gray Fox, to your collection? The Metal Gear Solid: Gray Fox TUBBZ transforms the stealthy, high-tech warrior into an extraordinary rubber duck toy, blending his cold, tactical edge with a playful twist. This TUBBZ perfectly captures Gray Fox’s iconic look while adding a dose of quirky charm.\n\nGray Fox, clad in his distinctive exoskeleton suit and wielding a razor-sharp katana, is ready for battle, even in duck form. With meticulous attention to detail, this collectable showcases his sleek armour, glowing eye, and combat-ready stance, capturing everything that makes him a fan-favourite character. His intense expression and precise weaponry ensure that even as a duck, Gray Fox is not one to mess with.",
+      "description": "The FOXHOUND cyborg ninja infiltrates the pond.\n\nDiscover Gray Fox, legendary mercenary and former member of the FOXHOUND special unit. The only soldier to earn the prestigious code name Fox, he owes this distinction to his exceptional abilities on the battlefield.\n\nEven transformed into a collector cosplay duck, Gray Fox retains all his aura as a formidable warrior. His cyborg ninja armor, helmet, and stealthy appearance make him one of the most recognizable characters from Metal Gear Solid.",
       "variants": [
         {
           "size": "classic",
@@ -2981,7 +3039,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "5",
       "releaseYear": "2023",
-      "description": "Dr. Hal Emmerich aka \"Otacon\" is a brilliant engineer specialising in robotics and computer science - even as a cosplaying duck he’s able to assist Solid Snake and other Metal Gear Solid protagonists by providing them with his technical expertise and valuable intel. This one of a kind collectible is great for fans of the series to stock up on. Coming in a Metal Gear Solid branded box, this one-of-a-kind collectible toy is great for fans of the series to stock up on. ",
+      "description": "The man behind Metal Gear REX brings his impressive scientific skills to the TUBBZ collection. As a collectible bath duck, he's always a showstopper and is a replica of his human form with his wavy hair, glasses, and lab coat as key elements – he’s a must-have for fans.\n\nDr. Hal Otacon-Emmerich looks to have performed a scientific experiment on himself as he finds himself as a TUBBZ cosplaying duck. It’s still business as usual, even as a duck, he needs to busy himself and develop stealth camouflage.",
       "variants": [
         {
           "size": "classic",
@@ -3000,7 +3058,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "6",
       "releaseYear": "2023",
-      "description": "One of the most iconic villains in the Metal Gear Solid series, Psycho Mantis has the ability to read the minds of his enemies, so he's going to know exactly what the other TUBBZ think of him as a cosplaying duck! This one of a kind collectible toy is great for fans of the series to stock up on.",
+      "description": "Psycho Mantis may now be a TUBBZ collectible, but he still doesn’t want the thoughts of all those other ducks infiltrating his mind. To keep his mind clear and to camouflage his scars, he’s made sure his gas mask is firmly in place. This character is a great addition to the Metal Gear Solid collection.\n\nPsycho Mantis has left FOXHOUND for the duck pond, though this change of scenery hasn't made him any less troubled. His gas mask is his \"armor\", and he's ready to unleash his psychic powers on his fellow TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -3019,7 +3077,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "7",
       "releaseYear": "2025",
-      "description": "Go tactical with the Naked Snake TUBBZ. A stealthy tribute to the legendary soldier from Metal Gear Solid 3: Snake Eater. With his iconic sneaking suit, bandana, and steely expression, this cosplaying duck channels Snake’s survival instincts and battlefield grit, all in TUBBZ’s unmistakable style. A must-have for any operative’s shelf.",
+      "description": "Get a tactical look with the TUBBZ Naked Snake! A stealthy tribute to the legendary soldier from Metal Gear Solid 3: Snake Eater. With his iconic infiltration outfit, bandana, and steely gaze, this cosplaying duck embodies Snake's survival instinct and tenacity on the battlefield, all in TUBBZ's unmistakable style.",
       "variants": [
         {
           "size": "classic",
@@ -3033,7 +3091,7 @@ window.TUBBZ_DATA = {
       "franchise": "Metal Gear Solid",
       "number": "8",
       "releaseYear": "2025",
-      "description": "Command respect with The Boss TUBBZ. A powerful homage to the fearless mentor and warrior of MGS3. Reimagined as a TUBBZ duck with her white sneaking suit and composed strength, she’s every bit the legendary soldier, redefined with a ducky twist. Loyal to the mission and bold on display.",
+      "description": "Command respect with The Boss TUBBZ! A vibrant tribute to MGS3's mentor and fearless warrior. Reimagined as a TUBBZ duck, with her stealthy white suit and quiet strength, she perfectly embodies the legendary soldier, revisited with a canine touch. True to her mission and bold in all circumstances.",
       "variants": [
         {
           "size": "classic",
@@ -3042,11 +3100,11 @@ window.TUBBZ_DATA = {
       ]
     },
     {
-      "id": "metal-gear-solid-solid-snake-translucent",
-      "name": "Solid Snake",
+      "id": "metal-gear-solid-solid-snake-stealth-camo",
+      "name": "Solid Snake - Stealth Camo",
       "franchise": "Metal Gear Solid",
       "releaseYear": "2025",
-      "description": "This Stealth Camo Solid Snake duck figure is a must-have for fans of Metal Gear Solid merchandise and pop culture collectibles.\n\nOnly sold on Amazon, limited edition rare collectible, perfect for collectors and MGS fans.",
+      "description": "Although he has been transformed into a duck, underestimating Solid Snake's prowess on the battlefield is a sure-fire way to lead to the demise of his target. Armed with a silencer and his iconic spec-ops gear, this is a collectible you’d definitely want in your arsenal!\n\nOnly sold on Amazon, limited edition rare collectible, perfect for collectors and MGS fans.",
       "variants": [
         {
           "size": "classic",
@@ -3577,6 +3635,7 @@ window.TUBBZ_DATA = {
       "franchise": "Rocky",
       "number": "1",
       "releaseYear": "2021",
+      "description": "The Italian Stallion returns to the ring… from the pond.\n\nMeet Rocky Balboa, former two-time world heavyweight champion, in this TUBBZ. Even transformed into a collectible cosplay duck, Rocky retains all his determination, courage, and desire to fight until the final round.\n\nWith his iconic boxing attire and champion's demeanor, this figurine pays homage to one of the most famous characters in sports cinema.",
       "variants": [
         {
           "size": "classic",
@@ -3590,6 +3649,7 @@ window.TUBBZ_DATA = {
       "franchise": "Rocky",
       "number": "2",
       "releaseYear": "2021",
+      "description": "The Dancing Destroyer enters the ring… and the pond.\n\nMeet Apollo Creed, charismatic champion and legendary rival of Rocky Balboa. Known for his footwork, showmanship, and victories against the best boxers, Apollo remains a formidable opponent even as a cosplay duck collectible.\n\nWith his iconic boxing attire, champion's swagger, and American-inspired style, this figure pays homage to one of the most memorable characters in the Rocky saga.",
       "variants": [
         {
           "size": "classic",
@@ -3603,6 +3663,7 @@ window.TUBBZ_DATA = {
       "franchise": "Shenmue",
       "number": "1",
       "releaseYear": "2021",
+      "description": "Ryo Hazuki's quest for revenge continues, even in the pond.\n\nMeet Ryo Hazuki, the iconic hero of Shenmue. After his father's assassination, Ryo sets out to find Lan Di, determined to uncover the truth and get justice.\n\nEven transformed into a collector cosplay duck, he retains his instantly recognizable look: a brown leather jacket adorned with a tiger on the back, jeans, combat boots, and a small bandage under his left eye.",
       "variants": [
         {
           "size": "classic",
@@ -4075,6 +4136,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "1",
       "releaseYear": "2020",
+      "description": "Meet James Tiberius Kirk, one of Starfleet's most famous captains. Even transformed into a cosplay duck, Kirk retains his charisma, courage, and taste for exploring the far reaches of space.\n\nWith his iconic Starfleet uniform and commanding attitude, this figurine pays homage to the legendary captain of the USS Enterprise and one of Star Trek's most iconic characters.",
       "variants": [
         {
           "size": "classic",
@@ -4083,6 +4145,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4092,6 +4158,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "2",
       "releaseYear": "2020",
+      "description": "Meet Spock, the iconic Vulcan science officer from Star Trek. Exceptional logical mind, iconic bowl cut, and perfectly mastered Vulcan salute: even transformed into a cosplay duck, Spock remains instantly recognizable.\n\nWith his Starfleet uniform, pointed ears, and famous Vulcan gesture 🖖, this figure pays homage to one of the most important characters in science fiction.",
       "variants": [
         {
           "size": "classic",
@@ -4100,6 +4167,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4109,6 +4180,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "3",
       "releaseYear": "2020",
+      "description": "\"I'm a doctor, not a duck!\"\n\nMeet Dr. Leonard “Bones” McCoy, the iconic doctor of the USS Enterprise. Always ready to dispute Spock's decisions or remind everyone that he's a doctor first and foremost, McCoy discovers this time that he has actually been transformed into a collectible cosplay duck.\n\nWith his Starfleet medical uniform, characteristic expression, and direct temperament, this figure pays tribute to one of the most beloved characters from the original Star Trek series.",
       "variants": [
         {
           "size": "classic",
@@ -4126,6 +4198,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "4",
       "releaseYear": "2020",
+      "description": "Starfleet communications have never been so... quacky.\n\nMeet Nyota Uhura, the iconic communications officer of the USS Enterprise. Renowned for her intelligence, linguistic talent, and composure, Uhura is an indispensable member of Captain Kirk's crew, even in the form of a collectible cosplay duck.\n\nWith her iconic Starfleet uniform and natural elegance, this figurine pays homage to one of the most significant female characters in science fiction history.",
       "variants": [
         {
           "size": "classic",
@@ -4143,6 +4216,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "5",
       "releaseYear": "2021",
+      "description": "The captain of the Enterprise-D takes command of the pond.\n\nMeet Jean-Luc Picard, one of the most respected captains in Starfleet history. Even transformed into a collectible cosplay duck, his intelligence, calm, and remarkable analytical mind remain perfectly intact.\n\nWith his iconic uniform from Star Trek: The Next Generation and his commanding demeanor, this figure pays tribute to the famous captain of the USS Enterprise-D.",
       "variants": [
         {
           "size": "classic",
@@ -4151,6 +4225,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4160,6 +4238,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "6",
       "releaseYear": "2021",
+      "description": "A Klingon warrior remains formidable, even in duck form.\n\nMeet Worf, the famous Starfleet officer and Klingon warrior. Even transformed into a cosplay duck during his space adventures, Worf retains all his strength, honor, and combative temperament.\n\nWith his Starfleet uniform, characteristic Klingon features, and imposing stature, this figure pays tribute to one of the most iconic characters in the Star Trek universe.",
       "variants": [
         {
           "size": "classic",
@@ -4177,6 +4256,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "7",
       "releaseYear": "2021",
+      "description": "The Enterprise-D's Chief Engineer joins the pond.\n\nMeet Geordi La Forge, the iconic Chief Engineer of the USS Enterprise-D. Even transformed into a collectible cosplay duck, Geordi retains his technical expertise, analytical mind, and talent for resolving Starfleet's most complex breakdowns.\n\nWith his Starfleet uniform and famous VISOR, this figurine captures the instantly recognizable elements of one of Star Trek: The Next Generation's major characters.",
       "variants": [
         {
           "size": "classic",
@@ -4194,6 +4274,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "8",
       "releaseYear": "2021",
+      "description": "The Betazoid empath joins the pond.\n\nDiscover Deanna Troi, counselor of the USS Enterprise-D. Half-human and half-Betazoid, she retains her remarkable extrasensory abilities even in the form of a collectible cosplay duck.\n\nThanks to her empathy, Deanna can sense the emotions and intentions of those around her. A valuable skill for accompanying Captain Jean-Luc Picard during diplomatic negotiations and encounters with potentially hostile species.\n\nWith her instantly recognizable outfit and elegant appearance, this figurine pays homage to one of the essential crew members of Star Trek: The Next Generation.",
       "variants": [
         {
           "size": "classic",
@@ -4211,6 +4292,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "9",
       "releaseYear": "2022",
+      "description": "Resistance is futile… even in the pond.\n\nDiscover the formidable Borg, one of the most iconic species in Star Trek. Half-duck, half-assimilated drone, this collectible transforms the threat of the Collective into a geeky piece that is as original as it is unsettling.\n\nWith its cybernetic appearance, mechanical style, and the cold aura typical of the Collective, this TUBBZ perfectly captures the spirit of the Borg: assimilation, technology, and hive domination.",
       "variants": [
         {
           "size": "classic",
@@ -4228,6 +4310,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "10",
       "releaseYear": "2022",
+      "description": "An omnipotent being in a new… and very unexpected form.\n\nFind Q, the most unpredictable entity in Star Trek. Always ready to test, provoke, or destabilize Captain Jean-Luc Picard and the Enterprise crew, Q this time chooses a cosplay duck form as strange as it is brilliant.\n\nCapable of manipulating reality at will, Q is one of the most fascinating and mischievous characters in the Star Trek universe. This TUBBZ version perfectly captures his theatrical charisma and taste for unexpected appearances.",
       "variants": [
         {
           "size": "classic",
@@ -4245,6 +4328,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "11",
       "releaseYear": "2022",
+      "description": "“I’m giving her all she’s got, Captain!”\n\nThe legendary Enterprise engineer, Montgomery “Scotty” Scott, joins the TUBBZ collection.\nA Starfleet technical genius, he returns here as a cosplaying duck, ready to keep the engines at full power… even in the pond.\n\nIngenious, loyal, and indispensable to the crew, this collectible perfectly captures the spirit of the character with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -4263,6 +4347,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "12",
       "releaseYear": "2022",
+      "description": "Qapla’! Honor above all... even as a duck.\n\nThe formidable Klingon warrior race from Star Trek joins the TUBBZ collection.\nProud, powerful, and iconic, the Klingons are re-imagined here as cosplaying ducks, ready to defend their honor... in the pond as in space.\n\nWith their distinctive appearance, combative attitude, and imposing presence, this collectible perfectly captures the Klingon warrior spirit with the quirky TUBBZ touch.",
       "variants": [
         {
           "size": "classic",
@@ -4277,6 +4362,7 @@ window.TUBBZ_DATA = {
       "franchise": "Star Trek",
       "number": "13",
       "releaseYear": "2022",
+      "description": "“KHAAAAAN!”\n\nThe legendary Khan Noonien Singh, one of Star Trek’s most iconic villains, joins the TUBBZ collection.\nFormidable, charismatic, and relentless, he returns as a cosplaying duck, ready to challenge the Enterprise.\n\nA genetically superior augment and formidable strategist, this collectible captures all the power and intensity of the character with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -4290,10 +4376,12 @@ window.TUBBZ_DATA = {
       "name": "Data",
       "franchise": "Star Trek",
       "number": "14",
+      "description": "Lieutenant Commander Data may be the only android on the USS Enterprise, but he's not the only cosplaying duck as he joins the rest of the TUBBZ crew. He was skillfully created to look human and now he looks like a duck with that pale skin and yellow eyes.",
       "variants": [
         {
           "size": "classic",
-          "packaging": "first-edition"
+          "packaging": "first-edition",
+          "limitedTo": 3000
         },
         {
           "size": "classic",
@@ -4306,6 +4394,7 @@ window.TUBBZ_DATA = {
       "name": "William T. Riker",
       "franchise": "Star Trek",
       "number": "15",
+      "description": "William T. Riker, known as FOMO, has joined the 15 other Star Trek characters who now cosplay as bath duck collectibles and is very excited to join the crew. He has his beloved trombone with him so he can entertain the rest of the TUBBZ team.",
       "variants": [
         {
           "size": "classic",
@@ -4322,6 +4411,7 @@ window.TUBBZ_DATA = {
       "name": "Kathryn Janeway",
       "franchise": "Star Trek",
       "number": "16",
+      "description": "The duck pond is making way for a new captain as Kathryn Janeway becomes the latest recruit to join the Star Trek TUBBZ collection. She looks impeccable with her bob haircut and red and black Starfleet uniform. She wouldn't be complete without a cup of coffee, black of course.\n\nKathryn Janeway may be a cosplay duck, but she is still a captain and is committed to never abandoning a member of her new quack team, as long as they make sure she always has coffee.",
       "variants": [
         {
           "size": "classic",
@@ -4330,6 +4420,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -4338,6 +4432,7 @@ window.TUBBZ_DATA = {
       "name": "Seven of Nine",
       "franchise": "Star Trek",
       "number": "17",
+      "description": "Resistance… futile. Essential for your collection.\n\nSeven of Nine, the former Borg turned human, joins the TUBBZ collection in a version that is as recognizable as it is stylized.\nHer iconic silver suit and characteristic Borg implants are faithfully reproduced in this unique cosplay duck adaptation.\n\nBoth elegant and iconic, this figure captures all the duality of the character, between technology and humanity, with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -4354,6 +4449,7 @@ window.TUBBZ_DATA = {
       "name": "Benjamin Sisko",
       "franchise": "Star Trek",
       "number": "18",
+      "description": "Enter the Star Trek universe with the Star Trek TUBBZ featuring the iconic Benjamin Sisko! This Sisko TUBBZ collectible transforms your favorite Star Trek character into an adorable cosplay duck, ready to command your collection.",
       "variants": [
         {
           "size": "classic",
@@ -4370,6 +4466,7 @@ window.TUBBZ_DATA = {
       "name": "The Doctor",
       "franchise": "Star Trek",
       "number": "19",
+      "description": "Ready to spice up your collection? The Star Trek TUBBZ version of everyone’s favorite EMH (Emergency Medical Hologram) Doctor is here! This Voyager TUBBZ collectible brilliantly transforms the Doctor from Star Trek: Voyager into an original cosplay duck. Perfect for fans of the legendary Voyager starship, this TUBBZ captures the essence of the beloved holographic character, blending charm, wit, and medical expertise all in duck form.",
       "variants": [
         {
           "size": "classic",
@@ -4386,6 +4483,7 @@ window.TUBBZ_DATA = {
       "name": "Quark",
       "franchise": "Star Trek",
       "number": "20",
+      "description": "An iconic Ferengi... collector's edition.\n\nDive at warp speed into the Star Trek universe with Quark, Deep Space Nine's famous Ferengi bartender, reimagined as a TUBBZ.\nTransformed into a characterful cosplay duck, he retains all the emblematic details that make him uniquely charming.\n\nMischievous, opportunistic, and indispensable, this collectible perfectly captures the character's spirit... with a touch of typical TUBBZ humor.",
       "variants": [
         {
           "size": "classic",
@@ -4996,6 +5094,7 @@ window.TUBBZ_DATA = {
       "franchise": "Yakuza",
       "number": "1",
       "releaseYear": "2021",
+      "description": "The Dragon of Dojima enters the pond.\n\nMeet Kazuma Kiryu, the iconic hero of the Ryu ga Gotoku / Yakuza saga. Thanks to his legendary exploits and his rise within the Dojima family of the Tojo Clan, Kiryu has forged a reputation few dare to challenge.\n\nEven transformed into a collector's cosplay duck, the Dragon of Dojima remains a formidable fighter. And if he finds a bicycle nearby, it's best not to get in his way.\n\nWith his grey suit, red shirt, and calm yet imposing demeanor, this figurine captures the character's instantly recognizable elements.",
       "variants": [
         {
           "size": "classic",
@@ -5004,6 +5103,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     }
