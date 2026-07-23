@@ -46,8 +46,9 @@ window.Tubbz = (function () {
       }
       var meta = data.meta || {};
       var figurines = Array.isArray(data.figurines) ? data.figurines.slice() : [];
-      // Numéro → entier ; absent ou invalide = Infinity (rejeté en fin de franchise).
-      function numOf(v) { var n = parseInt(v, 10); return isNaN(n) ? Infinity : n; }
+      // Numéro → nombre (parseFloat pour gérer les « 3.1 » qui suivent le « 3 ») ;
+      // absent ou invalide = Infinity (rejeté en fin de franchise).
+      function numOf(v) { var n = parseFloat(v); return isNaN(n) ? Infinity : n; }
       // Tri par défaut : franchise (alpha), puis numéro croissant (sans-numéro à la fin),
       // puis nom (départage à numéro égal ou entre sans-numéro).
       figurines.sort(function (a, b) {
