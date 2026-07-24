@@ -5,7 +5,7 @@
 
 ## Nature du projet
 
-« Tubbz Archives » : une application web qui **archive les figurines Tubbz** (canards vinyle
+« The TUBBZ Archive » : une application web qui **archive les figurines Tubbz** (canards vinyle
 cosplayés, marque Numskull) et permet à un visiteur de **suivre sa collection**. Deux buts :
 1. cataloguer les figurines (photo, numéro, année de sortie, licence, variantes,
    tirage limité par variante) ;
@@ -85,12 +85,20 @@ cosplayés, marque Numskull) et permet à un visiteur de **suivre sa collection*
   l'index lit ce paramètre au chargement, applique le filtre et nettoie l'URL (comme `?home`).
 - **Un seul orange sur tout le site : `#ee8804`** (orange officiel Tubbz), porté par `--accent`
   (et `--partial`). Ne pas réintroduire d'autre orange/ambre ; utiliser `var(--accent)`.
-- **Logo « Tubbz Archives » (`.brand`)** : **pas d'emoji**. « Tubbz » en gras
-  (`<strong class="brand-name">`) aux couleurs du logo officiel — « Tubb » en jaune `#ffe103`,
-  « z » (`.brand-z`) en orange `var(--accent)` ; « Archives » en texte normal (couleur héritée).
+- **Nom du site : « The TUBBZ Archive »** — *Archive* au **singulier** (une collection unique et
+  cohérente, à la manière de « The Internet Archive »). Ne pas remettre le pluriel.
+- **Logo « The TUBBZ Archive » (`.brand`)** : **pas d'emoji**. « TUBBZ »
+  (`<strong class="brand-name">`) aux couleurs du logo officiel — « TUBB » en jaune `#ffe103`,
+  « Z » (`.brand-z`) en orange `var(--accent)` ; « The » et « Archive » héritent de la couleur.
+- **Logo + slogan alignés à droite** : les deux lignes du `.brand-block` sont justifiées
+  (`text-align: justify` + `text-align-last: justify`) pour finir au **même bord droit**. Le slogan
+  étant plus court, sa `font-size` (`.82rem`) et son `letter-spacing` (`.042em`) sont **calés** pour
+  qu'il atteigne *naturellement* la largeur du titre — sinon la justification creuse de gros trous
+  entre les mots. **Si le texte du titre ou du slogan change, recalculer ces deux valeurs.**
+  Contrainte : ne pas augmenter la hauteur du header (69px, pilotée par le bouton à ~44px).
 - **Liens textuels cliquables → classe `.text-link`** : effet **très subtil**, le texte vire
   simplement à l'orange accent (`--accent`) au survol. **Aucun soulignement.** À mettre sur tout
-  lien/texte cliquable en ligne, **existant et futur**. Seule exception : le logo « Tubbz
-  Archives » (`.brand`).
+  lien/texte cliquable en ligne, **existant et futur**. Seule exception : le logo « The TUBBZ
+  Archive » (`.brand`).
 - Toujours échapper le contenu injecté en HTML (`Tubbz.esc`).
 - Nouvelle logique partagée → `common.js` ; logique spécifique à une page → `index.js` / `duck.js`.

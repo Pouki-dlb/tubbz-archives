@@ -1,4 +1,4 @@
-# Tubbz Archives
+# The TUBBZ Archive
 
 Application web **statique** (HTML/CSS/JS purs — aucun framework, aucun backend, aucune base de
 données) pour **archiver les figurines Tubbz** et **suivre sa collection**. Le suivi est enregistré

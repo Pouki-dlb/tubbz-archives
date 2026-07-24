@@ -170,7 +170,7 @@
     .then(function (data) {
       var fig = data.figurines.filter(function (f) { return f.id === id; })[0];
       if (!fig) { notFound(id); return; }
-      document.title = fig.name + " — Tubbz Archives";
+      document.title = fig.name + " — The TUBBZ Archive";
       render(data.meta, fig);
     })
     .catch(function (err) {
