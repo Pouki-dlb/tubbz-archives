@@ -175,7 +175,13 @@ h1, h2, h3 { line-height: 1.2; }
 }
 .card:hover { transform: translateY(-3px); border-color: var(--accent); }
 .card-media { display: block; position: relative; aspect-ratio: 1 / 1; background: var(--surface-2); border-radius: var(--radius); }
-.card-media img { width: 100%; height: 100%; object-fit: contain; padding: 6px; border-radius: inherit; }
+.card-img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: contain; padding: 6px; border-radius: inherit;
+}
+/* Image survolée (chips de variante) : superposée à l'image par défaut, fondu rapide et subtil. */
+.card-img-hover { opacity: 0; transition: opacity .3s ease; pointer-events: none; }
+.card-img-hover.is-visible { opacity: 1; }
 .heart { position: absolute; top: 8px; right: 8px; font-size: 1.1rem; filter: drop-shadow(0 1px 2px rgba(0,0,0,.3)); }
 .num-badge {
   position: absolute; top: 8px; left: 8px;
@@ -226,8 +232,14 @@ h1, h2, h3 { line-height: 1.2; }
   border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow);
 }
 .duck-hero-figure { display: flex; flex-direction: column; gap: 10px; }
-.duck-hero-media { background: var(--surface-2); border-radius: 12px; aspect-ratio: 1/1; display: grid; place-items: center; }
-.duck-hero-media img { width: 100%; height: 100%; object-fit: contain; padding: 6px; border-radius: inherit; }
+.duck-hero-media { position: relative; background: var(--surface-2); border-radius: 12px; aspect-ratio: 1/1; }
+/* Deux <img> superposées : le flip de taille fait un fondu enchaîné entre les deux. */
+.hero-img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: contain; padding: 6px; border-radius: inherit;
+  opacity: 0; transition: opacity .3s ease;
+}
+.hero-img.is-visible { opacity: 1; }
 /* Bouton « flip » du hero : bascule l'image entre les tailles disponibles. */
 .hero-flip {
   align-self: center;

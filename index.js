@@ -128,9 +128,10 @@
     return (
       '<div class="card">' +
         '<a class="card-media" href="' + url + '" tabindex="-1" aria-label="' + T.esc(fig.name) + '">' +
-          '<img loading="lazy" src="' + T.esc(img) + '" data-default="' + T.esc(img) + '" ' +
+          '<img class="card-img is-visible" loading="lazy" src="' + T.esc(img) + '" ' +
             'alt="' + T.esc(fig.name) + '" ' +
             'onerror="this.onerror=null;this.src=\'' + T.PLACEHOLDER + '\'" />' +
+          '<img class="card-img card-img-hover" alt="" aria-hidden="true" />' +
           (fig.number ? '<span class="num-badge">#' + T.esc(fig.number) + '</span>' : '') +
           (wished ? '<span class="heart" title="In your wishlist" aria-label="Wishlist">❤</span>' : '') +
         '</a>' +
@@ -243,9 +244,15 @@
   /* Survol d'une chip → change l'image de la card (délégation)        */
   /* ---------------------------------------------------------------- */
 
-  function setImg(im, src) {
-    im.onerror = function () { this.onerror = null; this.src = T.PLACEHOLDER; };
-    im.src = src;
+  // L'image survolée est une <img> superposée (fondu CSS via .is-visible), toujours
+  // au-dessus de l'image par défaut, qui elle ne bouge jamais.
+  function showHoverImg(overlay, src) {
+    overlay.onerror = function () { this.onerror = null; this.src = T.PLACEHOLDER; };
+    overlay.src = src;
+    overlay.classList.add("is-visible");
+  }
+  function hideHoverImg(overlay) {
+    overlay.classList.remove("is-visible");
   }
 
   // Clic sur une chip → navigue vers la fiche (même destination que l'image / le nom).
@@ -264,16 +271,22 @@
       var chip = e.target.closest(".card-chip");
       if (!chip || !elGrid.contains(chip)) return;
       var card = chip.closest(".card");
-      var im = card && card.querySelector(".card-media img");
+      var overlay = card && card.querySelector(".card-img-hover");
       var v = chip.getAttribute("data-img");
-      if (im && v) setImg(im, v);
+      if (overlay && v) showHoverImg(overlay, v);
     });
     elGrid.addEventListener("mouseout", function (e) {
       var chip = e.target.closest(".card-chip");
       if (!chip || !elGrid.contains(chip)) return;
       var card = chip.closest(".card");
-      var im = card && card.querySelector(".card-media img");
-      if (im) setImg(im, im.getAttribute("data-default"));
+      // Si la souris passe directement sur une autre chip de la même card, le
+      // survol suivant mettra à jour l'overlay : pas de fondu de sortie ici,
+      // pour éviter un clignotement entre deux chips voisines.
+      var related = e.relatedTarget;
+      var toChip = related && related.closest && related.closest(".card-chip");
+      if (toChip && card && card.contains(toChip)) return;
+      var overlay = card && card.querySelector(".card-img-hover");
+      if (overlay) hideHoverImg(overlay);
     });
   }
 
