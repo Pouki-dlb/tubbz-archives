@@ -242,6 +242,57 @@ window.Tubbz = (function () {
   }
 
   /* ------------------------------------------------------------------ */
+  /* Layout partagé : header + footer injectés (une seule source)        */
+  /* ------------------------------------------------------------------ */
+  // Header et footer sont IDENTIQUES entre les pages (à l'action de droite près) :
+  // on les définit ICI et on les injecte dans les points de montage
+  // <header id="site-header"> / <footer id="site-footer">. Chaque page indique
+  // seulement son type via <body data-page="index|duck">.  ► Pour ajouter une
+  // page : créer son HTML avec ces deux points de montage + data-page, et
+  // ajouter son cas dans headerActionsFor() ci-dessous. Rien à dupliquer.
+  // (Injection en JS car le site doit tourner en file:// — pas de fetch/include.)
+
+  var BRAND_HTML =
+    '<div class="brand-block">' +
+      '<a class="brand" href="index.html?home">' +
+        '<span class="brand-text"><strong>The </strong>' +
+        '<strong class="brand-name">TUBB<span class="brand-z">Z</span></strong> ' +
+        '<strong>Archive</strong></span>' +
+      '</a>' +
+      '<p class="tagline">Find the tubbz you deserve</p>' +
+    '</div>';
+
+  var THEME_BTN_HTML =
+    '<button id="theme-toggle" type="button" class="btn btn-ghost theme-toggle" aria-label="Theme"></button>';
+
+  // Action(s) à droite du header, propres à chaque page (le bouton thème est commun).
+  function headerActionsFor(page) {
+    if (page === "duck") {
+      return THEME_BTN_HTML + '<a class="btn btn-ghost" href="index.html">← Back</a>';
+    }
+    return THEME_BTN_HTML + // index (défaut)
+      '<button id="btn-about" type="button" class="btn btn-ghost" aria-haspopup="dialog">About</button>';
+  }
+
+  function renderLayout() {
+    var page = document.body.getAttribute("data-page") || "index";
+    var header = document.getElementById("site-header");
+    if (header) {
+      header.innerHTML =
+        '<div class="wrap header-inner">' +
+          BRAND_HTML +
+          '<div class="header-actions">' + headerActionsFor(page) + '</div>' +
+        '</div>';
+    }
+    var footer = document.getElementById("site-footer");
+    if (footer) {
+      footer.innerHTML =
+        '<div class="wrap"><p class="muted">Tubbz™ is a trademark of Numskull Designs. ' +
+        'This project is an unofficial collection tool.</p></div>';
+    }
+  }
+
+  /* ------------------------------------------------------------------ */
   /* Thème : auto (défaut) / light / dark, mémorisé en localStorage      */
   /* ------------------------------------------------------------------ */
   // Le CSS lit l'attribut data-theme sur <html> (light|dark). Un script inline
@@ -303,8 +354,13 @@ window.Tubbz = (function () {
       renderThemeButton(btn, next);
     });
   }
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initTheme);
-  else initTheme();
+  // Injecte le layout PUIS initialise le thème (qui a besoin de #theme-toggle,
+  // rendu par renderLayout). SYNCHRONE, et surtout PAS différé à DOMContentLoaded :
+  // common.js est chargé en fin de <body> (les points de montage existent déjà),
+  // et index.js câble ses boutons — dont #btn-about, injecté ici — via une promesse
+  // qui s'exécute AVANT DOMContentLoaded. Le header doit donc exister dès maintenant.
+  renderLayout();
+  initTheme();
 
   return {
     PLACEHOLDER: PLACEHOLDER,

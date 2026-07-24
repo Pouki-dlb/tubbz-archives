@@ -18,31 +18,16 @@
     })();
   </script>
 </head>
-<body>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <div class="brand-block">
-        <a class="brand" href="index.html?home">
-          <span class="brand-text"><strong>The </strong><strong class="brand-name">TUBB<span class="brand-z">Z</span></strong> <strong>Archive</strong></span>
-        </a>
-        <p class="tagline">Find the tubbz you deserve</p>
-      </div>
-      <div class="header-actions">
-        <button id="theme-toggle" type="button" class="btn btn-ghost theme-toggle" aria-label="Theme"></button>
-        <a class="btn btn-ghost" href="index.html">← Back</a>
-      </div>
-    </div>
-  </header>
+<body data-page="duck">
+  <!-- Header + footer sont injectés par common.js (renderLayout), selon data-page
+       ci-dessus. Ne pas remettre le markup ici : source unique dans common.js. -->
+  <header class="site-header" id="site-header"></header>
 
   <main class="wrap" id="duck-root" aria-busy="true">
     <p class="loading">Loading…</p>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <p class="muted">Tubbz™ is a trademark of Numskull Designs. This project is an unofficial collection tool.</p>
-    </div>
-  </footer>
+  <footer class="site-footer" id="site-footer"></footer>
 
   <script src="data.js"></script>
   <script src="common.js"></script>

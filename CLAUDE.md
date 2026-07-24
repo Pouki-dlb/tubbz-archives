@@ -29,7 +29,7 @@ The project has two parts:
 |------|------|
 | `index.html` / `index.js` | Grid: search, filters, cards (variant chips), export/import. |
 | `duck.html` / `duck.js` | Detail page (`duck.html?id=<id>`): per-variant photos, ownership checks, wishlist, note. |
-| `common.js` | Shared: catalog loading, `localStorage`, helpers (`window.Tubbz`). |
+| `common.js` | Shared: catalog loading, `localStorage`, helpers (`window.Tubbz`), **the injected header/footer** (`renderLayout`) and the theme toggle. |
 | `styles.css` | Styling, responsive, auto light/dark theme. |
 | `data.js` | The catalog (`window.TUBBZ_DATA`). |
 | `images/` | Figurine images (+ `placeholder.svg`). |
@@ -123,6 +123,14 @@ exported collection.
 
 ## Conventions & gotchas
 
+- **Shared header/footer**: defined ONCE in `common.js` (`renderLayout`) and injected into the mount
+  points `<header id="site-header">` / `<footer id="site-footer">` present in each page. The
+  page-specific right-hand action is chosen from `<body data-page="index|duck">`. Injection is JS
+  (the site must run from `file://`, so no `fetch`/server includes) and **synchronous** — `common.js`
+  loads at end of `<body>`, so the header exists before `index.js`/`duck.js` wire their buttons (e.g.
+  `#btn-about`). `.site-header` reserves `min-height` to avoid a load-time layout jump. **To add a
+  page**: give it the two mount points + `data-page`, and add its case in `headerActionsFor()`. Don't
+  paste header/footer markup back into the HTML.
 - **Variant chip** = ownership indicator (colored + ✓ if owned, greyed otherwise). Hover a card
   chip → the card image becomes that variant's; click → opens the detail page. Max 4 chips.
 - **Index card is a `<div>`, not one big link**: image, name, and chips lead to the detail page; the
