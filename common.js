@@ -16,7 +16,7 @@ window.Tubbz = (function () {
   // Convention de nommage des images (convention pure : calculée depuis l'id, jamais stockée).
   // Image par taille    : images/<id>-<taille>.webp             (ex. -c, -m, -x) → figurine « nue »
   // Image de variante   : images/<id>-<taille><emballage>.webp  (ex. -cf, -cb, -mf, -xb) → dans son packaging
-  // Image principale    : images/<id>.webp (legacy — plus utilisée par le site, cf. admin.html)
+  // Image principale    : images/<id>.webp (legacy — plus utilisée par le site, cf. admin/index.html)
   var SIZE_INITIAL = { classic: "c", mini: "m", xl: "x" };
   var PACK_INITIAL = { "first-edition": "f", boxed: "b" };
   var SIZE_ORDER = ["classic", "mini", "xl"];

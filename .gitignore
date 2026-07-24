@@ -5,7 +5,4 @@ Desktop.ini
 *.swp
 .vscode/
 .idea/
-admin.html
-admin.js
-admin.md
-vendor/
+admin/

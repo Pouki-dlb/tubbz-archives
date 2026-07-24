@@ -1,6 +1,6 @@
 /* data.js — LE CATALOGUE des figurines Tubbz.
  *
- * Généré / mis à jour par l'outil d'administration (admin.html).
+ * Généré / mis à jour par l'outil d'administration (admin/index.html).
  * Contenu = JSON pur assigné à window.TUBBZ_DATA, pour rester chargeable
  * par simple <script> (aucun serveur requis côté site).
  */
@@ -5195,9 +5195,15 @@ window.TUBBZ_DATA = {
       "name": "Willy Wonka",
       "franchise": "Wonka",
       "number": "1",
+      "releaseYear": "2025",
+      "description": "Dive into a world of imagination with the TUBBZ Willy Wonka ! Inspired by the whimsical 2023 film, this charming collectible transforms the legendary chocolatier into an adorable, eccentric duck. Dressed in his stylish purple coat, vibrant scarf, and iconic top hat, this Wonka duck is brimming with youthful ambition and sweet dreams. And to top it all off, he smells deliciously like chocolate!",
       "variants": [
         {
           "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
           "packaging": "first-edition"
         }
       ]
