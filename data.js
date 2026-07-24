@@ -124,6 +124,10 @@ window.TUBBZ_DATA = {
         {
           "size": "mini",
           "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
+          "packaging": "boxed"
         }
       ]
     },
@@ -1266,6 +1270,7 @@ window.TUBBZ_DATA = {
       "franchise": "Dr. Seuss",
       "number": "1",
       "releaseYear": "2021",
+      "description": "Christmas is coming… and the Grinch is still not pleased.\n\nDiscover The Grinch, the famous grumpy character from the Dr. Seuss universe. Hairy, cynical, and allergic to the Christmas spirit, the Grinch joins the TUBBZ pond as a collector cosplay duck.\n\nWith his sullen look, instantly recognizable style, and legendary anti-holiday attitude, this figurine perfectly captures all the character's charming grumpiness.",
       "variants": [
         {
           "size": "classic",
@@ -1273,6 +1278,14 @@ window.TUBBZ_DATA = {
         },
         {
           "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
           "packaging": "boxed"
         }
       ]
@@ -1283,10 +1296,19 @@ window.TUBBZ_DATA = {
       "franchise": "Dr. Seuss",
       "number": "2",
       "releaseYear": "2021",
+      "description": "Best friend to the grumpy Grinch, Cindy Lou Who is always there to remind him of the true meaning of Christmas: spending time with loved ones!\n\nWe all know how grumpy the Grinch is. Luckily, Cindy Lou is there to remind him that Christmas isn't about gifts, but about spending time with loved ones!",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
+          "packaging": "boxed"
         }
       ]
     },
@@ -1296,10 +1318,35 @@ window.TUBBZ_DATA = {
       "franchise": "Dr. Seuss",
       "number": "3",
       "releaseYear": "2025",
+      "description": "Steal the show (and maybe even the show at Christmas) with the TUBBZ Grinch! Dressed in his festive red suit and carrying a bag overflowing with 'borrowed' presents and a Christmas tree, this delightfully mischievous duck brings classic Dr. Seuss pranks to life.\n\nBoth festive and devilish, it's the ideal collectible toy for the holidays, for all those who love the magic of Christmas with a touch of mischief.",
       "variants": [
         {
           "size": "classic",
           "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
+      "id": "dr-seuss-max",
+      "name": "Max",
+      "franchise": "Dr. Seuss",
+      "description": "Loyal, endearing, and sporting his one unforgettable deer antler, Max is the most faithful companion a Grinch could ever dream of. This officially licensed Mini TUBBZ captures his festive charm in a 5 cm (2 inch) version with impeccable detail, ready to follow the Grinch in all his pranks to cancel Christmas. Adorable and a tad patient, Max is the true heart of the story and the perfect centerpiece for any fan's collection.",
+      "variants": [
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "mini",
+          "packaging": "boxed"
         }
       ]
     },
@@ -1308,7 +1355,7 @@ window.TUBBZ_DATA = {
       "name": "The Grinch (Book: Santa Costume)",
       "franchise": "Dr. Seuss",
       "releaseYear": "2025",
-      "description": "Amazon Exclusive",
+      "description": "Celebrate the holiday season with a sinister twist through the Amazon Exclusive Grinch Book Santa Costume TUBBZ. Officially licensed Dr. Seuss merchandise and designed by Numskull Designs, this limited first edition vinyl collectible transforms the iconic festive villain into a cosplaying duck. Featuring frosty white fur, blazing red eyes, and a sack stuffed with stolen gifts and a swiped Christmas tree, this Grinch is ready to snatch Christmas—and prime space on your display shelf. Crafted from premium PVC and standing at approximately 9cm tall, it is a must-have addition for collectors, fans of The Grinch, and anyone who enjoys rare, seasonal exclusives.",
       "variants": [
         {
           "size": "classic",
@@ -1993,6 +2040,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hammer House of Horror",
       "number": "1",
       "releaseYear": "2021",
+      "description": "A new breed of vampire has emerged. Leading them is that famed blood-sucking duck - Quackula, I mean Dracula!\n\nKeep your wits about you as this blood-thirsty duck is not one to be messed with! The infamous vampire Dracula has undergone a strange and wonderful transformation to live out his immortal life as a bathing duck.",
       "variants": [
         {
           "size": "classic",
@@ -2006,6 +2054,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hammer House of Horror",
       "number": "2",
       "releaseYear": "2021",
+      "description": "You have to hand it to Frankenstein for his ability to stitch together a monster and bring it back from the dead! However, we’re not too sure why he chose to piece together this particular creature using duck parts…",
       "variants": [
         {
           "size": "classic",
@@ -2019,6 +2068,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hammer House of Horror",
       "number": "3",
       "releaseYear": "2021",
+      "description": "Although many may mistake this for a duck wrapped in toilet paper, they couldn't be more wrong. Straight from the tombs of Egypt, this duck has been resurrected and is ready to curse those who seek to meddle with its treasures!",
       "variants": [
         {
           "size": "classic",
@@ -2032,6 +2082,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hammer House of Horror",
       "number": "4",
       "releaseYear": "2021",
+      "description": "It's time to cash in all the money you have because we've heard rumors of a wolf/duck hybrid hunting all night. If you're not careful, you could become its prey!",
       "variants": [
         {
           "size": "classic",
@@ -2113,7 +2164,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hatsune Miku",
       "number": "1",
       "releaseYear": "2022",
-      "description": "The iconic Hatsune Miku, virtual J-Pop superstar, is reinvented as Snow Miku in this TUBBZ. With her elegant winter look and icy details, she brings a touch of freshness and magic to your collection.\n\nReimagined as a cosplay duck, this collectible captures all of Miku's grace and unique aesthetic, with a fun and original interpretation unique to TUBBZ.",
+      "description": "The world's most famous virtual idol takes the stage… from the pond.\n\nMeet Hatsune Miku, the Japanese cultural phenomenon and global icon of virtual music. With her long turquoise pigtails, microphone, and instantly recognizable futuristic outfit, Miku retains all her style even in the form of a collectible cosplay duck.\n\nThis figure pays tribute to one of the world's most popular virtual voices, who has become a true star thanks to her concerts, songs, and international community of creators and fans.",
       "variants": [
         {
           "size": "classic",
@@ -2131,7 +2182,7 @@ window.TUBBZ_DATA = {
       "franchise": "Hatsune Miku",
       "number": "1.1",
       "releaseYear": "2023",
-      "description": "The iconic Hatsune Miku, virtual J-Pop superstar, is reinvented as Snow Miku in this TUBBZ. With her elegant winter look and icy details, she adds a touch of freshness and magic to your collection.\n\nReimagined as a cosplaying duck, this collectible captures all of Miku's grace and unique aesthetic, with a fun and original interpretation unique to TUBBZ.",
+      "description": "The voice of the future... winter edition.\n\nThe iconic Hatsune Miku, virtual J-Pop superstar, is reinvented as Snow Miku in this TUBBZ.\nWith her elegant winter look and icy details, she brings a touch of freshness and magic to your collection.\n\nReimagined as a cosplay duck, this collectible captures all of Miku's grace and unique aesthetic, with a fun and original interpretation unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -2170,6 +2221,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jaws",
       "number": "1",
       "releaseYear": "2021",
+      "description": "Da dum… da dum… something is approaching in the pond.\n\nMeet Bruce, the iconic great white shark from Jaws. Even transformed into a collectible cosplay duck, this mythical predator retains his menacing smile and instantly recognizable allure.\n\nInspired by Steven Spielberg's cult film, this figurine humorously reinterprets one of the most famous monsters in cinematic history.",
       "variants": [
         {
           "size": "classic",
@@ -2178,6 +2230,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2187,6 +2243,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jaws",
       "number": "2",
       "releaseYear": "2021",
+      "description": "A killer shark on the loose? There's only one man for the job.\n\nMeet Quint, the formidable shark hunter from Jaws. Captain of the famous boat Orca, Quint is accustomed to tracking the most dangerous marine predators.\n\nEven transformed into a collector cosplay duck, he retains all his seasoned sailor's allure, his hunting experience, and his determined character. Faced with the great white shark terrorizing Amity Island, he remains the man for the job.",
       "variants": [
         {
           "size": "classic",
@@ -2195,6 +2252,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2204,6 +2265,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jaws",
       "number": "3",
       "releaseYear": "2021",
+      "description": "The shark expert embarks on the Orca… then joins the pond.\n\nMeet Matt Hooper, oceanographer and shark expert from Jaws. Fascinated by large marine predators, Hooper joins Brody and Quint aboard the Orca to track the shark terrorizing Amity Island.\n\nEven transformed into a collectible cosplay duck, he retains his field expert look and his essential role in the hunt for the famous great white shark.",
       "variants": [
         {
           "size": "classic",
@@ -2212,6 +2274,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2221,6 +2287,7 @@ window.TUBBZ_DATA = {
       "franchise": "Jaws",
       "number": "4",
       "releaseYear": "2021",
+      "description": "Amity Island's police chief takes to the sea… and then joins the pond.\n\nDiscover Martin Brody, Amity Island's police chief and iconic hero from Jaws. Unaccustomed to sharks, and even less so to the open sea, Brody must nonetheless confront the gigantic predator terrorizing residents and vacationers.\n\nAccompanied by Matt Hooper and Quint aboard the Orca, he embarks on a hunt as dangerous as it is unforgettable. Even transformed into a collectible cosplay duck, he retains all his courage and determination.",
       "variants": [
         {
           "size": "classic",
@@ -2229,6 +2296,10 @@ window.TUBBZ_DATA = {
         {
           "size": "classic",
           "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
         }
       ]
     },
@@ -2238,6 +2309,20 @@ window.TUBBZ_DATA = {
       "franchise": "Jaws",
       "number": "5",
       "releaseYear": "2023",
+      "description": "Da dum da dum… the shark hunters caught the shark, it was harpooned, they put the scuba tank in its mouth and bingo, game over! Jaws fans, this is a very special collectible – the Jaws Bruce Cosplay Duck in size XL. Simply a statement piece in any collection.",
+      "variants": [
+        {
+          "size": "xl",
+          "packaging": "boxed"
+        }
+      ]
+    },
+    {
+      "id": "jaws-orca-boat",
+      "name": "Orca Boat",
+      "franchise": "Jaws",
+      "releaseYear": "2026",
+      "description": "Embark on a legendary adventure with the Jaws Special Edition Orca TUBBZ Boat, a premium replica of the iconic ship from the classic 1975 film, designed to showcase your Jaws Mini TUBBZ collection.\n\nMade of high-quality PVC and ABS, this boat can accommodate up to three Mini TUBBZ, so there's no need to buy a bigger one! Whether you display Chief Brody, Quint, and Hooper's Mini TUBBZ or switch them up with your own shipmates, this detailed collectible will bring the thrill of the chase to life.\n\nThe set includes Mini TUBBZ of the three legendary shark hunters, a full-size TUBBZ Bruce the Shark, plus the iconic yellow barrels and diving cylinder. With its movie-accurate paint scheme, sturdy flat base, and ability to float, the Orca boat is ideal for play and display, and a must-have for Jaws fans of all ages.",
       "variants": [
         {
           "size": "xl",
@@ -4501,7 +4586,7 @@ window.TUBBZ_DATA = {
       "franchise": "Stranger Things",
       "number": "1",
       "releaseYear": "2021",
-      "description": "Baignoine sans embalage",
+      "description": "Hawkins' telekinetic powers come to the pond.\n\nMeet Eleven, the iconic hero from Stranger Things. Possessing powerful telekinetic abilities, she doesn't hesitate to face the Mind Flayer and creatures from the Upside Down to protect her friends.\n\nAfter spending so much time in contact with the Upside Down, Eleven seems to have undergone a new transformation: she is now a collector's cosplay duck.\n\nWith her immediately recognizable appearance and determined attitude, this figure pays homage to one of the most important characters in the Netflix series.",
       "variants": [
         {
           "size": "classic",
@@ -4515,7 +4600,7 @@ window.TUBBZ_DATA = {
       "franchise": "Stranger Things",
       "number": "2",
       "releaseYear": "2021",
-      "description": "Baignoine sans embalage",
+      "description": "Hawkins' chief of police now watches over the pond.\n\nMeet Jim Hopper, Hawkins' chief of police and Eleven's adoptive father. Protective, courageous, and always ready to face the dangers of the Upside Down, Hopper remains a reliable ally even in the form of a collectible cosplay duck.\n\nAs the threat of the Mind Flayer looms over Hawkins, he maintains his composure, instinct, and determination to protect Eleven and the town's residents.\n\nWith his police uniform and immediately recognizable look, this figurine pays homage to one of the most beloved characters from Stranger Things.",
       "variants": [
         {
           "size": "classic",
@@ -4529,6 +4614,7 @@ window.TUBBZ_DATA = {
       "franchise": "Stranger Things",
       "number": "3",
       "releaseYear": "2021",
+      "description": "A creature from the Upside Down has just emerged in the pond.\n\nDiscover the Demogorgon, one of the most iconic monsters from Stranger Things. A terrifying predator from the Upside Down, it retains all its unsettling appearance even when transformed into a collectible cosplay duck.\n\nWith its petal-shaped open head, numerous teeth, and instantly recognizable silhouette, this figurine captures the creature's most striking details.",
       "variants": [
         {
           "size": "classic",
@@ -4542,6 +4628,7 @@ window.TUBBZ_DATA = {
       "franchise": "Stranger Things",
       "number": "4",
       "releaseYear": "2021",
+      "description": "The king of Scoops Ahoy joins the pond.\n\nDiscover Steve Harrington, an iconic character from Stranger Things. A former popular high school student in Hawkins, Steve has evolved over the seasons into a courageous and caring protector, always ready to defend the group against creatures from the Upside Down.\n\nWorking at Scoops Ahoy, he wears his famous sailor outfit here, one of his most recognizable looks in the series. Even transformed into a collectible cosplay duck, Steve retains his charm, humor, and protective instinct.",
       "variants": [
         {
           "size": "classic",
@@ -4555,6 +4642,7 @@ window.TUBBZ_DATA = {
       "franchise": "Stranger Things",
       "number": "5",
       "releaseYear": "2022",
+      "description": "Always ready to defend the Party.\n\nThe brave Lucas Sinclair, expert in the Wrist-Rocket slingshot, joins the TUBBZ collection.\nProtector of the group and strategist on the field, he is here reinterpreted as a cosplay duck ready to face all threats... even from the Upside Down.\n\nDetermined, loyal, and always on the front lines, this collectible perfectly captures Lucas's fighting spirit with the quirky touch unique to TUBBZ.",
       "variants": [
         {
           "size": "classic",
@@ -4568,7 +4656,7 @@ window.TUBBZ_DATA = {
       "franchise": "Stranger Things",
       "number": "6",
       "releaseYear": "2022",
-      "description": "Baignoine sans embalage",
+      "description": "The brains of the group... duck version.\n\nThe endearing Dustin Henderson, an essential member of the Party in Stranger Things, joins the TUBBZ collection.\nIntelligent, loyal, and always ready to find a solution, he is revisited here as a cosplay duck with all his charm and energy.\n\nA true pillar of the group, Dustin embodies friendship, humor, and courage in the face of the mysteries of the Upside Down... even in a quirky TUBBZ version.",
       "variants": [
         {
           "size": "classic",
@@ -4972,6 +5060,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Suicide Squad",
       "number": "1",
       "releaseYear": "2021",
+      "description": "The queen of chaos lands in the pond.\n\nDiscover Harley Quinn, an iconic member of the Suicide Squad. Unpredictable, explosive, and always ready to cause mayhem, Harley remains a formidable adversary even in the form of a collectible cosplay duck.\n\nThis version is inspired by her appearance in The Suicide Squad and stands out from the first Harley Quinn figurines from the classic DC Comics range.",
       "variants": [
         {
           "size": "classic",
@@ -4989,6 +5078,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Suicide Squad",
       "number": "2",
       "releaseYear": "2021",
+      "description": "Have you ever met a duck that can detach its own arms and legs? Well, if you’ve met The Detachable Kid, you’ll know not to mess with him as this condemned Metahuman has a knack for fighting!",
       "variants": [
         {
           "size": "classic",
@@ -5002,6 +5092,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Suicide Squad",
       "number": "3",
       "releaseYear": "2021",
+      "description": "Peace at any cost… even in the pond.\n\nMeet Peacemaker, aka Christopher Smith. An extremist who believes peace justifies all means, he remains as dangerous as he is unpredictable, even in the form of a collectible cosplay duck.\n\nWith his distinctive chrome helmet, red, blue, and white uniform, and martial stance, this figure captures the most recognizable elements of the character from The Suicide Squad.",
       "variants": [
         {
           "size": "classic",
@@ -5015,6 +5106,7 @@ window.TUBBZ_DATA = {
       "franchise": "The Suicide Squad",
       "number": "4",
       "releaseYear": "2021",
+      "description": "The Task Force X sharpshooter is making a splash.\n\nMeet Bloodsport, aka Robert DuBois. A world-class assassin and formidable marksman, Bloodsport can turn almost any object into a deadly weapon.\n\nThe only exception: rats, which he has a particular fear of.\n\nWith his tactical armor, helmet, and instantly recognizable look, this figure captures the character's iconic elements from The Suicide Squad.",
       "variants": [
         {
           "size": "classic",
@@ -5027,9 +5119,19 @@ window.TUBBZ_DATA = {
       "name": "Classic Lara Croft",
       "franchise": "Tomb Raider",
       "number": "1",
+      "releaseYear": "2023",
+      "description": "Lara Croft – what an icon! She’s been in games, movies, comic books and now, 27 years after Tomb Raider began, she’s become a collectible TUBBZ Cosplay Duck. Tomb Raider fans, she is an absolute must-have for collections. Even as a duck, there’s no mistaking her with her dual-wielding pistols, and of course, she’s sporting her iconic tank top, shorts, and combat boots.",
       "variants": [
         {
           "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
           "packaging": "first-edition"
         }
       ]
@@ -5039,19 +5141,8 @@ window.TUBBZ_DATA = {
       "name": "Survivor Lara Croft",
       "franchise": "Tomb Raider",
       "number": "2",
-      "variants": [
-        {
-          "size": "classic",
-          "packaging": "first-edition"
-        }
-      ]
-    },
-    {
-      "id": "tomb-raider-lara-croft-30th-anniversary",
-      "name": "Lara Croft 30th Anniversary",
-      "franchise": "Tomb Raider",
-      "number": "3",
-      "releaseYear": "2026",
+      "releaseYear": "2025",
+      "description": "The most famous adventurer in video games returns in her Survivor version.\n\nDiscover Lara Croft as she appears in the Tomb Raider Survivor trilogy, more experienced, more determined, and more formidable than ever. This TUBBZ figurine reinterprets the iconic heroine as a collector's duck, while retaining her modern appearance and survivor spirit.\n\nArmed with her famous bow, marked by her many adventures, and ready to face any danger, Lara here displays a more realistic and combative style than ever before. This version perfectly captures the determination and courage that made her one of the most iconic heroines in video game history.",
       "variants": [
         {
           "size": "classic",
@@ -5064,11 +5155,34 @@ window.TUBBZ_DATA = {
       ]
     },
     {
+      "id": "tomb-raider-lara-croft-30th-anniversary",
+      "name": "Lara Croft 30th Anniversary",
+      "franchise": "Tomb Raider",
+      "number": "3",
+      "releaseYear": "2026",
+      "description": "30 years of adventure in a collector's edition.\n\nCelebrate 30 years of Tomb Raider with this superb Lara Croft TUBBZ, a premium tribute to one of gaming's most legendary heroines.\n\nReimagined as a collector's cosplay duck, Lara Croft sports her most iconic look: intrepid attitude, adventurous spirit, and her famous dual pistols drawn, ready to explore forgotten tombs and face any danger.",
+      "variants": [
+        {
+          "size": "classic",
+          "packaging": "first-edition"
+        },
+        {
+          "size": "classic",
+          "packaging": "boxed"
+        },
+        {
+          "size": "mini",
+          "packaging": "first-edition"
+        }
+      ]
+    },
+    {
       "id": "where-s-wally-wally",
       "name": "Wally",
       "franchise": "Where's Wally",
       "number": "1",
       "releaseYear": "2021",
+      "description": "Hailing from the Land of Charlies, Charlie has travelled the world, through time and distant magical lands.\n\nDespite being a seasoned adventurer, crossing all continents, space and time, Charlie still managed to get himself into trouble! It looks like he's been turned into a duck as he wanders around, still wearing his iconic red and white striped outfit.",
       "variants": [
         {
           "size": "classic",
