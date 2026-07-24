@@ -125,8 +125,11 @@ h1, h2, h3 { line-height: 1.2; }
 /* Titre + slogan empilés en colonne à gauche : le slogan passe SOUS le titre.
    Réduit → l'ensemble tient dans la hauteur existante du header (69px inchangés). */
 .brand-block { display: flex; flex-direction: column; gap: 0; line-height: 1.1; }
-.brand-block .brand { line-height: 1.1; }
-.tagline { margin: 0; font-style: italic; color: var(--muted); font-size: .72rem; line-height: 1.1; white-space: nowrap; }
+/* Les deux lignes du logo sont justifiées → titre et slogan finissent pile au
+   même bord droit (le « s » d'Archives aligné sur le « e » de deserve). La ligne
+   la plus large fixe la largeur, l'autre s'étire pour la rejoindre. */
+.brand-block .brand { line-height: 1.1; display: block; text-align: justify; text-align-last: justify; }
+.tagline { margin: 0; font-style: italic; color: var(--muted); font-size: .72rem; line-height: 1.1; text-align: justify; text-align-last: justify; }
 
 .site-footer { margin-top: 40px; border-top: 1px solid var(--border); padding: 20px 0; font-size: .9rem; }
 .site-footer p { margin: .3em 0; }
