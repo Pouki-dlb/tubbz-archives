@@ -67,9 +67,8 @@
         '<div class="duck-hero">' +
           '<div class="duck-hero-figure">' +
             '<div class="duck-hero-media">' +
-              '<img id="hero-img" class="hero-img is-visible" src="' + T.esc(mainImg) + '" alt="' + T.esc(fig.name) + '" ' +
+              '<img id="hero-img" src="' + T.esc(mainImg) + '" alt="' + T.esc(fig.name) + '" ' +
                 'onerror="this.onerror=null;this.src=\'' + T.PLACEHOLDER + '\'" />' +
-              '<img id="hero-img-alt" class="hero-img" alt="" aria-hidden="true" />' +
             '</div>' +
             (sizes.length > 1 ?
               '<button id="hero-flip" class="hero-flip" type="button" ' +
@@ -116,22 +115,14 @@
     bindEvents(fig);
 
     // Flip du hero : cycle sur les tailles disponibles (uniquement si >1).
-    // Fondu enchaîné entre deux <img> superposées (l'une visible, l'autre en attente).
     if (sizes.length > 1) {
       var heroIdx = 0;
-      var heroA = document.getElementById("hero-img");
-      var heroB = document.getElementById("hero-img-alt");
-      var heroAisVisible = true;
+      var heroImg = document.getElementById("hero-img");
       var flip = document.getElementById("hero-flip");
       flip.addEventListener("click", function () {
         heroIdx = (heroIdx + 1) % sizes.length;
-        var showEl = heroAisVisible ? heroB : heroA;
-        var hideEl = heroAisVisible ? heroA : heroB;
-        showEl.onerror = function () { this.onerror = null; this.src = T.PLACEHOLDER; };
-        showEl.src = T.sizeImageFor(fig.id, sizes[heroIdx]);
-        showEl.classList.add("is-visible");
-        hideEl.classList.remove("is-visible");
-        heroAisVisible = !heroAisVisible;
+        heroImg.onerror = function () { this.onerror = null; this.src = T.PLACEHOLDER; };
+        heroImg.src = T.sizeImageFor(fig.id, sizes[heroIdx]);
         flip.textContent = "⇄ " + T.sizeLabel(meta, sizes[heroIdx]);
         flip.title = "Show " + T.sizeLabel(meta, sizes[(heroIdx + 1) % sizes.length]);
       });
