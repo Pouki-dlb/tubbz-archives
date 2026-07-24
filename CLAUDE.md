@@ -100,7 +100,9 @@ Stored under key `tubbz-collection`, browser-only:
 ```
 
 **Export** downloads exactly this object as `.json`; **Import** restores it (replace, after
-confirmation). This is the only backup/transfer mechanism (no account, no server).
+confirmation). This is the only backup/transfer mechanism (no account, no server). The theme
+preference is a **separate** key `tubbz-theme` (`"light"|"dark"`, absent = auto) — not part of the
+exported collection.
 
 ## Admin tool (`admin/`, local only — never deployed)
 
@@ -131,5 +133,11 @@ confirmation). This is the only backup/transfer mechanism (no account, no server
   tagline's `font-size` and `letter-spacing` are tuned so it reaches the title's width naturally —
   **if the title or tagline text changes, recompute those two values** (otherwise justification
   opens big gaps), and keep the header height (~69px).
+- **Theme**: driven by `data-theme="light"|"dark"` on `<html>`, set by an inline `<head>` script
+  **before paint** (anti-flash) and by the header toggle (`#theme-toggle`, 3 states: auto default /
+  light / dark) wired in `common.js`; persisted in `localStorage['tubbz-theme']`, auto follows the OS
+  live. CSS keys off `:root[data-theme="…"]` — **don't reintroduce `prefers-color-scheme` media
+  queries** (a manual override must win over the OS). In light theme the brand yellow `#ffe103` gets
+  a thin dark-gold outline (`.brand-name` text-shadow) for legibility on the near-white header.
 - New shared logic → `common.js`; page-specific → `index.js` / `duck.js`; admin-specific →
   `admin/index.js`.

@@ -7,6 +7,17 @@
   <meta name="description" content="Archive of Tubbz figurines and collection tracker." />
   <link rel="icon" href="images/placeholder.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <script>
+    /* Thème : pose data-theme sur <html> AVANT le rendu (évite tout flash).
+       « auto » (défaut) suit l'OS. Le bouton est géré ensuite par common.js. */
+    (function () {
+      var pref = "auto";
+      try { pref = localStorage.getItem("tubbz-theme") || "auto"; } catch (e) {}
+      var dark = pref === "dark" ||
+        (pref !== "light" && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -18,6 +29,7 @@
         <p class="tagline">Find the tubbz you deserve</p>
       </div>
       <div class="header-actions">
+        <button id="theme-toggle" type="button" class="btn btn-ghost theme-toggle" aria-label="Theme"></button>
         <button id="btn-about" type="button" class="btn btn-ghost" aria-haspopup="dialog">About</button>
       </div>
     </div>

@@ -241,6 +241,71 @@ window.Tubbz = (function () {
       .replace(/'/g, "&#39;");
   }
 
+  /* ------------------------------------------------------------------ */
+  /* Thème : auto (défaut) / light / dark, mémorisé en localStorage      */
+  /* ------------------------------------------------------------------ */
+  // Le CSS lit l'attribut data-theme sur <html> (light|dark). Un script inline
+  // dans le <head> le pose AVANT le rendu (anti-flash) ; ici on gère le bouton
+  // et le suivi de l'OS en direct quand le réglage est « auto ».
+
+  var THEME_KEY = "tubbz-theme";
+  var THEME_ORDER = ["auto", "light", "dark"]; // ordre de cyclage du bouton
+  var darkMQ = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+  // Icônes (héritent de la couleur du texte via currentColor).
+  var THEME_ICON = {
+    auto: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 0 0 17z" fill="currentColor" stroke="none"/></svg>',
+    light: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/></svg>',
+    dark: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'
+  };
+  var THEME_TITLE = { auto: "Theme: system", light: "Theme: light", dark: "Theme: dark" };
+
+  function getThemePref() {
+    var v = null;
+    try { v = localStorage.getItem(THEME_KEY); } catch (e) {}
+    return (v === "light" || v === "dark") ? v : "auto";
+  }
+  function setThemePref(pref) {
+    try {
+      if (pref === "auto") localStorage.removeItem(THEME_KEY);
+      else localStorage.setItem(THEME_KEY, pref);
+    } catch (e) {}
+  }
+  // « auto » suit l'OS ; sinon le réglage forcé.
+  function effectiveTheme(pref) {
+    if (pref === "light" || pref === "dark") return pref;
+    return (darkMQ && darkMQ.matches) ? "dark" : "light";
+  }
+  function applyTheme(pref) {
+    document.documentElement.setAttribute("data-theme", effectiveTheme(pref));
+  }
+  function renderThemeButton(btn, pref) {
+    btn.innerHTML = THEME_ICON[pref];
+    btn.setAttribute("title", THEME_TITLE[pref] + " (click to change)");
+    btn.setAttribute("aria-label", THEME_TITLE[pref]);
+  }
+  function initTheme() {
+    var pref = getThemePref();
+    applyTheme(pref); // ré-applique (le script du <head> l'a déjà fait au 1er rendu)
+    // Suit l'OS en direct tant qu'on est en « auto ».
+    if (darkMQ) {
+      var onChange = function () { if (getThemePref() === "auto") applyTheme("auto"); };
+      if (darkMQ.addEventListener) darkMQ.addEventListener("change", onChange);
+      else if (darkMQ.addListener) darkMQ.addListener(onChange); // ancien Safari
+    }
+    var btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    renderThemeButton(btn, pref);
+    btn.addEventListener("click", function () {
+      var next = THEME_ORDER[(THEME_ORDER.indexOf(getThemePref()) + 1) % THEME_ORDER.length];
+      setThemePref(next);
+      applyTheme(next);
+      renderThemeButton(btn, next);
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initTheme);
+  else initTheme();
+
   return {
     PLACEHOLDER: PLACEHOLDER,
     loadCatalog: loadCatalog,
